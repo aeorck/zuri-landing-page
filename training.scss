@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Graphik";
+    src: url(./resources/GraphikRegular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+box-sizing: border-box;
+font-family: 'Graphik', sans-serif;
+}
