@@ -56,6 +56,7 @@ main {
 }
 
 .unlock {
+  width: 90%;
   font-size: 16px;
   margin: 50px auto;
   font-weight: normal;
@@ -71,9 +72,9 @@ main {
 .new-industry {
   display: flex;
   flex-direction: row;
-  width: 35%;
+  width: 70%;
   margin: 20px auto;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .new-industry .new, .new-industry .expe {
@@ -81,6 +82,7 @@ main {
   background-color: #e7332b;
   padding: 15px 20px;
   border: 1px solid white;
+  margin-right: 10px;
 }
 .new-industry .new:hover, .new-industry .expe:hover {
   background-color: white;
@@ -91,6 +93,7 @@ main {
   border: solid 1px #e7332b;
   color: #e7332b;
   background-color: white;
+  margin-left: 10px;
 }
 .new-industry .expe:hover {
   background-color: #e7332b;
@@ -99,6 +102,7 @@ main {
 
 .second {
   width: 100%;
+  text-align: center;
   margin: 50px auto;
 }
 .second p {
@@ -126,14 +130,13 @@ main {
 .second .programs {
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
   width: 85%;
-  height: 80vh;
-  flex-direction: row;
   justify-content: space-between;
   margin: 50px auto 0;
 }
 .second .programs .size, .second .programs .talent, .second .programs .internship, .second .programs .train {
-  width: 300px;
+  width: 26.6666666667%;
   display: flex;
   flex-direction: column;
 }
@@ -234,4 +237,24 @@ footer {
   color: #514949;
   font-weight: 700;
   font-size: 16px;
+}
+
+@media screen and (max-width: 375px) {
+  .programs {
+    flex-direction: column !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+  }
+  .programs .size, .second .programs .train, .second .programs .internship, .second .programs .talent {
+    width: 80%;
+    text-align: left;
+  }
+  .programs .size img, .second .programs .train img, .second .programs .internship img, .second .programs .talent img {
+    align-self: flex-start;
+  }
+  .programs .footer .enclave {
+    flex-direction: column;
+    align-items: center;
+  }
 }/*# sourceMappingURL=styeit.css.map */
