@@ -253,8 +253,23 @@ footer {
   .programs .size img, .second .programs .train img, .second .programs .internship img, .second .programs .talent img {
     align-self: flex-start;
   }
-  .programs .footer .enclave {
+  .footer .enclave {
     flex-direction: column;
+    align-items: center;
+  }
+  .footer .enclave img {
+    align-self: center;
+    width: 50%;
+  }
+  .footer .enclave .links, .footer .enclave .contact, .footer .enclave .follow {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .footer .enclave .links p, .footer .enclave .contact p, .footer .enclave .follow p {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .footer .enclave .follow {
     align-items: center;
   }
 }/*# sourceMappingURL=styeit.css.map */
