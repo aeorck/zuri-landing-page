@@ -23,10 +23,14 @@ body {
 }
 
 header {
+  width: 100%;
   background-color: white;
+}
+
+.inhead {
   z-index: 1;
   position: fixed;
-  top: 0;
+  top: -3%;
   left: 50%;
   transform: translateX(-50%);
   min-height: 64px;
@@ -37,14 +41,14 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-header .bout {
+.inhead .bout {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 60%;
   flex-wrap: wrap;
 }
-header .bout a {
+.inhead .bout a {
   font-size: 18px;
   font-weight: 400;
   color: #585757;
@@ -52,21 +56,23 @@ header .bout a {
   border-radius: 4px;
   min-width: 64px;
 }
-header .bout .enroll {
+.inhead .bout .enroll {
+  justify-self: flex-end;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 50%;
 }
-header .bout .enroll .shaft img {
+.inhead .bout .enroll .shaft img {
   width: 75px !important;
   border: 10px solid rgb(231, 28, 28);
   border-radius: 100px !important;
   margin-right: -20px;
   background-color: rgb(231, 28, 28);
 }
-header .bout .enroll .pug {
+.inhead .bout .enroll .pug {
   color: white;
+  width: 40%;
   background-color: rgb(231, 28, 28);
   margin-left: -1px;
   font-size: 18px;
@@ -90,17 +96,34 @@ header .bout .enroll .pug {
 }
 .first img:first-child {
   height: 300px;
+  margin-right: -100px;
 }
 .first .content {
   border: red 1px solid;
   width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .first .content .top {
   font-size: 18px;
   color: red;
+  margin-bottom: 5%;
 }
 .first .content .gain {
   font-size: 49px;
   font-family: "Graphik Bold";
   flex-basis: 50%;
+}
+.first .content .line {
+  width: 170px;
+  margin-left: 335px;
+}
+.first .content .basic {
+  width: 70%;
+  align-self: center;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.1688px;
+  margin-top: 50px;
 }/*# sourceMappingURL=training.css.map */
