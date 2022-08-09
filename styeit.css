@@ -15,9 +15,11 @@ a {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin: 0 auto;
-  width: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .first {
@@ -161,7 +163,7 @@ main {
 }
 .second .right-dots {
   position: absolute;
-  right: -100px;
+  right: -8%;
   top: -75px;
   z-index: -1;
 }
