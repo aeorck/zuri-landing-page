@@ -99,7 +99,6 @@ header {
   margin-right: -100px;
 }
 .first .content {
-  border: red 1px solid;
   width: 50%;
   text-align: center;
   display: flex;
