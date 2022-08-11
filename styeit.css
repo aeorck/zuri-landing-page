@@ -138,9 +138,11 @@ main {
   margin: 50px auto 0;
 }
 .second .programs .size, .second .programs .talent, .second .programs .internship, .second .programs .train {
-  width: 26.6666666667%;
+  width: 30%;
+  padding: 25px;
   display: flex;
   flex-direction: column;
+  background-color: #fffafa;
 }
 .second .programs .size img, .second .programs .talent img, .second .programs .internship img, .second .programs .train img {
   width: 130px;

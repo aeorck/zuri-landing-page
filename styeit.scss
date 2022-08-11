@@ -149,9 +149,11 @@ main {
 
 
         .size {
-            width: calc(80%/3);
+            width: calc(90%/3);
+            padding: 25px;
             display: flex;
             flex-direction: column;
+            background-color: #fffafa;
 
             img {
                 width: 130px;
