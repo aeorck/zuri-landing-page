@@ -143,6 +143,7 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #fffafa;
+  text-align: left;
 }
 .second .programs .size img, .second .programs .talent img, .second .programs .internship img, .second .programs .train img {
   width: 130px;
@@ -154,6 +155,7 @@ main {
   font-weight: 400;
   line-height: 25px;
   margin-bottom: 20px;
+  height: 30vh;
 }
 .second .programs .size .link, .second .programs .talent .link, .second .programs .internship .link, .second .programs .train .link {
   font-weight: 500;
