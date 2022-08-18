@@ -59,9 +59,11 @@ header {
 .inhead .bout .enroll {
   justify-self: flex-end;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  width: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .inhead .bout .enroll .shaft img {
   width: 75px !important;
@@ -72,7 +74,9 @@ header {
 }
 .inhead .bout .enroll .pug {
   color: white;
-  width: 40%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   background-color: rgb(231, 28, 28);
   margin-left: -1px;
   font-size: 18px;

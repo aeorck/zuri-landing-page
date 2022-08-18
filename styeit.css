@@ -288,24 +288,4 @@ footer {
   .footer .enclave .follow {
     align-items: center;
   }
-}
-@media screen and (min-width: 400px) and (max-width: 700px) {
-  .programs {
-    flex-direction: column !important;
-    flex-wrap: nowrap;
-    align-items: center;
-    text-align: center;
-  }
-  .programs .size, .second .programs .train, .second .programs .internship, .second .programs .talent {
-    width: 80%;
-    text-align: left;
-  }
-  .programs .size img, .second .programs .train img, .second .programs .internship img, .second .programs .talent img {
-    align-self: flex-start;
-  }
-  .programs .size .article, .second .programs .train .article, .second .programs .internship .article, .second .programs .talent .article {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
 }/*# sourceMappingURL=styeit.css.map */

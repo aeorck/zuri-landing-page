@@ -61,10 +61,9 @@ header{
         .enroll {
             justify-self: flex-end;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: center;
-            width: 50%;
-
+            width: fit-content;
             .shaft {
 
                 img {
@@ -78,7 +77,7 @@ header{
 
             .pug {
                 color: white;
-                width: 40%;
+                width: fit-content;
                 background-color: rgb(231, 28, 28);
                 margin-left: -1px;
                 font-size: 18px;
