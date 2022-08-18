@@ -71,6 +71,7 @@ header {
   border-radius: 100px !important;
   margin-right: -20px;
   background-color: rgb(231, 28, 28);
+  z-index: 1;
 }
 .inhead .bout .enroll .pug {
   color: white;
@@ -81,9 +82,8 @@ header {
   margin-left: -1px;
   font-size: 18px;
   font-weight: 400;
-  padding: 16px 18px;
+  padding: 15px 30px;
   border-radius: 0 30px 30px 0;
-  z-index: -3;
 }
 
 .first {
