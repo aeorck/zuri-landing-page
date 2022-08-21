@@ -242,7 +242,7 @@ header {
     width: 90%;
     margin: auto;
     margin-top: 70px;
-    height: 100vh;
+    margin-bottom: 60px;
 
     .why-us {
         margin-top: 50px;
@@ -267,9 +267,9 @@ header {
 
             .cont {
                 display: flex;
-                width: fit-content;
+                width: 90%;
                 align-items: center;
-                justify-content: flex-start;
+                justify-content: space-evenly;
 
                 //to be reveiewed
                 .text {
@@ -277,7 +277,7 @@ header {
                     font-family: "Graphik Bold";
                     font-weight: 400;
                     color: #1b1a20;
-                    width: 900px;
+                    width: 90%;
                     line-height: 1.2;
                 }
 
@@ -288,7 +288,7 @@ header {
                 }
 
                 .null {
-                    width: 10%;
+                    width: 1%;
                     visibility: hidden;
                 }
             }
@@ -304,6 +304,8 @@ header {
     margin: auto;
 
     .for-all {
+        display: flex;
+        flex-direction: column;
         border-radius: 18px !important;
         box-shadow: 0 11px 22px rgba(231, 51, 43, .1);
         padding: 58px 48px 93px 50px !important;
@@ -314,13 +316,13 @@ header {
         p {
             font-size: 60px;
             font-family: "Graphik bold";
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .type {
             font-size: 36px;
             font-weight: bold;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .bottom {
@@ -342,5 +344,9 @@ header {
         background-color: #e7332b;
         color: white;
 
+    }
+    .box2{
+        @extend .for-all;
+        background-color: white;
     }
 }

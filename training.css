@@ -211,7 +211,7 @@ header {
   width: 90%;
   margin: auto;
   margin-top: 70px;
-  height: 100vh;
+  margin-bottom: 60px;
 }
 #why-us .why-us {
   margin-top: 50px;
@@ -233,18 +233,16 @@ header {
 }
 #why-us .why-us .why .cont {
   display: flex;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 90%;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
 #why-us .why-us .why .cont .text {
   font-size: 40px;
   font-family: "Graphik Bold";
   font-weight: 400;
   color: #1b1a20;
-  width: 900px;
+  width: 90%;
   line-height: 1.2;
 }
 #why-us .why-us .why .cont .img {
@@ -253,7 +251,7 @@ header {
   justify-self: flex-start;
 }
 #why-us .why-us .why .cont .null {
-  width: 10%;
+  width: 1%;
   visibility: hidden;
 }
 
@@ -262,7 +260,9 @@ header {
   width: 90%;
   margin: auto;
 }
-.how-we-do .for-all, .how-we-do .box1 {
+.how-we-do .for-all, .how-we-do .box2, .how-we-do .box1 {
+  display: flex;
+  flex-direction: column;
   border-radius: 18px !important;
   box-shadow: 0 11px 22px rgba(231, 51, 43, 0.1);
   padding: 58px 48px 93px 50px !important;
@@ -270,21 +270,21 @@ header {
   line-height: 1.2;
   width: 30%;
 }
-.how-we-do .for-all p, .how-we-do .box1 p {
+.how-we-do .for-all p, .how-we-do .box2 p, .how-we-do .box1 p {
   font-size: 60px;
   font-family: "Graphik bold";
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
-.how-we-do .for-all .type, .how-we-do .box1 .type {
+.how-we-do .for-all .type, .how-we-do .box2 .type, .how-we-do .box1 .type {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
-.how-we-do .for-all .bottom, .how-we-do .box1 .bottom {
+.how-we-do .for-all .bottom, .how-we-do .box2 .bottom, .how-we-do .box1 .bottom {
   width: 100%;
   font-size: 18px;
 }
-.how-we-do .for-all .arch, .how-we-do .box1 .arch {
+.how-we-do .for-all .arch, .how-we-do .box2 .arch, .how-we-do .box1 .arch {
   position: absolute;
   right: -1px;
   top: -1px;
@@ -293,4 +293,7 @@ header {
 .how-we-do .box1 {
   background-color: #e7332b;
   color: white;
+}
+.how-we-do .box2 {
+  background-color: white;
 }/*# sourceMappingURL=training.css.map */
