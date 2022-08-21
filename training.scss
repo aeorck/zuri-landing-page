@@ -267,18 +267,25 @@ header {
 
             div {
                 display: flex;
-                width: 90%;
+                width: 100%;
+                align-items: center;
+                justify-content: left;
 
                 .text {
+                    border: #1b1a20 1px solid;
                     font-size: 40px;
                     font-family: "Graphik Bold";
-                    font-weight: 600;
+                    font-weight: 400;
                     color: #1b1a20;
-                    width: 95%;
+                    width: 700px;
                     line-height: 1.2;
                 }
                 .img{
-                    width:150px;
+                   width: 200px;
+                   align-self: flex-start;
+                }
+                .null{
+                    width: 10%;
                 }
             }
 
