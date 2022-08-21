@@ -316,7 +316,7 @@ header {
         width: 32%;
         transition: transform 250ms;
 
-        
+
         &:hover {
             transform: translateY(-15px);
         }
@@ -378,19 +378,40 @@ header {
     }
 }
 
-.will-help{
+.will-help {
     margin-top: 30px;
-    border: 1px solid rebeccapurple;
+ display: flex;
     background-color: #e7332b;
     width: 100%;
-    .inside{
+
+    .inside {
         width: 90%;
-        margin: 50px auto;
+        margin: 10% auto;
         display: flex;
-        .writes{
+
+        .writes {
+            width: 40%;
             display: flex;
             flex-direction: column;
-            
+            color: #ffff;
+
+            p {
+                font-size: 18px;
+            }
+
+            img {
+                width: 70px;
+                align-self: center;
+                margin-left: 20%;
+            }
+
+            .quality {
+                font-size: 40px;
+                font-weight: 700;
+                font-family: "Graphik bold";
+                line-height: 1.2;
+            }
+
         }
     }
 }

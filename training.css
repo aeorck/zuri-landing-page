@@ -308,16 +308,32 @@ header {
 }
 .will-help {
   margin-top: 30px;
-  border: 1px solid rebeccapurple;
+  display: flex;
   background-color: #e7332b;
   width: 100%;
 }
 .will-help .inside {
   width: 90%;
-  margin: 50px auto;
+  margin: 10% auto;
   display: flex;
 }
 .will-help .inside .writes {
+  width: 40%;
   display: flex;
   flex-direction: column;
+  color: white;
+}
+.will-help .inside .writes p {
+  font-size: 18px;
+}
+.will-help .inside .writes img {
+  width: 70px;
+  align-self: center;
+  margin-left: 20%;
+}
+.will-help .inside .writes .quality {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Graphik bold";
+  line-height: 1.2;
 }/*# sourceMappingURL=training.css.map */
