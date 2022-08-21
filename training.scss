@@ -23,7 +23,7 @@ a {
 
 body {
     overflow-x: hidden;
-    
+
 }
 
 header {
@@ -164,11 +164,11 @@ header {
             img {
                 width: 50px;
                 align-self: flex-end;
-                justify-self:start;
+                justify-self: start;
             }
 
             .enroll {
-                
+
 
                 a {
                     background-color: #e7332b;
@@ -179,79 +179,110 @@ header {
                     font-size: 18px;
                 }
             }
-            .wire{
+
+            .wire {
                 position: absolute;
                 right: 0;
                 margin-right: 60px;
                 margin-top: 35px;
-                img{
+
+                img {
                     width: 100px;
                 }
-                
+
             }
         }
-       
+
     }
 }
-#about{
+
+#about {
     width: 90%;
     margin: auto;
     display: block;
     margin-top: 70px;
     border-top: 2px solid #e0ded7;
-    .about{
+
+    .about {
         margin-top: 1%;
         display: flex;
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        .ing{
+
+        .ing {
             color: #1b1a20;
             font-family: "Graphik Bold";
             font-size: 24px;
             text-transform: uppercase;
             width: 30%;
         }
-        .help{
+
+        .help {
             font-size: 24px;
             text-align: right;
             width: 30%;
             color: #1b1a20;
             line-height: 1.2;
-            a{
+
+            a {
                 text-decoration: underline;
-                color:#43b97f;
+                color: #43b97f;
             }
         }
-        img{
+
+        img {
             width: 250px;
         }
     }
 }
-#why-us{
+
+#why-us {
     border-top: 2px solid #e0ded7;
     width: 90%;
     margin: auto;
     margin-top: 70px;
     height: 100vh;
-    .why-us{
+
+    .why-us {
         margin-top: 50px;
         border: 1px dashed salmon;
-        img{
+
+        img {
             margin-left: 25%;
             width: 10%;
 
         }
-        .why{
+
+        .why {
             display: flex;
+            flex-direction: column;
             border: 1px dotted dodgerblue;
-            
-        p{
-            margin-top: -20px;
-            font-size: 24px;
-            color:#e7332b;
+
+            p {
+                margin-top: -20px;
+                font-size: 24px;
+                color: #e7332b;
+            }
+
+            div {
+                display: flex;
+                width: 90%;
+
+                .text {
+                    font-size: 40px;
+                    font-family: "Graphik Bold";
+                    font-weight: 600;
+                    color: #1b1a20;
+                    width: 95%;
+                    line-height: 1.2;
+                }
+                .img{
+                    width:150px;
+                }
+            }
+
         }
-    }
 
     }
 }

@@ -223,10 +223,26 @@ header {
 }
 #why-us .why-us .why {
   display: flex;
+  flex-direction: column;
   border: 1px dotted dodgerblue;
 }
 #why-us .why-us .why p {
   margin-top: -20px;
   font-size: 24px;
   color: #e7332b;
+}
+#why-us .why-us .why div {
+  display: flex;
+  width: 90%;
+}
+#why-us .why-us .why div .text {
+  font-size: 40px;
+  font-family: "Graphik Bold";
+  font-weight: 600;
+  color: #1b1a20;
+  width: 95%;
+  line-height: 1.2;
+}
+#why-us .why-us .why div .img {
+  width: 150px;
 }/*# sourceMappingURL=training.css.map */
