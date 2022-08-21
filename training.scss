@@ -301,7 +301,7 @@ header {
 .how-we-do {
     display: flex;
     flex-wrap: wrap;
-justify-content: space-between;
+    justify-content: space-between;
     width: 92%;
     margin: auto;
 
@@ -309,13 +309,15 @@ justify-content: space-between;
         display: flex;
         flex-direction: column;
         border-radius: 18px !important;
-        box-shadow: 0 11px 33px rgba(231, 52, 43, 0.253);
+        box-shadow: 0 11px 33px rgba(231, 52, 43, 0.151);
         padding: 58px 48px 93px 50px !important;
         transition: transform .3s ease !important;
         line-height: 1.2;
         width: 32%;
-        transition:  transform 250ms;
-        &:hover{
+        transition: transform 250ms;
+
+        
+        &:hover {
             transform: translateY(-15px);
         }
 
@@ -351,23 +353,27 @@ justify-content: space-between;
         color: white;
 
     }
-    .box2{
+
+    .box2 {
         @extend .for-all;
         background-color: white;
-       
+
     }
-    .box3{
+
+    .box3 {
         @extend .for-all;
     }
-    .box4{
+
+    .box4 {
         @extend .for-all;
         margin-top: 30px;
     }
-    .box5{
+
+    .box5 {
         @extend .box4;
     }
 
-    .box6{
+    .box6 {
         @extend .box4;
     }
 }
