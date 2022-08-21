@@ -270,7 +270,8 @@ header {
                 width: fit-content;
                 align-items: center;
                 justify-content: flex-start;
-//to be reveiewed
+
+                //to be reveiewed
                 .text {
                     font-size: 40px;
                     font-family: "Graphik Bold";
@@ -297,7 +298,49 @@ header {
     }
 }
 
-.how-we-do{
-    
-}
+.how-we-do {
+    display: flex;
+    width: 90%;
+    margin: auto;
 
+    .for-all {
+        border-radius: 18px !important;
+        box-shadow: 0 11px 22px rgba(231, 51, 43, .1);
+        padding: 58px 48px 93px 50px !important;
+        transition: transform .3s ease !important;
+        line-height: 1.2;
+        width: 30%;
+
+        p {
+            font-size: 60px;
+            font-family: "Graphik bold";
+            margin-bottom: 20px;
+        }
+
+        .type {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .bottom {
+            width: 100%;
+            font-size: 18px;
+        }
+
+        .arch {
+            position: absolute;
+            right: -1px;
+            top: -1px;
+            width: 30%;
+        }
+
+    }
+
+    .box1 {
+        @extend .for-all;
+        background-color: #e7332b;
+        color: white;
+
+    }
+}
