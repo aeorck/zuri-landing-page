@@ -12,6 +12,7 @@
   position: relative;
   box-sizing: border-box;
   font-family: "Graphik", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -34,18 +35,22 @@ header {
   left: 50%;
   transform: translateX(-50%);
   min-height: 64px;
-  padding: 15px 0;
-  width: 92%;
+  padding: 10px 0 2px 0;
+  width: 100%;
   margin: 10px auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: white;
+}
+.inhead .logo {
+  width: 300px;
 }
 .inhead .bout {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: space-evenly;
+  width: 55%;
   flex-wrap: wrap;
 }
 .inhead .bout a {
@@ -67,10 +72,10 @@ header {
 }
 .inhead .bout .enroll .shaft img {
   width: 75px !important;
-  border: 10px solid rgb(231, 28, 28);
+  border: 10px solid #e7332b;
   border-radius: 100px !important;
   margin-right: -20px;
-  background-color: rgb(231, 28, 28);
+  background-color: #e7332b;
   z-index: 1;
 }
 .inhead .bout .enroll .pug {
@@ -78,11 +83,11 @@ header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: rgb(231, 28, 28);
+  background-color: #e7332b;
   margin-left: -1px;
   font-size: 18px;
   font-weight: 400;
-  padding: 15px 30px;
+  padding: 12px 30px;
   border-radius: 0 30px 30px 0;
 }
 
@@ -92,14 +97,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 16%;
+  margin-top: 13%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .first img {
   mix-blend-mode: darken !important;
-  width: 300px;
+  width: 350px;
 }
 .first img:first-child {
-  height: 300px;
   margin-right: -100px;
 }
 .first .content {
@@ -107,6 +114,9 @@ header {
   text-align: center;
   display: flex;
   flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .first .content .top {
   font-size: 18px;
@@ -129,4 +139,77 @@ header {
   font-weight: 400;
   letter-spacing: 0.1688px;
   margin-top: 50px;
+}
+.first .content .image-enroll {
+  display: flex;
+  width: 60%;
+  margin: 50px 0;
+  justify-content: space-between;
+  height: 70px;
+}
+.first .content .image-enroll img {
+  width: 50px;
+  align-self: flex-end;
+  justify-self: start;
+}
+.first .content .image-enroll .enroll a {
+  background-color: #e7332b;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 18px;
+}
+.first .content .image-enroll .wire {
+  position: absolute;
+  right: 0;
+  margin-right: 60px;
+  margin-top: 35px;
+}
+.first .content .image-enroll .wire img {
+  width: 100px;
+}
+
+#about {
+  width: 90%;
+  margin: auto;
+  display: block;
+  margin-top: 70px;
+  border-top: 2px solid #e0ded7;
+}
+#about .about {
+  margin-top: 1%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#about .about .ing {
+  color: #1b1a20;
+  font-family: "Graphik Bold";
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 30%;
+}
+#about .about .help {
+  font-size: 24px;
+  text-align: right;
+  width: 30%;
+  color: #1b1a20;
+  line-height: 1.2;
+}
+#about .about .help a {
+  text-decoration: underline;
+  color: #43b97f;
+}
+#about .about img {
+  width: 250px;
+}
+
+.third {
+  border-top: 2px solid #e0ded7;
+  width: 90%;
+  margin: auto;
+  margin-top: 70px;
+  height: 100vh;
 }/*# sourceMappingURL=training.css.map */
