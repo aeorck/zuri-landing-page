@@ -235,6 +235,23 @@ header {
     margin-top: 70px;
     height: 100vh;
     .why-us{
+        margin-top: 50px;
+        border: 1px dashed salmon;
+        img{
+            margin-left: 25%;
+            width: 10%;
+
+        }
+        .why{
+            display: flex;
+            border: 1px dotted dodgerblue;
+            
+        p{
+            margin-top: -20px;
+            font-size: 24px;
+            color:#e7332b;
+        }
+    }
 
     }
 }
