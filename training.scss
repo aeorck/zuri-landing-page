@@ -246,7 +246,6 @@ header {
 
     .why-us {
         margin-top: 50px;
-        border: 1px dashed salmon;
 
         img {
             margin-left: 25%;
@@ -255,14 +254,15 @@ header {
         }
 
         .why {
-            display: flex;
+            display: inline-block;
             flex-direction: column;
-            border: 1px dotted dodgerblue;
 
             p {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 margin-top: -20px;
                 font-size: 24px;
                 color: #e7332b;
+                margin-bottom: 10px;
             }
 
             div {
@@ -272,7 +272,6 @@ header {
                 justify-content: left;
 
                 .text {
-                    border: #1b1a20 1px solid;
                     font-size: 40px;
                     font-family: "Graphik Bold";
                     font-weight: 400;
@@ -282,7 +281,7 @@ header {
                 }
                 .img{
                    width: 200px;
-                   align-self: flex-start;
+                   justify-self: left;
                 }
                 .null{
                     width: 10%;

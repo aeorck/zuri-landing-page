@@ -215,21 +215,21 @@ header {
 }
 #why-us .why-us {
   margin-top: 50px;
-  border: 1px dashed salmon;
 }
 #why-us .why-us img {
   margin-left: 25%;
   width: 10%;
 }
 #why-us .why-us .why {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
-  border: 1px dotted dodgerblue;
 }
 #why-us .why-us .why p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: -20px;
   font-size: 24px;
   color: #e7332b;
+  margin-bottom: 10px;
 }
 #why-us .why-us .why div {
   display: flex;
@@ -238,7 +238,6 @@ header {
   justify-content: left;
 }
 #why-us .why-us .why div .text {
-  border: #1b1a20 1px solid;
   font-size: 40px;
   font-family: "Graphik Bold";
   font-weight: 400;
@@ -248,7 +247,7 @@ header {
 }
 #why-us .why-us .why div .img {
   width: 200px;
-  align-self: flex-start;
+  justify-self: left;
 }
 #why-us .why-us .why div .null {
   width: 10%;
