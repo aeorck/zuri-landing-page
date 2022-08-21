@@ -300,10 +300,13 @@ header {
 
 .how-we-do {
     display: flex;
-    width: 90%;
+    flex-wrap: wrap;
+justify-content: space-between;
+    width: 92%;
     margin: auto;
 
     .for-all {
+        border: 1px solid green;
         display: flex;
         flex-direction: column;
         border-radius: 18px !important;
@@ -311,7 +314,7 @@ header {
         padding: 58px 48px 93px 50px !important;
         transition: transform .3s ease !important;
         line-height: 1.2;
-        width: 30%;
+        width: 32%;
 
         p {
             font-size: 60px;
@@ -326,7 +329,7 @@ header {
         }
 
         .bottom {
-            width: 100%;
+            width: 95%;
             font-size: 18px;
         }
 
@@ -348,5 +351,13 @@ header {
     .box2{
         @extend .for-all;
         background-color: white;
+       
+    }
+    .box3{
+        @extend .for-all;
+    }
+    .box4{
+        @extend .for-all;
+        margin-top: 30px;
     }
 }

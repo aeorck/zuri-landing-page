@@ -257,10 +257,13 @@ header {
 
 .how-we-do {
   display: flex;
-  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 92%;
   margin: auto;
 }
-.how-we-do .for-all, .how-we-do .box2, .how-we-do .box1 {
+.how-we-do .for-all, .how-we-do .box4, .how-we-do .box3, .how-we-do .box2, .how-we-do .box1 {
+  border: 1px solid green;
   display: flex;
   flex-direction: column;
   border-radius: 18px !important;
@@ -268,23 +271,23 @@ header {
   padding: 58px 48px 93px 50px !important;
   transition: transform 0.3s ease !important;
   line-height: 1.2;
-  width: 30%;
+  width: 32%;
 }
-.how-we-do .for-all p, .how-we-do .box2 p, .how-we-do .box1 p {
+.how-we-do .for-all p, .how-we-do .box4 p, .how-we-do .box3 p, .how-we-do .box2 p, .how-we-do .box1 p {
   font-size: 60px;
   font-family: "Graphik bold";
   margin-bottom: 25px;
 }
-.how-we-do .for-all .type, .how-we-do .box2 .type, .how-we-do .box1 .type {
+.how-we-do .for-all .type, .how-we-do .box4 .type, .how-we-do .box3 .type, .how-we-do .box2 .type, .how-we-do .box1 .type {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 25px;
 }
-.how-we-do .for-all .bottom, .how-we-do .box2 .bottom, .how-we-do .box1 .bottom {
-  width: 100%;
+.how-we-do .for-all .bottom, .how-we-do .box4 .bottom, .how-we-do .box3 .bottom, .how-we-do .box2 .bottom, .how-we-do .box1 .bottom {
+  width: 95%;
   font-size: 18px;
 }
-.how-we-do .for-all .arch, .how-we-do .box2 .arch, .how-we-do .box1 .arch {
+.how-we-do .for-all .arch, .how-we-do .box4 .arch, .how-we-do .box3 .arch, .how-we-do .box2 .arch, .how-we-do .box1 .arch {
   position: absolute;
   right: -1px;
   top: -1px;
@@ -296,4 +299,7 @@ header {
 }
 .how-we-do .box2 {
   background-color: white;
+}
+.how-we-do .box4 {
+  margin-top: 30px;
 }/*# sourceMappingURL=training.css.map */
