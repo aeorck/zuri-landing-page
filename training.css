@@ -231,24 +231,28 @@ header {
   color: #e7332b;
   margin-bottom: 10px;
 }
-#why-us .why-us .why div {
+#why-us .why-us .why .cont {
   display: flex;
-  width: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   align-items: center;
-  justify-content: left;
+  justify-content: flex-start;
 }
-#why-us .why-us .why div .text {
+#why-us .why-us .why .cont .text {
   font-size: 40px;
   font-family: "Graphik Bold";
   font-weight: 400;
   color: #1b1a20;
-  width: 700px;
+  width: 900px;
   line-height: 1.2;
 }
-#why-us .why-us .why div .img {
+#why-us .why-us .why .cont .img {
+  display: block;
   width: 200px;
-  justify-self: left;
+  justify-self: flex-start;
 }
-#why-us .why-us .why div .null {
+#why-us .why-us .why .cont .null {
   width: 10%;
+  visibility: hidden;
 }/*# sourceMappingURL=training.css.map */

@@ -265,26 +265,30 @@ header {
                 margin-bottom: 10px;
             }
 
-            div {
+            .cont {
                 display: flex;
-                width: 100%;
+                width: fit-content;
                 align-items: center;
-                justify-content: left;
-
+                justify-content: flex-start;
+//to be reveiewed
                 .text {
                     font-size: 40px;
                     font-family: "Graphik Bold";
                     font-weight: 400;
                     color: #1b1a20;
-                    width: 700px;
+                    width: 900px;
                     line-height: 1.2;
                 }
-                .img{
-                   width: 200px;
-                   justify-self: left;
+
+                .img {
+                    display: block;
+                    width: 200px;
+                    justify-self: flex-start;
                 }
-                .null{
+
+                .null {
                     width: 10%;
+                    visibility: hidden;
                 }
             }
 
