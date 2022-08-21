@@ -263,15 +263,18 @@ header {
   margin: auto;
 }
 .how-we-do .for-all, .how-we-do .box4, .how-we-do .box6, .how-we-do .box5, .how-we-do .box3, .how-we-do .box2, .how-we-do .box1 {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   border-radius: 18px !important;
-  box-shadow: 0 11px 22px rgba(231, 51, 43, 0.1);
+  box-shadow: 0 11px 33px rgba(231, 52, 43, 0.253);
   padding: 58px 48px 93px 50px !important;
   transition: transform 0.3s ease !important;
   line-height: 1.2;
   width: 32%;
+  transition: transform 250ms;
+}
+.how-we-do .for-all:hover, .how-we-do .box4:hover, .how-we-do .box6:hover, .how-we-do .box5:hover, .how-we-do .box3:hover, .how-we-do .box2:hover, .how-we-do .box1:hover {
+  transform: translateY(-15px);
 }
 .how-we-do .for-all p, .how-we-do .box4 p, .how-we-do .box6 p, .how-we-do .box5 p, .how-we-do .box3 p, .how-we-do .box2 p, .how-we-do .box1 p {
   font-size: 60px;
