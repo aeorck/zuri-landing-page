@@ -305,4 +305,19 @@ header {
 }
 .how-we-do .box4, .how-we-do .box6, .how-we-do .box5 {
   margin-top: 30px;
+}
+.will-help {
+  margin-top: 30px;
+  border: 1px solid rebeccapurple;
+  background-color: #e7332b;
+  width: 100%;
+}
+.will-help .inside {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+}
+.will-help .inside .writes {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=training.css.map */

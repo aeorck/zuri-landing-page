@@ -377,3 +377,20 @@ header {
         @extend .box4;
     }
 }
+
+.will-help{
+    margin-top: 30px;
+    border: 1px solid rebeccapurple;
+    background-color: #e7332b;
+    width: 100%;
+    .inside{
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        .writes{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
+}
