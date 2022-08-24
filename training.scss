@@ -395,7 +395,6 @@ header {
             display: flex;
             flex-direction: column;
             color: #ffff;
-            border: 1px solid green;
 
             p {
                 font-size: 18px;
@@ -405,6 +404,7 @@ header {
                 width: 70px;
                 align-self: center;
                 margin-left: 20%;
+                box-reflect:below;
             }
 
             .quality {
