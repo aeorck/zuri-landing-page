@@ -395,6 +395,7 @@ header {
             display: flex;
             flex-direction: column;
             color: #ffff;
+            border: 1px solid green;
 
             p {
                 font-size: 18px;
@@ -411,6 +412,13 @@ header {
                 font-weight: 700;
                 font-family: "Graphik bold";
                 line-height: 1.2;
+                margin-bottom: 40px;
+                width: 100%;
+            }
+
+            .give{
+                width: 70%;
+                font-size: 18px;
             }
 
         }
