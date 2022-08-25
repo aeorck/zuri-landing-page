@@ -447,23 +447,25 @@ header {
 
             .prip {
                 width: 100%;
-                border: 4px springgreen solid;
                 display: flex;
                 flex-wrap: wrap;
+                margin-top: 50px;
+                background-color: rebeccapurple;
+                justify-content: space-between;
 
                 .global {
-                    border: 9px saddlebrown solid;
-                    display: flex;
-                    width: 50%;
-                    padding: 12px 0;
-                    align-items: center;
-                    justify-content: flex-start;
+                   display: inline-flex;
+                   background-color: blueviolet;
+                  width: 40%;
+                  height: 80px;
+                align-items: center;
+                justify-content: flex-start;
+                   border-radius: 60px;
+                    border: 1px solid rgb(255, 255, 255);
                     img{
                         // justify-self: flex-start;
-                        width: 40px;
-                        border: 1px solid salmon;
-
-
+                        width: 50px;
+                      
                     }
                     p{
                         display: inline-flex;
@@ -472,7 +474,13 @@ header {
 
                 .team{
                     @extend .global;
-                    border: 1px solid white;
+                
+                }
+                .mentorship{
+                    @extend .global;
+                }
+                .practice{
+                    @extend .global;
                 }
             }
         }

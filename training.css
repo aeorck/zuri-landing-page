@@ -368,25 +368,25 @@ header {
 }
 .will-help .inside .writes .prip {
   width: 100%;
-  border: 4px springgreen solid;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
+  background-color: rebeccapurple;
+  justify-content: space-between;
 }
-.will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team {
-  border: 9px saddlebrown solid;
-  display: flex;
-  width: 50%;
-  padding: 12px 0;
+.will-help .inside .writes .prip .global, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .team {
+  display: inline-flex;
+  background-color: blueviolet;
+  width: 40%;
+  height: 80px;
   align-items: center;
   justify-content: flex-start;
+  border-radius: 60px;
+  border: 1px solid rgb(255, 255, 255);
 }
-.will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .team img {
-  width: 40px;
-  border: 1px solid salmon;
+.will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .practice img, .will-help .inside .writes .prip .mentorship img, .will-help .inside .writes .prip .team img {
+  width: 50px;
 }
-.will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .team p {
+.will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .team p {
   display: inline-flex;
-}
-.will-help .inside .writes .prip .team {
-  border: 1px solid white;
 }/*# sourceMappingURL=training.css.map */
