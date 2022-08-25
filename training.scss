@@ -388,7 +388,8 @@ header {
         width: 90%;
         margin: 10% auto;
         display: flex;
-        .spiral{
+
+        .spiral {
             position: absolute;
             width: 140px;
             right: 0;
@@ -425,7 +426,8 @@ header {
                 width: 70%;
                 font-size: 18px;
             }
-            .enroll{
+
+            .enroll {
                 display: block;
                 padding: 10px 30px;
                 background-color: white;
@@ -437,12 +439,38 @@ header {
                 margin-top: 40px;
                 transition: 250ms transform;
 
-                &:hover{
+                &:hover {
                     box-shadow: 1px 3px #2d2e2d60;
                 }
 
             }
 
+            .prip {
+                width: 100%;
+                border: 1px springgreen solid;
+
+                .global {
+                    display: flex;
+                    width: 40%;
+                    padding: 12px 0;
+                    align-items: center;
+                    justify-content: space-between;
+                    img{
+                        justify-self: flex-start;
+                        width: 40px;
+
+                    }
+                    p{
+                        display: inline;
+                    }
+                }
+
+                .team{
+                    @extend .global;
+                    border: 1px solid white;
+                }
+            }
         }
+
     }
 }

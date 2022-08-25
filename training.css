@@ -365,4 +365,25 @@ header {
 }
 .will-help .inside .writes .enroll:hover {
   box-shadow: 1px 3px rgba(45, 46, 45, 0.3764705882);
+}
+.will-help .inside .writes .prip {
+  width: 100%;
+  border: 1px springgreen solid;
+}
+.will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team {
+  display: flex;
+  width: 40%;
+  padding: 12px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .team img {
+  justify-self: flex-start;
+  width: 40px;
+}
+.will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .team p {
+  display: inline;
+}
+.will-help .inside .writes .prip .team {
+  border: 1px solid white;
 }/*# sourceMappingURL=training.css.map */
