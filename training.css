@@ -374,7 +374,7 @@ header {
   background-color: rebeccapurple;
   justify-content: space-between;
 }
-.will-help .inside .writes .prip .global, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .team {
+.will-help .inside .writes .prip .global, .will-help .inside .writes .prip .fungames, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .team {
   display: inline-flex;
   background-color: blueviolet;
   width: 40%;
@@ -384,9 +384,9 @@ header {
   border-radius: 60px;
   border: 1px solid rgb(255, 255, 255);
 }
-.will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .practice img, .will-help .inside .writes .prip .mentorship img, .will-help .inside .writes .prip .team img {
+.will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .fungames img, .will-help .inside .writes .prip .practice img, .will-help .inside .writes .prip .mentorship img, .will-help .inside .writes .prip .team img {
   width: 50px;
 }
-.will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .team p {
+.will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .fungames p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .team p {
   display: inline-flex;
 }/*# sourceMappingURL=training.css.map */
