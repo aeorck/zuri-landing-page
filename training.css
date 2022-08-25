@@ -369,6 +369,8 @@ header {
 .will-help .inside .writes .prip {
   width: 100%;
   border: 4px springgreen solid;
+  display: flex;
+  flex-wrap: wrap;
 }
 .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team {
   border: 9px saddlebrown solid;

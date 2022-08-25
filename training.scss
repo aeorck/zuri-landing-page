@@ -448,6 +448,8 @@ header {
             .prip {
                 width: 100%;
                 border: 4px springgreen solid;
+                display: flex;
+                flex-wrap: wrap;
 
                 .global {
                     border: 9px saddlebrown solid;
