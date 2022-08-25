@@ -314,7 +314,6 @@ header {
         transition: transform .3s ease !important;
         line-height: 1.2;
         width: 32%;
-        transition: transform 250ms;
         color: #1b1a20;
 
 
@@ -381,7 +380,7 @@ header {
 
 .will-help {
     margin-top: 30px;
- display: flex;
+    display: flex;
     background-color: #e7332b;
     width: 100%;
 
@@ -389,6 +388,12 @@ header {
         width: 90%;
         margin: 10% auto;
         display: flex;
+        .spiral{
+            position: absolute;
+            width: 140px;
+            right: 0;
+            top: 0;
+        }
 
         .writes {
             width: 40%;
@@ -401,10 +406,10 @@ header {
             }
 
             img {
-                width: 70px;
+                width: 90px;
                 align-self: center;
                 margin-left: 20%;
-                box-reflect:below;
+                // box-reflect:below;
             }
 
             .quality {
@@ -416,9 +421,26 @@ header {
                 width: 100%;
             }
 
-            .give{
+            .give {
                 width: 70%;
                 font-size: 18px;
+            }
+            .enroll{
+                display: block;
+                padding: 10px 30px;
+                background-color: white;
+                color: #e7332b;
+                text-decoration: none;
+                width: fit-content;
+                border-radius: 30px;
+                font-size: 18px;
+                margin-top: 40px;
+                transition: 0.3s ease transform;
+
+                &:hover{
+                    box-shadow: 0 4px 2px #43b97f;
+                }
+
             }
 
         }
