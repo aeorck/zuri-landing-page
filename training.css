@@ -364,5 +364,5 @@ header {
   transition: 0.3s ease transform;
 }
 .will-help .inside .writes .enroll:hover {
-  box-shadow: 0 4px 2px #43b97f;
+  box-shadow: 1px 3px rgba(45, 46, 45, 0.3764705882);
 }/*# sourceMappingURL=training.css.map */
