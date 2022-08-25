@@ -375,12 +375,12 @@ header {
   justify-content: space-between;
 }
 .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .fungames, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .team {
-  display: inline-flex;
   background-color: blueviolet;
-  width: 40%;
+  width: 46%;
+  display: flex;
   height: 80px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   border-radius: 60px;
   border: 1px solid rgb(255, 255, 255);
 }
@@ -388,5 +388,5 @@ header {
   width: 50px;
 }
 .will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .fungames p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .team p {
-  display: inline-flex;
+  display: block;
 }/*# sourceMappingURL=training.css.map */
