@@ -389,12 +389,14 @@ header {
         width: 90%;
         margin: 10% auto;
         display: flex;
+        justify-content: space-between;
 
         .spiral {
             position: absolute;
             width: 140px;
             right: 0;
             top: 0;
+            display: none;
         }
 
 
@@ -425,7 +427,7 @@ header {
                 font-family: "Graphik bold";
                 line-height: 1.2;
                 margin-bottom: 40px;
-                width: 100%;
+                width: 95%;
             }
 
             .give {
@@ -501,6 +503,14 @@ header {
                 .fungames {
                     @extend .global;
                 }
+            }
+        }
+
+        .girl{
+            width: 56%;
+            border: 1px solid grey;
+            img{
+                width: 100%;
             }
         }
 

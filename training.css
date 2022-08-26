@@ -316,12 +316,14 @@ header {
   width: 90%;
   margin: 10% auto;
   display: flex;
+  justify-content: space-between;
 }
 .will-help .inside .spiral {
   position: absolute;
   width: 140px;
   right: 0;
   top: 0;
+  display: none;
 }
 .will-help .inside .writes {
   width: 40%;
@@ -346,7 +348,7 @@ header {
   font-family: "Graphik bold";
   line-height: 1.2;
   margin-bottom: 40px;
-  width: 100%;
+  width: 95%;
 }
 .will-help .inside .writes .give {
   width: 70%;
@@ -404,6 +406,14 @@ header {
 .will-help .inside .writes .prip .mentorship {
   margin-bottom: 20px;
 }
+.will-help .inside .girl {
+  width: 56%;
+  border: 1px solid grey;
+}
+.will-help .inside .girl img {
+  width: 100%;
+}
+
 .dots {
   width: 140px;
   margin: 0;
