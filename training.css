@@ -312,9 +312,16 @@ header {
   background-color: #e7332b;
   width: 100%;
 }
+.will-help .dots {
+  position: absolute;
+  width: 130px;
+  bottom: 3%;
+  left: 2%;
+}
 .will-help .inside {
   width: 90%;
-  margin: 10% auto;
+  margin: 5% auto;
+  padding-bottom: 7%;
   display: flex;
   justify-content: space-between;
 }
@@ -407,14 +414,8 @@ header {
   margin-bottom: 20px;
 }
 .will-help .inside .girl {
-  width: 56%;
-  border: 1px solid grey;
+  width: 57%;
 }
 .will-help .inside .girl img {
   width: 100%;
-}
-
-.dots {
-  width: 140px;
-  margin: 0;
 }/*# sourceMappingURL=training.css.map */

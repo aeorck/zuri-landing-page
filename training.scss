@@ -383,11 +383,18 @@ header {
     display: flex;
     background-color: #e7332b;
     width: 100%;
+    .dots{
+        position: absolute;
+        width: 130px;
+        bottom: 3%;
+        left: 2%;
+    }
     
 
     .inside {
         width: 90%;
-        margin: 10% auto;
+        margin: 5% auto;
+        padding-bottom: 7%;
         display: flex;
         justify-content: space-between;
 
@@ -398,6 +405,7 @@ header {
             top: 0;
             display: none;
         }
+       
 
 
         .writes {
@@ -507,8 +515,7 @@ header {
         }
 
         .girl{
-            width: 56%;
-            border: 1px solid grey;
+            width: 57%;
             img{
                 width: 100%;
             }
@@ -517,7 +524,3 @@ header {
     }
 }
 
-.dots{
-    width: 140px;
-    margin: 0;
-}
