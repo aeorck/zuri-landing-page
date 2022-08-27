@@ -457,5 +457,24 @@ header {
 }
 .scope #stacks-covered .course .courses, .scope #stacks-covered .course .front-end {
   width: 30%;
-  border: #1b1a20 1px solid;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 11px 22px rgba(163, 48, 41, 0.445);
+}
+.scope #stacks-covered .course .courses .closure, .scope #stacks-covered .course .front-end .closure {
+  width: 90%;
+  margin: auto;
+}
+.scope #stacks-covered .course .courses .closure .c-images, .scope #stacks-covered .course .front-end .closure .c-images {
+  width: 53%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.scope #stacks-covered .course .courses .closure .c-images img, .scope #stacks-covered .course .front-end .closure .c-images img {
+  width: 40px;
+}
+.scope #stacks-covered .course .courses .closure .title, .scope #stacks-covered .course .front-end .closure .title {
+  font-size: 20px;
+  font-family: "Graphik Bold";
 }/*# sourceMappingURL=training.css.map */

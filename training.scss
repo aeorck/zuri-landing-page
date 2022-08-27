@@ -568,10 +568,31 @@ header {
             display: flex;
             margin: auto;
             justify-content: flex-start;
+            
             .courses{
                 width: 30%;
-                border:#1b1a20 1px solid;
-
+                border-radius: 30px;
+                padding: 20px ;
+                // border:#1b1a20 1px solid;
+                box-shadow: 0 11px 22px rgba(163, 48, 41, 0.445);
+                .closure{
+                    width: 90%;
+                    margin: auto;
+                    .c-images{
+                        width: 53%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        img{
+                            width: 40px;
+                        }
+                    }
+                    .title{
+                        font-size: 20px;
+                    font-family: "Graphik Bold";
+                    
+                    }
+                }
             }
 
             .front-end{
