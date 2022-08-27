@@ -311,6 +311,7 @@ header {
   display: flex;
   background-color: #e7332b;
   width: 100%;
+  margin-bottom: 30px;
 }
 .will-help .dots {
   position: absolute;
