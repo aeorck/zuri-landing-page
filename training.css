@@ -450,7 +450,12 @@ header {
   width: inherit;
 }
 .scope #stacks-covered .course {
-  width: 90%;
+  width: 100%;
   display: flex;
   margin: auto;
+  justify-content: flex-start;
+}
+.scope #stacks-covered .course .courses, .scope #stacks-covered .course .front-end {
+  width: 30%;
+  border: #1b1a20 1px solid;
 }/*# sourceMappingURL=training.css.map */

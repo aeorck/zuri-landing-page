@@ -564,11 +564,18 @@ header {
         }
 
         .course{
-            width: 90%;
+            width: 100%;
             display: flex;
             margin: auto;
+            justify-content: flex-start;
             .courses{
-                
+                width: 30%;
+                border:#1b1a20 1px solid;
+
+            }
+
+            .front-end{
+                @extend .courses;
             }
         }
     }
