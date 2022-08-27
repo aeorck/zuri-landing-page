@@ -445,4 +445,9 @@ header {
 }
 .scope #stacks-covered .wire img {
   width: inherit;
+}
+.scope #stacks-covered .course {
+  width: 90%;
+  display: flex;
+  margin: auto;
 }/*# sourceMappingURL=training.css.map */
