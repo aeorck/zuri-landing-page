@@ -481,6 +481,9 @@ header {
                     align-items: center;
                     justify-content: left;
                     padding: 12px;
+                    &:hover{
+                        cursor:no-drop;
+                    }
 
 
                     img {

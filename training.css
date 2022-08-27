@@ -398,6 +398,9 @@ header {
   justify-content: left;
   padding: 12px;
 }
+.will-help .inside .writes .prip .global:hover, .will-help .inside .writes .prip .fungames:hover, .will-help .inside .writes .prip .practice:hover, .will-help .inside .writes .prip .mentorship:hover, .will-help .inside .writes .prip .team:hover {
+  cursor: no-drop;
+}
 .will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .fungames img, .will-help .inside .writes .prip .practice img, .will-help .inside .writes .prip .mentorship img, .will-help .inside .writes .prip .team img {
   width: 50px;
   margin-right: 20px;
