@@ -530,8 +530,13 @@ margin-bottom: 30px;
 
 .scope{
     width: 90%;
+    margin: auto;
     #stacks{
         width:100%;
-        
+        .prog{
+            color: #e7332b;
+            text-transform: capitalize;
+            font-size: 24px;
+        }
     }
 }

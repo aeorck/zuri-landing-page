@@ -423,7 +423,13 @@ header {
 
 .scope {
   width: 90%;
+  margin: auto;
 }
 .scope #stacks {
   width: 100%;
+}
+.scope #stacks .prog {
+  color: #e7332b;
+  text-transform: capitalize;
+  font-size: 24px;
 }/*# sourceMappingURL=training.css.map */
