@@ -383,13 +383,14 @@ header {
     display: flex;
     background-color: #e7332b;
     width: 100%;
-    .dots{
+
+    .dots {
         position: absolute;
         width: 130px;
         bottom: 3%;
         left: 2%;
     }
-    
+
 
     .inside {
         width: 90%;
@@ -405,7 +406,7 @@ header {
             top: 0;
             display: none;
         }
-       
+
 
 
         .writes {
@@ -414,7 +415,8 @@ header {
             flex-direction: column;
             color: #ffff;
             align-items: flex-start;
-            .wire{
+
+            .wire {
                 margin-left: 20%;
             }
 
@@ -479,7 +481,7 @@ header {
                     align-items: center;
                     justify-content: left;
                     padding: 12px;
-                    
+
 
                     img {
                         width: 50px;
@@ -514,9 +516,10 @@ header {
             }
         }
 
-        .girl{
+        .girl {
             width: 57%;
-            img{
+
+            img {
                 width: 100%;
             }
         }
@@ -524,19 +527,37 @@ header {
     }
 
 
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 
-.scope{
+.scope {
     width: 90%;
     margin: auto;
-    #stacks{
-        width:100%;
-        .prog{
+
+    #stacks-covered {
+        width: 100%;
+
+        .prog {
             color: #e7332b;
             text-transform: capitalize;
             font-size: 24px;
+        }
+
+        .list {
+            width: 40%;
+            margin-top: 20px;
+            font-size: 40px;
+            font-family: "Graphik Bold";
+
+        }
+
+        .wire {
+            width: 200px;
+            margin: 0 auto;
+            img {
+                width: inherit;
+            }
         }
     }
 }

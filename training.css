@@ -425,11 +425,24 @@ header {
   width: 90%;
   margin: auto;
 }
-.scope #stacks {
+.scope #stacks-covered {
   width: 100%;
 }
-.scope #stacks .prog {
+.scope #stacks-covered .prog {
   color: #e7332b;
   text-transform: capitalize;
   font-size: 24px;
+}
+.scope #stacks-covered .list {
+  width: 40%;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: "Graphik Bold";
+}
+.scope #stacks-covered .wire {
+  width: 200px;
+  margin: 0 auto;
+}
+.scope #stacks-covered .wire img {
+  width: inherit;
 }/*# sourceMappingURL=training.css.map */
