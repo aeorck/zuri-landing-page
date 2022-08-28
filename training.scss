@@ -584,14 +584,16 @@ header {
 
                     .c-images {
                         border:#1b1a20 1px dashed;
-                        width: 53%;
+                        width: fit-content;
                         display: flex;
                         margin: 10px 0 20px 0;
                         justify-content: space-between;
                         align-items: center;
-
-                        img {
-                            width: 40px;
+                        img{
+                            margin-right: 15px;
+                            &:last-child{
+                                margin-right: 0;
+                            }
                         }
 
                     }

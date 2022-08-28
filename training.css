@@ -468,14 +468,19 @@ header {
 }
 .scope #stacks-covered .course .courses .closure .c-images, .scope #stacks-covered .course .frame-works .closure .c-images, .scope #stacks-covered .course .full-stack .closure .c-images, .scope #stacks-covered .course .devs-ops .closure .c-images, .scope #stacks-covered .course .product-design .closure .c-images, .scope #stacks-covered .course .back-end .closure .c-images, .scope #stacks-covered .course .front-end .closure .c-images {
   border: #1b1a20 1px dashed;
-  width: 53%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   margin: 10px 0 20px 0;
   justify-content: space-between;
   align-items: center;
 }
 .scope #stacks-covered .course .courses .closure .c-images img, .scope #stacks-covered .course .frame-works .closure .c-images img, .scope #stacks-covered .course .full-stack .closure .c-images img, .scope #stacks-covered .course .devs-ops .closure .c-images img, .scope #stacks-covered .course .product-design .closure .c-images img, .scope #stacks-covered .course .back-end .closure .c-images img, .scope #stacks-covered .course .front-end .closure .c-images img {
-  width: 40px;
+  margin-right: 15px;
+}
+.scope #stacks-covered .course .courses .closure .c-images img:last-child, .scope #stacks-covered .course .frame-works .closure .c-images img:last-child, .scope #stacks-covered .course .full-stack .closure .c-images img:last-child, .scope #stacks-covered .course .devs-ops .closure .c-images img:last-child, .scope #stacks-covered .course .product-design .closure .c-images img:last-child, .scope #stacks-covered .course .back-end .closure .c-images img:last-child, .scope #stacks-covered .course .front-end .closure .c-images img:last-child {
+  margin-right: 0;
 }
 .scope #stacks-covered .course .courses .closure .expl, .scope #stacks-covered .course .frame-works .closure .expl, .scope #stacks-covered .course .full-stack .closure .expl, .scope #stacks-covered .course .devs-ops .closure .expl, .scope #stacks-covered .course .product-design .closure .expl, .scope #stacks-covered .course .back-end .closure .expl, .scope #stacks-covered .course .front-end .closure .expl {
   line-height: 1.5;
