@@ -608,6 +608,9 @@ header {
             .front-end {
                 @extend .courses;
             }
+            .back-end{
+                @extend .courses;
+            }
         }
     }
 }

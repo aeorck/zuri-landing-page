@@ -456,30 +456,30 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.scope #stacks-covered .course .courses, .scope #stacks-covered .course .front-end {
+.scope #stacks-covered .course .courses, .scope #stacks-covered .course .back-end, .scope #stacks-covered .course .front-end {
   width: 32%;
   border-radius: 30px;
   padding: 25px;
   box-shadow: 0 11px 22px rgba(163, 47, 41, 0.116);
 }
-.scope #stacks-covered .course .courses .closure, .scope #stacks-covered .course .front-end .closure {
+.scope #stacks-covered .course .courses .closure, .scope #stacks-covered .course .back-end .closure, .scope #stacks-covered .course .front-end .closure {
   width: 90%;
   margin: auto;
 }
-.scope #stacks-covered .course .courses .closure .c-images, .scope #stacks-covered .course .front-end .closure .c-images {
+.scope #stacks-covered .course .courses .closure .c-images, .scope #stacks-covered .course .back-end .closure .c-images, .scope #stacks-covered .course .front-end .closure .c-images {
   width: 53%;
   display: flex;
   margin: 10px 0 20px 0;
   justify-content: space-between;
   align-items: center;
 }
-.scope #stacks-covered .course .courses .closure .c-images img, .scope #stacks-covered .course .front-end .closure .c-images img {
+.scope #stacks-covered .course .courses .closure .c-images img, .scope #stacks-covered .course .back-end .closure .c-images img, .scope #stacks-covered .course .front-end .closure .c-images img {
   width: 40px;
 }
-.scope #stacks-covered .course .courses .closure .expl, .scope #stacks-covered .course .front-end .closure .expl {
+.scope #stacks-covered .course .courses .closure .expl, .scope #stacks-covered .course .back-end .closure .expl, .scope #stacks-covered .course .front-end .closure .expl {
   line-height: 1.5;
 }
-.scope #stacks-covered .course .courses .closure .title, .scope #stacks-covered .course .front-end .closure .title {
+.scope #stacks-covered .course .courses .closure .title, .scope #stacks-covered .course .back-end .closure .title, .scope #stacks-covered .course .front-end .closure .title {
   font-size: 20px;
   font-family: "Graphik Bold";
 }/*# sourceMappingURL=training.css.map */
