@@ -617,9 +617,18 @@ header {
                 @extend .courses;
                 img{
                     &:last-child{
-                        visibility: hidden;
+                        display: none;
                     }
                 }
+            }
+            .devs-ops{
+                @extend .courses;
+            }
+            .full-stack{
+                @extend .courses;
+            }
+            .frame-works{
+                @extend .courses;
             }
         }
     }
