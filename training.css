@@ -467,6 +467,7 @@ header {
   margin: auto;
 }
 .scope #stacks-covered .course .courses .closure .c-images, .scope #stacks-covered .course .back-end .closure .c-images, .scope #stacks-covered .course .front-end .closure .c-images {
+  border: #1b1a20 1px dashed;
   width: 53%;
   display: flex;
   margin: 10px 0 20px 0;

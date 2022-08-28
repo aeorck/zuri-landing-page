@@ -583,6 +583,7 @@ header {
                     margin: auto;
 
                     .c-images {
+                        border:#1b1a20 1px dashed;
                         width: 53%;
                         display: flex;
                         margin: 10px 0 20px 0;
@@ -592,6 +593,7 @@ header {
                         img {
                             width: 40px;
                         }
+
                     }
                     .expl{
                         line-height: 1.5;
@@ -610,6 +612,7 @@ header {
             }
             .back-end{
                 @extend .courses;
+                
             }
         }
     }
