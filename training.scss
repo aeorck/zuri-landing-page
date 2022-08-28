@@ -637,13 +637,26 @@ header {
                 .closure{
                     .c-images{
                         img{
-                            width: 35px
+                            width: 50px;
+                            &:nth-child(2){
+                                width: 100px;
+                            }
+                            &:last-child{
+                                display: none;
+                            }
                         }
                     }
                 }
             }
             .devs-ops{
                 @extend .courses;
+                .closure{
+                    .c-images{
+                        img{
+                            width: 80px;
+                        }
+                    }
+                }
             }
             .full-stack{
                 @extend .courses;

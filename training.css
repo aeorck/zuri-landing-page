@@ -499,5 +499,14 @@ header {
   width: 55px;
 }
 .scope #stacks-covered .course .product-design .closure .c-images img {
-  width: 35px;
+  width: 50px;
+}
+.scope #stacks-covered .course .product-design .closure .c-images img:nth-child(2) {
+  width: 100px;
+}
+.scope #stacks-covered .course .product-design .closure .c-images img:last-child {
+  display: none;
+}
+.scope #stacks-covered .course .devs-ops .closure .c-images img {
+  width: 80px;
 }/*# sourceMappingURL=training.css.map */
