@@ -612,7 +612,14 @@ header {
             }
             .back-end{
                 @extend .courses;
-                
+            }
+            .product-design{
+                @extend .courses;
+                img{
+                    &:last-child{
+                        visibility: hidden;
+                    }
+                }
             }
         }
     }
