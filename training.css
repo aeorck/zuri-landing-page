@@ -453,12 +453,13 @@ header {
   width: 100%;
   display: flex;
   margin: auto;
-  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .scope #stacks-covered .course .courses, .scope #stacks-covered .course .front-end {
-  width: 30%;
+  width: 32%;
   border-radius: 30px;
-  padding: 20px;
+  padding: 25px;
   box-shadow: 0 11px 22px rgba(163, 47, 41, 0.116);
 }
 .scope #stacks-covered .course .courses .closure, .scope #stacks-covered .course .front-end .closure {
