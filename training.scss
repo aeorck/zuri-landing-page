@@ -611,15 +611,34 @@ header {
 
             .front-end {
                 @extend .courses;
+                .closure{
+                    .c-images{
+                        img{
+                            width: 35px
+                        }
+                    }
+                }
             }
             .back-end{
                 @extend .courses;
+                .closure{
+                    .c-images{
+                        img{
+                            width: 45px;
+                            &:first-child{
+                                width: 55px;
+                            }
+                        }
+                    }
+                }
             }
             .product-design{
                 @extend .courses;
-                img{
-                    &:last-child{
-                        display: none;
+                .closure{
+                    .c-images{
+                        img{
+                            width: 35px
+                        }
                     }
                 }
             }
