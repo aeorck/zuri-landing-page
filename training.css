@@ -427,9 +427,12 @@ header {
 .scope {
   width: 90%;
   margin: auto;
+  border-bottom: 1px solid rgba(88, 87, 87, 0.3411764706);
+  margin-bottom: 30px;
 }
 .scope #stacks-covered {
   width: 100%;
+  margin-bottom: 80px;
 }
 .scope #stacks-covered .prog {
   color: #e7332b;
@@ -516,4 +519,16 @@ header {
 }
 .scope #stacks-covered .course .frame-works .closure .c-images img {
   width: 80px;
+}
+.scope #stacks-covered a {
+  color: white;
+  background-color: #e7332b;
+  padding: 15px 45px;
+  border-radius: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 auto 20px;
+  font-size: 18px;
 }/*# sourceMappingURL=training.css.map */

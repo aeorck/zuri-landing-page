@@ -541,6 +541,7 @@ header {
 
     #stacks-covered {
         width: 100%;
+        margin-bottom: 80px;
 
         .prog {
             color: #e7332b;
@@ -679,6 +680,19 @@ header {
                     }
                 }
             }
+
         }
+        a{
+            color: #ffff;
+            background-color: #e7332b;
+            padding: 15px 45px;
+            border-radius: 30px;
+            width: fit-content;
+            display: block;
+            margin: 0 auto 20px;
+            font-size: 18px;
+                }
     }
+    border-bottom: 1px solid #58575757;
+    margin-bottom: 30px;
 }
