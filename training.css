@@ -455,8 +455,10 @@ header {
   margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 .scope #stacks-covered .course .courses, .scope #stacks-covered .course .frame-works, .scope #stacks-covered .course .full-stack, .scope #stacks-covered .course .devs-ops, .scope #stacks-covered .course .product-design, .scope #stacks-covered .course .back-end, .scope #stacks-covered .course .front-end {
+  margin-bottom: 30px;
   width: 32%;
   border-radius: 30px;
   padding: 25px;
