@@ -467,7 +467,6 @@ header {
   margin: auto;
 }
 .scope #stacks-covered .course .courses .closure .c-images, .scope #stacks-covered .course .frame-works .closure .c-images, .scope #stacks-covered .course .full-stack .closure .c-images, .scope #stacks-covered .course .devs-ops .closure .c-images, .scope #stacks-covered .course .product-design .closure .c-images, .scope #stacks-covered .course .back-end .closure .c-images, .scope #stacks-covered .course .front-end .closure .c-images {
-  border: #1b1a20 1px dashed;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -508,5 +507,11 @@ header {
   display: none;
 }
 .scope #stacks-covered .course .devs-ops .closure .c-images img {
+  width: 80px;
+}
+.scope #stacks-covered .course .full-stack .closure .c-images img {
+  width: 45px;
+}
+.scope #stacks-covered .course .frame-works .closure .c-images img {
   width: 80px;
 }/*# sourceMappingURL=training.css.map */

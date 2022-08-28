@@ -583,7 +583,6 @@ header {
                     margin: auto;
 
                     .c-images {
-                        border:#1b1a20 1px dashed;
                         width: fit-content;
                         display: flex;
                         margin: 10px 0 20px 0;
@@ -660,9 +659,23 @@ header {
             }
             .full-stack{
                 @extend .courses;
+                .closure{
+                    .c-images{
+                        img{
+                            width: 45px;
+                        }
+                    }
+                }
             }
             .frame-works{
                 @extend .courses;
+                .closure{
+                    .c-images{
+                        img{
+                            width: 80px;
+                        }
+                    }
+                }
             }
         }
     }
