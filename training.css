@@ -547,4 +547,13 @@ header {
   font-family: "Roboto";
   font-weight: 400;
   text-align: center;
+}
+.accord .freq {
+  color: #1b1a20;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  font-size: 40px;
+  font-family: "Graphik Bold";
 }/*# sourceMappingURL=training.css.map */
