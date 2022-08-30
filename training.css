@@ -531,4 +531,15 @@ header {
   display: block;
   margin: 0 auto 20px;
   font-size: 18px;
+}
+
+.accord {
+  width: 90%;
+  margin: auto;
+}
+.accord p {
+  color: #e7332b;
+  font-size: 24px;
+  font-family: "Roboto";
+  text-align: center;
 }/*# sourceMappingURL=training.css.map */
