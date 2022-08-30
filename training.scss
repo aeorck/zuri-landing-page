@@ -7,6 +7,10 @@
     font-family: "Graphik Bold";
     src: url(./resources/GraphikSemibold.otf);
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(./resources/Roboto-Regular.ttf);
+}
 
 * {
     margin: 0;
@@ -704,6 +708,7 @@ header {
         color: #e7332b;
         font-size: 24px;
         font-family: "Roboto";
+        font-weight: 400;
         text-align: center;
     }
 }
