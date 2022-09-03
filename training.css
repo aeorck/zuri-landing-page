@@ -620,8 +620,10 @@ header {
 
 .bloo {
   display: flex;
-  width: 100%;
+  width: 90%;
   margin: 30px auto;
+  border-bottom: 1px solid rgba(88, 87, 87, 0.4862745098);
+  padding-bottom: 40px;
 }
 .bloo .further {
   display: flex;
@@ -629,7 +631,6 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  border: #000 1px solid;
 }
 .bloo .further p {
   color: #333333;
@@ -639,9 +640,9 @@ header {
   color: white;
   display: flex;
   background-color: #e7332b;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  width: 200px;
+  width: 250px;
   height: 50px;
   border-radius: 30px;
 }/*# sourceMappingURL=training.css.map */

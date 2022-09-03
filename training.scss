@@ -797,7 +797,7 @@ header {
 }
 .bloo{
     display: flex;
-    width: 100%;
+    width: 90%;
     margin: 30px auto;
     .further{
         display: flex;
@@ -805,7 +805,6 @@ header {
         align-items: center;
         justify-content: space-between;
         margin: auto;
-        border: #000 1px solid;
         p{
             color: #333333;
             font-size: 18px;
@@ -816,13 +815,15 @@ header {
             color: white;
             display: flex;
             background-color: #e7332b;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
-            width: 200px;
+            width: 250px;
             height: 50px;
             border-radius: 30px;
            }
 
         }
     }
+    border-bottom: 1px solid #5857577c;
+    padding-bottom: 40px;
 }
