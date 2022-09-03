@@ -563,7 +563,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   border: 1px solid gray;
 }
 #faq .accordion {
@@ -577,6 +577,8 @@ header {
   border: none;
   outline: none;
   font-size: 18px;
+  display: flex;
+  justify-content: space-between;
   font-weight: 600;
   transition: 0.4s;
 }
@@ -588,8 +590,9 @@ header {
 }
 #faq .accordion:after {
   content: "+";
-  color: #777;
+  color: #000;
   font-weight: bold;
+  font-size: 30px;
   float: right;
   margin-left: 5px;
 }
@@ -602,7 +605,10 @@ header {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  margin-bottom: 20px;
 }
 #faq .panel p {
-  color: #444;
+  color: #000;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
 }/*# sourceMappingURL=training.css.map */
