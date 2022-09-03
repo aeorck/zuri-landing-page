@@ -616,4 +616,32 @@ header {
   color: #000;
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
+}
+
+.bloo {
+  display: flex;
+  width: 100%;
+  margin: 30px auto;
+}
+.bloo .further {
+  display: flex;
+  width: 450px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  border: #000 1px solid;
+}
+.bloo .further p {
+  color: #333333;
+  font-size: 18px;
+}
+.bloo .further .follow a {
+  color: white;
+  display: flex;
+  background-color: #e7332b;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
 }/*# sourceMappingURL=training.css.map */
