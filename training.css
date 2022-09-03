@@ -540,6 +540,12 @@ header {
 #faq {
   width: 90%;
   margin: auto;
+  margin-bottom: 30px;
+}
+#faq img {
+  width: 150px;
+  margin-bottom: -50px;
+  margin-left: 150px;
 }
 #faq .p {
   color: #e7332b;
@@ -553,7 +559,7 @@ header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: auto;
+  margin: 2% auto 5%;
   font-size: 40px;
   font-family: "Graphik Bold";
 }
@@ -564,14 +570,14 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  border: 1px solid gray;
+  border: 1px solid rgb(173, 171, 171);
 }
 #faq .accordion {
   font-family: "Graphik";
   background-color: transparent;
-  color: #444;
+  color: #333;
   cursor: hand;
-  padding: 18px;
+  padding: 15px;
   width: 100%;
   margin: 5px auto;
   border: none;
@@ -605,7 +611,6 @@ header {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  margin-bottom: 20px;
 }
 #faq .panel p {
   color: #000;
