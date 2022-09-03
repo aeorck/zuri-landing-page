@@ -537,18 +537,18 @@ header {
   font-size: 18px;
 }
 
-.accord {
+#faq {
   width: 90%;
   margin: auto;
 }
-.accord p {
+#faq .p {
   color: #e7332b;
   font-size: 24px;
   font-family: "Roboto";
   font-weight: 400;
   text-align: center;
 }
-.accord .freq {
+#faq .freq {
   color: #1b1a20;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -556,4 +556,53 @@ header {
   margin: auto;
   font-size: 40px;
   font-family: "Graphik Bold";
+}
+#faq .nest {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+}
+#faq .accordion {
+  font-family: "Graphik";
+  background-color: transparent;
+  color: #444;
+  cursor: hand;
+  padding: 18px;
+  width: 100%;
+  margin: 5px auto;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+#faq .active {
+  background-color: transparent;
+}
+#faq .accordion:hover {
+  background-color: transparent;
+}
+#faq .accordion:after {
+  content: "+";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+#faq .active:after {
+  content: "+";
+}
+#faq .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#faq .panel p {
+  color: #444;
 }/*# sourceMappingURL=training.css.map */

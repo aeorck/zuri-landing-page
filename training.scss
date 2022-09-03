@@ -706,10 +706,10 @@ header {
     margin-bottom: 30px;
 }
 
-.accord{
+#faq{
     width: 90%;
     margin: auto;
-    p{
+    .p{
         color: #e7332b;
         font-size: 24px;
         font-family: "Roboto";
@@ -724,4 +724,64 @@ header {
        
         font-family: "Graphik Bold";
     }
+    .nest {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid gray;
+      }
+      
+      .accordion {
+        
+       font-family: "Graphik";
+        background-color: transparent;
+        color: #444;
+        cursor: hand;
+        padding: 18px;
+        width: 100%;
+        margin: 5px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.4s;
+        
+      }
+      
+      .active {
+        background-color: transparent;
+        
+      }
+      
+      .accordion {
+        &:hover {
+          background-color: transparent;
+        }
+      
+        &:after {
+          content: '\002B';
+          color: #777;
+          font-weight: bold;
+          float: right;
+          margin-left: 5px;
+        }
+      }
+      
+      .active:after {
+        content: "\002B";
+      }
+      
+      .panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        p{
+          color: #444;
+        }
+      }
 }
