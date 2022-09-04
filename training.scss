@@ -922,13 +922,32 @@ header {
                 font-family: "Graphik Bold";
             }
             .require{
+                margin: 10px 0;
+            }
+            .avail{
+                @extend .require;
+                font-family: "Graphik Bold";
+                font-weight: 900;
+                font-size: 18px;
 
             }
             ol{
-                li{
-
+                margin-bottom: 30px;
+                margin-left: 15px;
+                list-style-type: disc;
+                line-height: 1.5;
+                ul{
+                list-style-type: none;
                 }
-
+            }
+            .timer{
+                position: absolute;
+                z-index: 1;
+                bottom: 30px;
+                right: 120px;
+                img{
+                    width: 100px;
+                }
             }
         }
         .second{

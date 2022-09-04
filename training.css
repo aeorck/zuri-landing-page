@@ -711,4 +711,30 @@ header {
   font-size: 35px;
   text-align: left;
   font-family: "Graphik Bold";
+}
+.struct .gbamu .first .require, .struct .gbamu .second .require, .struct .gbamu .first .avail, .struct .gbamu .second .avail {
+  margin: 10px 0;
+}
+.struct .gbamu .first .avail, .struct .gbamu .second .avail {
+  font-family: "Graphik Bold";
+  font-weight: 900;
+  font-size: 18px;
+}
+.struct .gbamu .first ol, .struct .gbamu .second ol {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  list-style-type: disc;
+  line-height: 1.5;
+}
+.struct .gbamu .first ol ul, .struct .gbamu .second ol ul {
+  list-style-type: none;
+}
+.struct .gbamu .first .timer, .struct .gbamu .second .timer {
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  right: 120px;
+}
+.struct .gbamu .first .timer img, .struct .gbamu .second .timer img {
+  width: 100px;
 }/*# sourceMappingURL=training.css.map */
