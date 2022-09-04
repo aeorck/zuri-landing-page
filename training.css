@@ -655,6 +655,34 @@ header {
   width: 90%;
   margin: 10px auto;
 }
-.struct img {
+.struct .pose {
+  display: flex;
+  justify-content: space-between;
+}
+.struct .pose .curve {
   width: 150px;
+  margin-left: 150px;
+}
+.struct .pose .star {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 150px;
+}
+.struct .stut {
+  color: #e7332b;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+.struct p {
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 40px;
+  font-family: "Graphik Bold";
 }/*# sourceMappingURL=training.css.map */

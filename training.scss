@@ -7,16 +7,19 @@
     font-family: "Graphik Bold";
     src: url(./resources/GraphikSemibold.otf);
 }
+
 @font-face {
     font-family: "Roboto";
     src: url(./resources/Roboto-Regular.ttf);
 }
-@mixin fonter{
+
+@mixin fonter {
     @font-face {
         font-family: "Graphiko";
         src: url(./resources/GraphikSemibold.otf);
     }
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -600,15 +603,18 @@ header {
                         margin: 10px 0 20px 0;
                         justify-content: space-between;
                         align-items: center;
-                        img{
+
+                        img {
                             margin-right: 15px;
-                            &:last-child{
+
+                            &:last-child {
                                 margin-right: 0;
                             }
                         }
 
                     }
-                    .expl{
+
+                    .expl {
                         line-height: 1.5;
                     }
 
@@ -622,68 +628,82 @@ header {
 
             .front-end {
                 @extend .courses;
-                .closure{
-                    .c-images{
-                        img{
+
+                .closure {
+                    .c-images {
+                        img {
                             width: 35px
                         }
                     }
                 }
             }
-            .back-end{
+
+            .back-end {
                 @extend .courses;
-                .closure{
-                    .c-images{
-                        img{
+
+                .closure {
+                    .c-images {
+                        img {
                             width: 45px;
-                            &:first-child{
+
+                            &:first-child {
                                 width: 55px;
                             }
                         }
                     }
                 }
             }
-            .product-design{
+
+            .product-design {
                 @extend .courses;
-                .closure{
-                    .c-images{
-                        img{
+
+                .closure {
+                    .c-images {
+                        img {
                             width: 50px;
-                            &:nth-child(2){
+
+                            &:nth-child(2) {
                                 width: 100px;
                             }
-                            &:last-child{
+
+                            &:last-child {
                                 display: none;
                             }
                         }
                     }
                 }
             }
-            .devs-ops{
+
+            .devs-ops {
                 @extend .courses;
-                .closure{
-                    .c-images{
-                        img{
+
+                .closure {
+                    .c-images {
+                        img {
                             width: 80px;
                         }
                     }
                 }
             }
-            .full-stack{
+
+            .full-stack {
                 @extend .courses;
-                .closure{
-                    .c-images{
-                        img{
+
+                .closure {
+                    .c-images {
+                        img {
                             width: 45px;
                         }
                     }
                 }
             }
-            .frame-works{
+
+            .frame-works {
                 @extend .courses;
-                .closure{
-                    .c-images{
-                        img{
+
+                .closure {
+                    .c-images {
+                        img {
                             width: 80px;
                         }
                     }
@@ -691,7 +711,8 @@ header {
             }
 
         }
-        a{
+
+        a {
             color: #ffff;
             background-color: #e7332b;
             padding: 15px 45px;
@@ -700,35 +721,40 @@ header {
             display: block;
             margin: 0 auto 20px;
             font-size: 18px;
-                }
+        }
     }
+
     border-bottom: 1px solid #58575757;
     margin-bottom: 30px;
 }
 
-#faq{
+#faq {
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    img{
+
+    img {
         width: 150px;
         margin-bottom: -50px;
         margin-left: 150px;
     }
-    .p{
+
+    .p {
         color: #e7332b;
         font-size: 24px;
         font-family: "Roboto";
         font-weight: 400;
         text-align: center;
     }
-    .freq{
+
+    .freq {
         color: #1b1a20;
         width: fit-content;
         margin: 2% auto 5%;
         font-size: 40px;
         font-family: "Graphik Bold";
     }
+
     .nest {
         width: 90%;
         margin: auto;
@@ -737,10 +763,10 @@ header {
         justify-content: space-between;
         align-items: flex-start;
         border: 1px solid rgb(173, 171, 171);
-      }
-      
-      .accordion {
-       font-family: "Graphik";
+    }
+
+    .accordion {
+        font-family: "Graphik";
         background-color: transparent;
         color: #333;
         cursor: hand;
@@ -754,88 +780,121 @@ header {
         justify-content: space-between;
         font-weight: 600;
         transition: 0.4s;
-        
-      }
-      
-      .active {
+
+    }
+
+    .active {
         background-color: transparent;
-        
-      }
-      
-      .accordion {
+
+    }
+
+    .accordion {
         &:hover {
-          background-color: transparent;
+            background-color: transparent;
         }
-      
+
         &:after {
-          content: '\002B';
-          color: #000;
-          font-weight: bold;
-          font-size: 30px;
-          float: right;
-          margin-left: 5px;
+            content: '\002B';
+            color: #000;
+            font-weight: bold;
+            font-size: 30px;
+            float: right;
+            margin-left: 5px;
         }
-      }
-      
-      .active:after {
+    }
+
+    .active:after {
         content: "\002B";
-      }
-      
-      .panel {
+    }
+
+    .panel {
         padding: 0 18px;
         background-color: white;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-out;
+
         // margin-bottom: 20px;
-        p{
-          color: #000;
-          font-size: 18px;
-          font-family: 'Times New Roman', Times, serif;
+        p {
+            color: #000;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
         }
-      }
+    }
 }
-.bloo{
+
+.bloo {
     display: flex;
     width: 90%;
     margin: 30px auto;
     margin-top: 60px;
-    .further{
+
+    .further {
         display: flex;
         width: 450px;
         align-items: center;
         justify-content: space-between;
         margin: auto;
-        p{
+
+        p {
             color: #333333;
             font-size: 18px;
         }
 
-        .follow{
-           a{
-            color: white;
-            display: flex;
-            background-color: #e7332b;
-            justify-content: space-evenly;
-            align-items: center;
-            width: 250px;
-            height: 50px;
-            border-radius: 30px;
-            img{
-                width: 40px;
+        .follow {
+            a {
+                color: white;
+                display: flex;
+                background-color: #e7332b;
+                justify-content: space-evenly;
+                align-items: center;
+                width: 250px;
+                height: 50px;
+                border-radius: 30px;
+
+                img {
+                    width: 40px;
+                }
             }
-           }
 
         }
     }
+
     border-bottom: 1px solid #5857577c;
     padding-bottom: 40px;
 }
-.struct{
-    width:90%;
+
+.struct {
+    width: 90%;
     margin: 10px auto;
+
+    .pose {
+        display: flex;
+        justify-content: space-between;
+        .curve {
+            width: 150px;
+            margin-left: 150px;
+        }
+        .star{
+            position: absolute;
+            right: 0;
+            top:40px;
+            width: 150px;
+        }
     
-    img{
-        width: 150px;
+    }
+
+    .stut{
+        color: #e7332b;
+        width: fit-content;
+        margin: 20px auto;
+        font-family: "Roboto";
+        font-size: 24px;
+    }
+    p{
+        margin: auto;
+        width: fit-content;
+        font-size: 40px;
+        font-family: "Graphik Bold";
     }
 }
