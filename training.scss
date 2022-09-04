@@ -892,9 +892,26 @@ header {
         font-size: 24px;
     }
     p{
-        margin: auto;
+        margin: 0 auto 20px;
         width: fit-content;
         font-size: 40px;
         font-family: "Graphik Bold";
+    }
+    .there{
+        width: fit-content;
+        margin: 0 auto 20px;
+        color: #333333;
+    }
+
+    .gbamu{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        .first{
+            width: 45%;
+        }
+        .second{
+            @extend .first;
+        }
     }
 }

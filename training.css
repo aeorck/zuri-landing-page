@@ -95,7 +95,7 @@ header {
   border-radius: 0 30px 30px 0;
 }
 
-.first {
+.first, .struct .gbamu .second {
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -106,14 +106,14 @@ header {
   height: -moz-fit-content;
   height: fit-content;
 }
-.first img {
+.first img, .struct .gbamu .second img {
   mix-blend-mode: darken !important;
   width: 350px;
 }
-.first img:first-child {
+.first img:first-child, .struct .gbamu .second img:first-child {
   margin-right: -100px;
 }
-.first .content {
+.first .content, .struct .gbamu .second .content {
   width: 50%;
   text-align: center;
   display: flex;
@@ -122,21 +122,21 @@ header {
   height: -moz-fit-content;
   height: fit-content;
 }
-.first .content .top {
+.first .content .top, .struct .gbamu .second .content .top {
   font-size: 18px;
   color: red;
   margin-bottom: 5%;
 }
-.first .content .gain {
+.first .content .gain, .struct .gbamu .second .content .gain {
   font-size: 49px;
   font-family: "Graphik Bold";
   flex-basis: 50%;
 }
-.first .content .line {
+.first .content .line, .struct .gbamu .second .content .line {
   width: 170px;
   margin-left: 335px;
 }
-.first .content .basic {
+.first .content .basic, .struct .gbamu .second .content .basic {
   width: 70%;
   align-self: center;
   font-size: 18px;
@@ -144,19 +144,19 @@ header {
   letter-spacing: 0.1688px;
   margin-top: 50px;
 }
-.first .content .image-enroll {
+.first .content .image-enroll, .struct .gbamu .second .content .image-enroll {
   display: flex;
   width: 60%;
   margin: 50px 0;
   justify-content: space-between;
   height: 70px;
 }
-.first .content .image-enroll img {
+.first .content .image-enroll img, .struct .gbamu .second .content .image-enroll img {
   width: 50px;
   align-self: flex-end;
   justify-self: start;
 }
-.first .content .image-enroll .enroll a {
+.first .content .image-enroll .enroll a, .struct .gbamu .second .content .image-enroll .enroll a {
   background-color: #e7332b;
   color: white;
   text-decoration: none;
@@ -164,13 +164,13 @@ header {
   border-radius: 25px;
   font-size: 18px;
 }
-.first .content .image-enroll .wire {
+.first .content .image-enroll .wire, .struct .gbamu .second .content .image-enroll .wire {
   position: absolute;
   right: 0;
   margin-right: 60px;
   margin-top: 35px;
 }
-.first .content .image-enroll .wire img {
+.first .content .image-enroll .wire img, .struct .gbamu .second .content .image-enroll .wire img {
   width: 100px;
 }
 
@@ -679,10 +679,25 @@ header {
   font-size: 24px;
 }
 .struct p {
-  margin: auto;
+  margin: 0 auto 20px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   font-size: 40px;
   font-family: "Graphik Bold";
+}
+.struct .there {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 20px;
+  color: #333333;
+}
+.struct .gbamu {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.struct .gbamu .first, .struct .gbamu .second {
+  width: 45%;
 }/*# sourceMappingURL=training.css.map */
