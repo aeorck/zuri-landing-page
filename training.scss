@@ -799,6 +799,7 @@ header {
     display: flex;
     width: 90%;
     margin: 30px auto;
+    margin-top: 60px;
     .further{
         display: flex;
         width: 450px;
@@ -829,4 +830,12 @@ header {
     }
     border-bottom: 1px solid #5857577c;
     padding-bottom: 40px;
+}
+.struct{
+    width:90%;
+    margin: 10px auto;
+    border: 1px solid red;
+    img{
+        width: 40px;
+    }
 }
