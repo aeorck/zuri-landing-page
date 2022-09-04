@@ -699,6 +699,7 @@ header {
   justify-content: space-around;
 }
 .struct .gbamu .first, .struct .gbamu .second {
+  border-radius: 50px;
   width: 45%;
   background-color: #1b1a20;
   color: #e0ded7;
@@ -733,7 +734,7 @@ header {
   position: absolute;
   z-index: 1;
   bottom: 30px;
-  right: 120px;
+  right: 150px;
 }
 .struct .gbamu .first .timer img, .struct .gbamu .second .timer img {
   width: 100px;
