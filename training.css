@@ -678,7 +678,7 @@ header {
   font-family: "Roboto";
   font-size: 24px;
 }
-.struct p {
+.struct .prog {
   margin: 0 auto 20px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -700,4 +700,15 @@ header {
 }
 .struct .gbamu .first, .struct .gbamu .second {
   width: 45%;
+  background-color: #1b1a20;
+  color: #e0ded7;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.struct .gbamu .first .tit, .struct .gbamu .second .tit {
+  font-size: 35px;
+  text-align: left;
+  font-family: "Graphik Bold";
 }/*# sourceMappingURL=training.css.map */

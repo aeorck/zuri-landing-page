@@ -891,7 +891,7 @@ header {
         font-family: "Roboto";
         font-size: 24px;
     }
-    p{
+    .prog{
         margin: 0 auto 20px;
         width: fit-content;
         font-size: 40px;
@@ -909,6 +909,27 @@ header {
         justify-content: space-around;
         .first{
             width: 45%;
+            background-color: #1b1a20;
+            color: #e0ded7;
+            padding:50px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            
+            .tit{
+                font-size: 35px;
+                text-align: left;
+                font-family: "Graphik Bold";
+            }
+            .require{
+
+            }
+            ol{
+                li{
+
+                }
+
+            }
         }
         .second{
             @extend .first;
