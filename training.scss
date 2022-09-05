@@ -906,7 +906,8 @@ header {
     .gbamu{
         width: 90%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        height: fit-content;
         .first{
             border-radius: 50px;
             width: 45%;
@@ -953,6 +954,9 @@ header {
         }
         .second{
             @extend .first;
+            height: 100%;
+            
+          
         }
     }
 }

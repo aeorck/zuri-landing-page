@@ -696,7 +696,10 @@ header {
 .struct .gbamu {
   width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .struct .gbamu .first, .struct .gbamu .second {
   border-radius: 50px;
@@ -738,4 +741,7 @@ header {
 }
 .struct .gbamu .first .timer img, .struct .gbamu .second .timer img {
   width: 100px;
+}
+.struct .gbamu .second {
+  height: 100%;
 }/*# sourceMappingURL=training.css.map */
