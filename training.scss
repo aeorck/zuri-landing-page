@@ -955,6 +955,14 @@ header {
         .second{
             @extend .first;
             height: 100%;
+            padding-bottom: 150px;
+            .timer{
+                right:120px;
+                bottom: 50px;
+                img{
+                    width: 150px;
+                }
+            }
             
           
         }
