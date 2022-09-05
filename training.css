@@ -652,11 +652,13 @@ header {
 }
 
 .struct {
-  width: 90%;
+  width: 100%;
   margin: 10px auto;
 }
 .struct .pose {
   display: flex;
+  width: 90%;
+  margin: auto;
   justify-content: space-between;
 }
 .struct .pose .curve {
@@ -697,6 +699,7 @@ header {
   width: 90%;
   display: flex;
   justify-content: space-between;
+  margin: auto;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -752,4 +755,10 @@ header {
 }
 .struct .gbamu .second .timer img {
   width: 150px;
+}
+.struct .overlay-arrow {
+  position: absolute;
+  left: 0;
+  transform: translate(-25px, 450%);
+  top: 0;
 }/*# sourceMappingURL=training.css.map */

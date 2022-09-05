@@ -865,106 +865,132 @@ header {
 }
 
 .struct {
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
 
     .pose {
         display: flex;
+        width: 90%;
+        margin: auto;
         justify-content: space-between;
+
         .curve {
             width: 150px;
             margin-left: 150px;
         }
-        .star{
+
+        .star {
             position: absolute;
             right: 0;
-            top:40px;
+            top: 40px;
             width: 150px;
         }
-    
+
     }
 
-    .stut{
+    .stut {
         color: #e7332b;
         width: fit-content;
         margin: 20px auto;
         font-family: "Roboto";
         font-size: 24px;
     }
-    .prog{
+
+    .prog {
         margin: 0 auto 20px;
         width: fit-content;
         font-size: 40px;
         font-family: "Graphik Bold";
     }
-    .there{
+
+    .there {
         width: fit-content;
         margin: 0 auto 20px;
         color: #333333;
     }
 
-    .gbamu{
+    .gbamu {
         width: 90%;
         display: flex;
         justify-content: space-between;
+        margin: auto;
         height: fit-content;
-        .first{
+
+        .first {
             border-radius: 50px;
             width: 45%;
             background-color: #1b1a20;
             color: #e0ded7;
-            padding:50px;
+            padding: 50px;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            
-            .tit{
+
+            .tit {
                 font-size: 35px;
                 text-align: left;
                 font-family: "Graphik Bold";
             }
-            .require{
+
+            .require {
                 margin: 10px 0;
             }
-            .avail{
+
+            .avail {
                 @extend .require;
                 font-family: "Graphik Bold";
                 font-weight: 900;
                 font-size: 18px;
 
             }
-            ol{
+
+            ol {
                 margin-bottom: 30px;
                 margin-left: 15px;
                 list-style-type: disc;
                 line-height: 1.5;
-                ul{
-                list-style-type: none;
+
+                ul {
+                    list-style-type: none;
                 }
             }
-            .timer{
+
+            .timer {
                 position: absolute;
                 z-index: 1;
                 bottom: 30px;
                 right: 150px;
-                img{
+
+                img {
                     width: 100px;
                 }
             }
         }
-        .second{
+
+        .second {
             @extend .first;
             height: 100%;
             padding-bottom: 150px;
-            .timer{
-                right:120px;
+
+            .timer {
+                right: 120px;
                 bottom: 50px;
-                img{
+
+                img {
                     width: 150px;
                 }
             }
-            
-          
+
+
         }
+
+    }
+
+    .overlay-arrow {
+        position: absolute;
+        left: 0;
+        transform: translate(-25px,450%);
+        top: 0;
+
     }
 }
