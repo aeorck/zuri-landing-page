@@ -787,6 +787,7 @@ header {
   color: white;
   width: 100%;
   margin: auto;
+  padding: 40px 0;
 }
 .break-in .break p {
   width: -webkit-fit-content;
@@ -794,4 +795,12 @@ header {
   width: fit-content;
   margin: auto;
   font-size: 18px;
+}
+.break-in .break .into {
+  width: 50%;
+  margin: auto;
+  font-family: "Graphik Bold";
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=training.css.map */
