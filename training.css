@@ -696,7 +696,7 @@ header {
   color: #333333;
 }
 .struct .gbamu {
-  width: 90%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -709,7 +709,7 @@ header {
   width: 45%;
   background-color: #1b1a20;
   color: #e0ded7;
-  padding: 50px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -761,4 +761,14 @@ header {
   left: 0;
   transform: translate(-25px, 450%);
   top: 0;
+}
+.struct .overlay-dots {
+  position: absolute;
+  right: 50px;
+  bottom: -80px;
+  width: 200px;
+  z-index: -1;
+}
+.struct .overlay-dots img {
+  width: inherit;
 }/*# sourceMappingURL=training.css.map */
