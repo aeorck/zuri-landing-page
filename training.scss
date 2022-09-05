@@ -970,7 +970,7 @@ header {
         .second {
             @extend .first;
             height: 100%;
-            padding-bottom: 150px;
+            padding-bottom: 160px;
 
             .timer {
                 right: 120px;
@@ -1002,6 +1002,26 @@ header {
         z-index: -1;
         img{
             width: inherit;
+        }
+    }
+}
+.break-in{
+    width: 90%;
+    margin: 100px auto;
+    img{
+        width: 120px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    .break{
+        background-color: #e7332b;
+        color: white;
+        width: 100%;
+        margin: auto;
+        p{
+            width: fit-content;
+            margin: auto;
+            font-size: 18px;
         }
     }
 }

@@ -747,7 +747,7 @@ header {
 }
 .struct .gbamu .second {
   height: 100%;
-  padding-bottom: 150px;
+  padding-bottom: 160px;
 }
 .struct .gbamu .second .timer {
   right: 120px;
@@ -771,4 +771,27 @@ header {
 }
 .struct .overlay-dots img {
   width: inherit;
+}
+
+.break-in {
+  width: 90%;
+  margin: 100px auto;
+}
+.break-in img {
+  width: 120px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.break-in .break {
+  background-color: #e7332b;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.break-in .break p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  font-size: 18px;
 }/*# sourceMappingURL=training.css.map */
