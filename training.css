@@ -852,8 +852,6 @@ header {
 footer {
   width: 90%;
   margin: 40px auto;
-  display: flex;
-  flex-direction: column;
 }
 footer .top {
   display: flex;
@@ -863,4 +861,20 @@ footer .top .socials {
   width: 200px;
   display: flex;
   justify-content: space-between;
+}
+footer .top .socials img {
+  width: 40px;
+}
+footer .bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom .right {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom .right a {
+  color: #000;
 }/*# sourceMappingURL=training.css.map */

@@ -1083,8 +1083,6 @@ header {
 footer{
     width:90%;
     margin: 40px auto;
-    display: flex;
-    flex-direction: column;
     .top{
         display: flex;
         justify-content: space-between;
@@ -1092,6 +1090,22 @@ footer{
             width: 200px;
             display: flex;
             justify-content: space-between;
+            img{
+                width: 40px;
+            }
+        }
+    }
+    .bottom{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        .right{
+            width: 280px;
+            display: flex;
+            justify-content: space-between;
+            a{
+                color: #000;
+            }
         }
     }
 
