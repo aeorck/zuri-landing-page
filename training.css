@@ -788,6 +788,8 @@ header {
   width: 100%;
   margin: auto;
   padding: 40px 0;
+  border-radius: 30px;
+  height: 70vh;
 }
 .break-in .break p {
   width: -webkit-fit-content;
@@ -803,4 +805,45 @@ header {
   font-size: 55px;
   text-align: center;
   margin-bottom: 40px;
+}
+.break-in .break .enroll {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 12px 28px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px #333;
+}
+.break-in .break .enroll a {
+  color: #e7332b;
+  font-size: 18px;
+}
+.break-in .break .top-arch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+}
+.break-in .break .bottom-arch {
+  position: absolute;
+  bottom: -25px;
+  left: -15px;
+}
+.break-in .break .dots-bottom {
+  position: absolute;
+  bottom: -50px;
+  right: -20px;
+}
+.break-in .break .dots-bottom img {
+  width: 150px;
+}
+.break-in .break .curvy {
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+.break-in .break .curvy img {
+  width: 150px;
 }/*# sourceMappingURL=training.css.map */

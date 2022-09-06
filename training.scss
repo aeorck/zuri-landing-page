@@ -1019,6 +1019,8 @@ header {
         width: 100%;
         margin: auto;
         padding: 40px 0;
+        border-radius: 30px;
+        height: 70vh;
         p{
             width: fit-content;
             margin: auto;
@@ -1033,5 +1035,46 @@ header {
             margin-bottom: 40px;
 
         }
+        .enroll{
+            width: fit-content;
+            margin: auto;
+            padding:12px 28px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 1px 1px 2px  #333;
+           a{
+            color: #e7332b;
+            font-size: 18px;
+           }
+        }
+        .top-arch{
+            position: absolute;
+            top:0;
+            right: 0;
+            width: 200px;
+       }
+       .bottom-arch{
+           position: absolute;
+           bottom: -25px;
+           left: -15px;
+       }
+
+       .dots-bottom{
+           position: absolute;
+           bottom: -50px;
+           right: -20px;
+           img{
+            width: 150px;
+           }
+       }
+
+       .curvy{
+           position: absolute;
+           top: 80px;
+           left: 150px;
+           img{
+               width: 150px;
+           }
+       }
     }
 }
