@@ -1038,7 +1038,7 @@ header {
         }
         .enroll{
             width: fit-content;
-            margin: auto;
+            margin: 10px auto 0;
             padding:12px 28px;
             background-color: white;
             border-radius: 20px;
@@ -1078,4 +1078,10 @@ header {
            }
        }
     }
+}
+
+footer{
+    width:90%;
+    margin: 40px auto;
+    
 }

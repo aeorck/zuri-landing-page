@@ -811,7 +811,7 @@ header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: auto;
+  margin: 10px auto 0;
   padding: 12px 28px;
   background-color: white;
   border-radius: 20px;
@@ -847,4 +847,9 @@ header {
 }
 .break-in .break .curvy img {
   width: 150px;
+}
+
+footer {
+  width: 90%;
+  margin: 40px auto;
 }/*# sourceMappingURL=training.css.map */
