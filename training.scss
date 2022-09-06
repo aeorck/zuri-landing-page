@@ -1083,5 +1083,16 @@ header {
 footer{
     width:90%;
     margin: 40px auto;
-    
+    display: flex;
+    flex-direction: column;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        .socials{
+            width: 200px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
 }

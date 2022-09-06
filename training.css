@@ -852,4 +852,15 @@ header {
 footer {
   width: 90%;
   margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+footer .top {
+  display: flex;
+  justify-content: space-between;
+}
+footer .top .socials {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=training.css.map */
