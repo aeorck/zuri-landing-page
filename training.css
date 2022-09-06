@@ -796,6 +796,7 @@ header {
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
+  margin-bottom: 30px;
   font-size: 18px;
 }
 .break-in .break .into {
