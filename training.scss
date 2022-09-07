@@ -13,12 +13,6 @@
     src: url(./resources/Roboto-Regular.ttf);
 }
 
-@mixin fonter {
-    @font-face {
-        font-family: "Graphiko";
-        src: url(./resources/GraphikSemibold.otf);
-    }
-}
 
 * {
     margin: 0;
