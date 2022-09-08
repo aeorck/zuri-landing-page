@@ -1,1 +1,89 @@
-/*# sourceMappingURL=talent.css.map */
+@font-face {
+  font-family: "Graphik";
+  src: url(./resources/GraphikRegular.otf);
+}
+* {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Graphik";
+}
+
+body {
+  width: 100%;
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+header .top {
+  width: 85%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top nav {
+  width: 47%;
+  display: flex;
+  justify-content: space-between;
+}
+header .top nav a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #161617;
+  font-size: 16px;
+  padding: 10px;
+}
+header .top nav a:first-child {
+  border-bottom: 3px solid red;
+}
+header .top nav a:hover {
+  background-color: rgb(236, 236, 236);
+}
+header .top nav a:active {
+  border-bottom: 3px solid red;
+}
+header .top nav .hire {
+  background-color: #e7332b;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 40px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 0 0 15px 0;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+section .vetted {
+  display: flex;
+  width: 90%;
+  margin: 10% auto 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid saddlebrown;
+  height: 80%;
+  align-items: center;
+}
+section .vetted .right {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+section .vetted .right .top {
+  color: #161617;
+}
+section .vetted .right .top p span {
+  color: #e7332b;
+}/*# sourceMappingURL=talent.css.map */
