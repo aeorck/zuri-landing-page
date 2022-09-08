@@ -14,6 +14,10 @@
   font-family: "Graphik";
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   background-color: white;
@@ -117,5 +121,10 @@ section .vetted .right .bottom {
 section .vetted .right .bottom .hire {
   background-color: #e7332b;
   color: #fff;
-  width: 40%;
+  padding: 18px 9px;
+  text-align: center;
+}
+section .vetted .right .bottom .join {
+  padding: 18px 9px;
+  color: #fff;
 }/*# sourceMappingURL=talent.css.map */
