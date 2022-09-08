@@ -331,7 +331,7 @@ header .top nav .hire {
 
 footer {
   width: 100%;
-  padding: 40px 0;
+  padding: 50px 0 20px;
   background-color: #161617;
 }
 footer .cont {
@@ -348,4 +348,16 @@ footer .cont .social-icon {
 }
 footer .cont .social-icon img {
   width: 30px;
+}
+footer .div {
+  display: flex;
+  width: 90%;
+  margin: 50px auto 10px;
+  justify-content: space-between;
+}
+footer .div .copy {
+  color: #fff;
+}
+footer .div .email a {
+  color: #fff;
 }/*# sourceMappingURL=talent.css.map */
