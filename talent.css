@@ -75,6 +75,8 @@ section {
   height: 100vh;
 }
 section .vetted {
+  border: 1px solid blue;
+  z-index: 1;
   display: flex;
   width: 85%;
   margin: 15% auto 0;
@@ -130,4 +132,11 @@ section .vetted .right .bottom .join {
   color: #fff;
   background-color: #585858;
   border-radius: 0 0 10px 0;
+}
+section .vetted .left img {
+  width: 400px;
+}
+section img {
+  position: absolute;
+  right: 0;
 }/*# sourceMappingURL=talent.css.map */
