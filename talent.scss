@@ -192,7 +192,7 @@ header {
     .article{
         width: 85%;
         height: 80%;
-        margin: 40px auto;
+        margin: 100px auto 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -221,6 +221,7 @@ header {
 
             }
             .country{
+                margin-top: 15px ;
                 display: flex;
                 width: 420px;
                 justify-content: space-between;
@@ -236,5 +237,15 @@ header {
             }
         }
 
+        .left{
+            img{
+                width: 400px;
+            }
+        }
+
     }
+}
+
+#third{
+    
 }

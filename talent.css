@@ -155,7 +155,7 @@ header .top nav .hire {
 #second .article {
   width: 85%;
   height: 80%;
-  margin: 40px auto;
+  margin: 100px auto 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -185,6 +185,7 @@ header .top nav .hire {
   font-size: 19px;
 }
 #second .article .right .country {
+  margin-top: 15px;
   display: flex;
   width: 420px;
   justify-content: space-between;
@@ -196,4 +197,7 @@ header .top nav .hire {
 }
 #second .article .right .country .mage img {
   width: 40px;
+}
+#second .article .left img {
+  width: 400px;
 }/*# sourceMappingURL=talent.css.map */
