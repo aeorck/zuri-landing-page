@@ -252,6 +252,8 @@ header .top nav .hire {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
 }
 #fourth .inside {
   width: 85%;
@@ -288,6 +290,12 @@ header .top nav .hire {
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
+  color: #787878;
+  border-radius: 0 0 10px 0;
+}
+#fourth .inside .hire-why .in:hover {
+  background-color: #161617;
+  color: #ffffff;
 }
 #fourth .inside .hire-why .in img {
   margin-top: 30px;
@@ -300,5 +308,23 @@ header .top nav .hire {
   margin-bottom: 40px;
   text-align: center;
   font-size: 17px;
-  color: #787878;
+}
+#fourth .inside .hire-join {
+  width: 35%;
+  border: 1px solid #fefefe;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#fourth .inside .hire-join .hire {
+  background-color: #e7332b;
+  padding: 10px 40px;
+  color: #fefefe;
+  font-size: 18px;
+  border-radius: 0 0 9px 0;
+}
+#fourth .inside .hire-join .join {
+  background-color: #585858;
 }/*# sourceMappingURL=talent.css.map */
