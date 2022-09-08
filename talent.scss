@@ -84,7 +84,6 @@ section{
         margin: 15% auto 0;
         justify-content: space-between;
         flex-wrap: wrap;
-        border: 1px solid saddlebrown;
         height: 80%;
         align-items: center;
         .right{
@@ -122,18 +121,22 @@ section{
             }
             .bottom{
                 display: flex;
-                width: 75%;
+                width: 380px;
+                justify-content: space-between;
                 .hire{
                     background-color: #e7332b;
                     color: #fff;
-                    padding: 18px 9px;
+                    padding: 13px 35px;
                     text-align: center;
+                    border-radius: 0 0 10px 0;
                 
                 }
                 .join{
-                    padding: 18px 9px;
+                    padding: 13px 40px;
                     color: #fff;
-                    
+                    background-color: #585858;
+                    border-radius: 0 0 10px 0;
+
                 }
             }
         }
