@@ -21,6 +21,7 @@ a {
 body {
   width: 100%;
   background-color: white;
+  overflow-x: hidden;
 }
 
 header {
@@ -29,7 +30,7 @@ header {
   position: fixed;
   top: 0;
   background-color: white;
-  z-index: 1;
+  z-index: 2;
 }
 header .top {
   width: 85%;
@@ -70,12 +71,11 @@ header .top nav .hire {
   border-radius: 0 0 15px 0;
 }
 
-section {
+.first {
   width: 100%;
   height: 100vh;
 }
-section .vetted {
-  border: 1px solid blue;
+.first .vetted {
   z-index: 1;
   display: flex;
   width: 85%;
@@ -85,58 +85,96 @@ section .vetted {
   height: 80%;
   align-items: center;
 }
-section .vetted .right {
+.first .vetted .right {
   display: flex;
   flex-direction: column;
   height: 70%;
   font-family: "Graphik Bold";
   width: 50%;
 }
-section .vetted .right .top {
+.first .vetted .right .top {
   color: #161617;
   font-size: 40px;
   font-weight: bolder;
   width: 100%;
 }
-section .vetted .right .top p span {
+.first .vetted .right .top p span {
   color: #e7332b;
 }
-section .vetted .right .top .curl {
+.first .vetted .right .top .curl {
   position: absolute;
   right: 70px;
   bottom: -20px;
 }
-section .vetted .right .top .curl img {
+.first .vetted .right .top .curl img {
   width: 80px;
 }
-section .vetted .right .mid {
+.first .vetted .right .mid {
   margin: 30px 0;
   color: #787878;
   width: 75%;
   font-size: 19px;
 }
-section .vetted .right .bottom {
+.first .vetted .right .bottom {
   display: flex;
   width: 380px;
   justify-content: space-between;
 }
-section .vetted .right .bottom .hire {
+.first .vetted .right .bottom .hire {
   background-color: #e7332b;
   color: #fff;
   padding: 13px 35px;
   text-align: center;
   border-radius: 0 0 10px 0;
 }
-section .vetted .right .bottom .join {
+.first .vetted .right .bottom .join {
   padding: 13px 40px;
   color: #fff;
   background-color: #585858;
   border-radius: 0 0 10px 0;
 }
-section .vetted .left img {
+.first .vetted .left img {
   width: 400px;
 }
-section img {
+.first .vetted .img {
   position: absolute;
-  right: 0;
+  right: -100px;
+  width: 200px;
+  bottom: 150px;
+  z-index: -2;
+}
+
+.second {
+  border: 1px solid green;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./talent/zuriteambackgroudn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second .article {
+  width: 85%;
+  height: 80%;
+  border: 1px solid #ff23b2;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second .article .right {
+  width: 46%;
+}
+.second .article .right h1 {
+  width: 100%;
+  font-weight: 800;
+  font-size: 49px;
+  color: #161617;
+  font-family: "Times New Roman", Times, serif;
+}
+.second .article .right h1 span {
+  color: #e7332b;
+  font-family: inherit;
+}
+.second .article .right p {
+  font-size: 18px;
 }/*# sourceMappingURL=talent.css.map */
