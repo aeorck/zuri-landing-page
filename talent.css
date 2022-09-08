@@ -327,4 +327,25 @@ header .top nav .hire {
 }
 #fourth .inside .hire-join .join {
   background-color: #585858;
+}
+
+footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #161617;
+}
+footer .cont {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+footer .cont .social-icon {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .cont .social-icon img {
+  width: 30px;
 }/*# sourceMappingURL=talent.css.map */

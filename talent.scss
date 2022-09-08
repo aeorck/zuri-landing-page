@@ -396,3 +396,25 @@ header {
 
     }
 }
+
+footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #161617;
+   .cont{
+       width: 90%;
+       display: flex;
+       margin: auto;
+       justify-content: space-between;
+
+       .social-icon{
+           display: flex;
+           width: 180px;
+           justify-content: space-between;
+           align-items: center;
+           img{
+               width: 30px;
+           }
+       }
+   } 
+}
