@@ -226,13 +226,22 @@ header .top nav .hire {
 #third .skills .the-skills {
   margin-top: 30px;
   width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #third .skills .the-skills .skillets {
-  width: 22%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   background-color: white;
   padding: 15px 25px;
-  box-shadow: 1px 5px 20px #f0dddb;
+  box-shadow: 1px 5px 15px #f0dddb;
   color: #787878;
   font-size: 18px;
   border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+#third .skills .the-skills .skillets:hover {
+  transform: translateY(-15px);
 }/*# sourceMappingURL=talent.css.map */
