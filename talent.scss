@@ -290,3 +290,26 @@ header {
     }
 }
 }
+#fourth{
+    width: 100%;
+    background-color: #fff8e5;
+    height: 100vh;
+    .inside{
+        width: 85%;
+        margin: auto;
+        p{
+        
+            width: fit-content;
+            font-family: "Graphik Bold";
+            font-weight: 800;
+            font-size: 40px;
+            color: #161617;
+            margin: 30px auto;
+            margin-top: 50px;
+            span{
+                color: #e7332b;
+            }
+        }
+
+    }
+}

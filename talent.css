@@ -244,4 +244,28 @@ header .top nav .hire {
 }
 #third .skills .the-skills .skillets:hover {
   transform: translateY(-15px);
+}
+
+#fourth {
+  width: 100%;
+  background-color: #fff8e5;
+  height: 100vh;
+}
+#fourth .inside {
+  width: 85%;
+  margin: auto;
+}
+#fourth .inside p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Graphik Bold";
+  font-weight: 800;
+  font-size: 40px;
+  color: #161617;
+  margin: 30px auto;
+  margin-top: 50px;
+}
+#fourth .inside p span {
+  color: #e7332b;
 }/*# sourceMappingURL=talent.css.map */
