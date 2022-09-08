@@ -254,6 +254,7 @@ header .top nav .hire {
 #fourth .inside {
   width: 85%;
   margin: auto;
+  transform: translateY(50px);
 }
 #fourth .inside p {
   width: -webkit-fit-content;
@@ -268,4 +269,33 @@ header .top nav .hire {
 }
 #fourth .inside p span {
   color: #e7332b;
+}
+#fourth .inside .hire-why {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#fourth .inside .hire-why .in {
+  width: 370px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#fourth .inside .hire-why .in img {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 70px;
+}
+#fourth .inside .hire-why .in .p {
+  width: 80%;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: #787878;
 }/*# sourceMappingURL=talent.css.map */

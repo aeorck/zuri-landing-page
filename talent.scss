@@ -297,6 +297,7 @@ header {
     .inside{
         width: 85%;
         margin: auto;
+        transform: translateY(50px);
         p{
         
             width: fit-content;
@@ -308,6 +309,36 @@ header {
             margin-top: 50px;
             span{
                 color: #e7332b;
+            }
+        }
+        .hire-why{
+            width: 100% ;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            .in{
+                width: 370px;
+                height: 250px;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 10px;
+                img{
+                    margin-top: 30px;
+                    margin-bottom: 15px;
+                    width: 70px;
+                }
+                .p{
+                    width: 80%;
+                    margin: 20px auto;
+                    margin-bottom: 40px;
+                    text-align: center;
+                    font-size: 17px;
+              color: #787878;
+                }
+
             }
         }
 
