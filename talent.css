@@ -249,7 +249,9 @@ header .top nav .hire {
 #fourth {
   width: 100%;
   background-color: #fff8e5;
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 #fourth .inside {
   width: 85%;
@@ -273,7 +275,8 @@ header .top nav .hire {
 #fourth .inside .hire-why {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 15px;
   align-items: center;
   flex-wrap: wrap;
 }

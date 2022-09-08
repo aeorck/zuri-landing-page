@@ -293,7 +293,7 @@ header {
 #fourth{
     width: 100%;
     background-color: #fff8e5;
-    height: 100vh;
+    height: fit-content;
     .inside{
         width: 85%;
         margin: auto;
@@ -314,7 +314,8 @@ header {
         .hire-why{
             width: 100% ;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            gap: 15px;
             align-items: center;
             flex-wrap: wrap;
             .in{
