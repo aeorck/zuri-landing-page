@@ -2,6 +2,10 @@
   font-family: "Graphik";
   src: url(./resources/GraphikRegular.otf);
 }
+@font-face {
+  font-family: "Graphik Bold";
+  src: url(./resources/GraphikBold.otf);
+}
 * {
   box-sizing: border-box;
   position: relative;
@@ -68,8 +72,8 @@ section {
 }
 section .vetted {
   display: flex;
-  width: 90%;
-  margin: 10% auto 0;
+  width: 85%;
+  margin: 15% auto 0;
   justify-content: space-between;
   flex-wrap: wrap;
   border: 1px solid saddlebrown;
@@ -80,10 +84,38 @@ section .vetted .right {
   display: flex;
   flex-direction: column;
   height: 70%;
+  font-family: "Graphik Bold";
+  width: 50%;
 }
 section .vetted .right .top {
   color: #161617;
+  font-size: 40px;
+  font-weight: bolder;
+  width: 100%;
 }
 section .vetted .right .top p span {
   color: #e7332b;
+}
+section .vetted .right .top .curl {
+  position: absolute;
+  right: 70px;
+  bottom: -20px;
+}
+section .vetted .right .top .curl img {
+  width: 80px;
+}
+section .vetted .right .mid {
+  margin: 30px 0;
+  color: #787878;
+  width: 75%;
+  font-size: 19px;
+}
+section .vetted .right .bottom {
+  display: flex;
+  width: 75%;
+}
+section .vetted .right .bottom .hire {
+  background-color: #e7332b;
+  color: #fff;
+  width: 40%;
 }/*# sourceMappingURL=talent.css.map */
