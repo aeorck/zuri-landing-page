@@ -166,14 +166,15 @@ header .top nav .hire {
 #second .article .right h1 {
   width: 100%;
   font-weight: 800;
-  font-size: 49px;
+  font-size: 40px;
   color: #161617;
-  font-family: "Times New Roman", Times, serif;
 }
 #second .article .right h1 span {
   color: #e7332b;
   font-family: inherit;
 }
-#second .article .right p {
-  font-size: 18px;
+#second .article .right h2 {
+  margin-top: 30px;
+  font-size: 19px;
+  color: #161617;
 }/*# sourceMappingURL=talent.css.map */
