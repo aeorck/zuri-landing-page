@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "Graphik Bold";
-  src: url(./resources/GraphikBold.otf);
+  src: url(./resources/GraphikMedium.otf);
 }
 * {
   box-sizing: border-box;
@@ -168,6 +168,7 @@ header .top nav .hire {
 #second .article .right h1 {
   width: 100%;
   font-weight: 800;
+  font-family: "Graphik Bold";
   font-size: 40px;
   color: #161617;
 }
@@ -200,4 +201,38 @@ header .top nav .hire {
 }
 #second .article .left img {
   width: 400px;
+}
+
+#third {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+#third .skills {
+  width: 85%;
+  margin: 40px auto;
+}
+#third .skills .skills-need {
+  width: 45%;
+  font-family: "Graphik Bold";
+  color: #161617;
+  font-size: 40px;
+  font-weight: 800;
+}
+#third .skills .skills-need span {
+  font-weight: 800;
+  color: #e7332b;
+}
+#third .skills .the-skills {
+  margin-top: 30px;
+  width: 80%;
+}
+#third .skills .the-skills .skillets {
+  width: 22%;
+  background-color: white;
+  padding: 15px 25px;
+  box-shadow: 1px 5px 20px #f0dddb;
+  color: #787878;
+  font-size: 18px;
+  border-radius: 10px;
 }/*# sourceMappingURL=talent.css.map */
