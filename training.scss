@@ -476,7 +476,6 @@ header {
 
             .prip {
                 width: 105%;
-                border: 1px solid green;
                 display: flex;
                 flex-wrap: wrap;
                 margin-top: 50px;
@@ -485,14 +484,16 @@ header {
                 gap: 5px;
 
                 .global {
-                    width: 40%;
+                    width: 45%;
                     display: flex;
                     border: #ffffff solid 2px;
                     border-radius: 79px;
                     flex-direction: row-reverse;
                     align-items: center;
-                    justify-content: left;
+                    justify-content: center;
                     padding: 12px 15px;
+                    margin-bottom: 10px;
+                    margin-top: 5px;
 
                     &:hover {
                         cursor: no-drop;
@@ -513,13 +514,13 @@ header {
 
                 .team {
                     @extend .global;
-                    margin-bottom: 20px;
+                  
 
                 }
 
                 .mentorship {
                     @extend .global;
-                    margin-bottom: 20px;
+                    
                 }
 
                 .practice {
@@ -1222,10 +1223,10 @@ footer {
             }
             .prip{
                 width: 100%;
-                border: 2px solid green;
+                justify-content: space-between;
         
                 .global{
-                   
+                   width: fit-content;
                 }
             }
             
