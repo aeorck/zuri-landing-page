@@ -912,4 +912,20 @@ footer .bottom .right a {
   .first .boy, .struct .gbamu .second .boy {
     display: none;
   }
+  #about .about .ing {
+    font-size: 20px;
+  }
+  #about .about .help {
+    font-size: 18px;
+  }
+  #why-us .why-us .why p {
+    font-size: 20px;
+  }
+  #why-us .why-us .why .cont {
+    width: 100%;
+  }
+  #why-us .why-us .why .cont .text {
+    width: 100%;
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=training.css.map */

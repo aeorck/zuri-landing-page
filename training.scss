@@ -61,7 +61,7 @@ header {
         align-items: center;
         justify-content: space-evenly;
         width: 55%;
-        
+
 
         a {
             font-size: 18px;
@@ -994,20 +994,24 @@ header {
         bottom: -80px;
         width: 200px;
         z-index: -1;
-        img{
+
+        img {
             width: inherit;
         }
     }
 }
-.break-in{
+
+.break-in {
     width: 90%;
     margin: 100px auto;
-    img{
+
+    img {
         width: 120px;
         margin-left: 30px;
         margin-bottom: 50px;
     }
-    .break{
+
+    .break {
         background-color: #e7332b;
         color: white;
         width: 100%;
@@ -1015,13 +1019,15 @@ header {
         padding: 40px 0;
         border-radius: 30px;
         height: 70vh;
-        p{
+
+        p {
             width: fit-content;
             margin: auto;
             margin-bottom: 30px;
             font-size: 18px;
         }
-        .into{
+
+        .into {
             width: 50%;
             margin: auto;
             font-family: "Graphik Bold";
@@ -1030,74 +1036,86 @@ header {
             margin-bottom: 40px;
 
         }
-        .enroll{
+
+        .enroll {
             width: fit-content;
             margin: 10px auto 0;
-            padding:12px 28px;
+            padding: 12px 28px;
             background-color: white;
             border-radius: 20px;
-            box-shadow: 1px 1px 2px  #333;
-           a{
-            color: #e7332b;
-            font-size: 18px;
-           }
+            box-shadow: 1px 1px 2px #333;
+
+            a {
+                color: #e7332b;
+                font-size: 18px;
+            }
         }
-        .top-arch{
+
+        .top-arch {
             position: absolute;
-            top:0;
+            top: 0;
             right: 0;
             width: 200px;
-       }
-       .bottom-arch{
-           position: absolute;
-           bottom: -25px;
-           left: -15px;
-       }
+        }
 
-       .dots-bottom{
-           position: absolute;
-           bottom: -50px;
-           right: -20px;
-           img{
-            width: 150px;
-           }
-       }
+        .bottom-arch {
+            position: absolute;
+            bottom: -25px;
+            left: -15px;
+        }
 
-       .curvy{
-           position: absolute;
-           top: 80px;
-           left: 150px;
-           img{
-               width: 150px;
-           }
-       }
+        .dots-bottom {
+            position: absolute;
+            bottom: -50px;
+            right: -20px;
+
+            img {
+                width: 150px;
+            }
+        }
+
+        .curvy {
+            position: absolute;
+            top: 80px;
+            left: 150px;
+
+            img {
+                width: 150px;
+            }
+        }
     }
 }
 
-footer{
-    width:90%;
+footer {
+    width: 90%;
     margin: 40px auto;
-    .top{
+
+    .top {
         display: flex;
         justify-content: space-between;
-        .socials{
+
+        .socials {
             width: 200px;
             display: flex;
             justify-content: space-between;
-            img{
+
+            img {
                 width: 40px;
             }
         }
     }
-    .bottom{
+
+    .bottom {
         margin-top: 40px;
         display: flex;
         justify-content: space-between;
-        .right{
+
+        .right {
             width: 280px;
             display: flex;
             justify-content: space-between;
-            a{
+
+            a {
                 color: #000;
             }
         }
@@ -1105,41 +1123,75 @@ footer{
 
 }
 
-@media (max-width:1050px){
-   .inhead{
-       .bout{
-           width: 70%;
-       }
-   } 
-   .first{
-       flex-direction: column;
-       justify-content: center;
-
-       img{
-           width: 600px;
-           &:first-child{
-               margin-right: 0;
-           }
-       }
-       .content{
-           width: 90%;
-           .line{
-               float: right;
-            margin-left: 65%;
-            width: 300px;
+@media (max-width:1050px) {
+    .inhead {
+        .bout {
+            width: 70%;
         }
-           .gain{
-               width: 100%;
-           }
-          .image-enroll{
-              .wire{
-                 margin-right: 40px;
-                 margin-top: 30px;
-              }
-          }
-       }
-       .boy{
-           display: none;
-       }
-   }
+    }
+
+    .first {
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+            width: 600px;
+
+            &:first-child {
+                margin-right: 0;
+            }
+        }
+
+        .content {
+            width: 90%;
+
+            .line {
+                float: right;
+                margin-left: 65%;
+                width: 300px;
+            }
+
+            .gain {
+                width: 100%;
+            }
+
+            .image-enroll {
+                .wire {
+                    margin-right: 40px;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        .boy {
+            display: none;
+        }
+    }
+
+    #about{
+        .about{
+            .ing{
+                font-size: 20px;
+            }
+            .help{
+                font-size: 18px;
+            }
+        }
+    }
+
+    #why-us{
+        .why-us{
+            .why{
+                p{
+                    font-size: 20px;
+                }
+                .cont{width: 100%;
+                    .text{
+                        width: 100%;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
