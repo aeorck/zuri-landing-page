@@ -30,14 +30,14 @@ body {
 header {
   width: 100%;
   background-color: white;
-}
-
-.inhead {
   z-index: 1;
   position: fixed;
   top: -3%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.inhead {
   min-height: 64px;
   padding: 10px 0 2px 0;
   width: 90%;
@@ -275,8 +275,9 @@ header {
   padding: 58px 48px 93px 50px !important;
   transition: transform 0.3s ease !important;
   line-height: 1.2;
-  width: 32%;
+  width: 450px;
   color: #1b1a20;
+  margin-top: 20px;
 }
 .how-we-do .for-all:hover, .how-we-do .box4:hover, .how-we-do .box6:hover, .how-we-do .box5:hover, .how-we-do .box3:hover, .how-we-do .box2:hover, .how-we-do .box1:hover {
   transform: translateY(-15px);
@@ -292,7 +293,7 @@ header {
   margin-bottom: 25px;
 }
 .how-we-do .for-all .bottom, .how-we-do .box4 .bottom, .how-we-do .box6 .bottom, .how-we-do .box5 .bottom, .how-we-do .box3 .bottom, .how-we-do .box2 .bottom, .how-we-do .box1 .bottom {
-  width: 95%;
+  width: 100%;
   font-size: 18px;
 }
 .how-we-do .for-all .arch, .how-we-do .box4 .arch, .how-we-do .box6 .arch, .how-we-do .box5 .arch, .how-we-do .box3 .arch, .how-we-do .box2 .arch, .how-we-do .box1 .arch {
@@ -307,9 +308,6 @@ header {
 }
 .how-we-do .box2 {
   background-color: white;
-}
-.how-we-do .box4, .how-we-do .box6, .how-we-do .box5 {
-  margin-top: 30px;
 }
 .will-help {
   margin-top: 30px;

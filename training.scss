@@ -35,14 +35,17 @@ body {
 header {
     width: 100%;
     background-color: white;
-}
-
-.inhead {
     z-index: 1;
     position: fixed;
     top: -3%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.inhead {
+   
+   
+    
     min-height: 64px;
     padding: 10px 0 2px 0;
     width: 90%;
@@ -319,8 +322,9 @@ header {
         padding: 58px 48px 93px 50px !important;
         transition: transform .3s ease !important;
         line-height: 1.2;
-        width: 32%;
+        width: 450px;
         color: #1b1a20;
+        margin-top: 20px;
 
 
         &:hover {
@@ -340,7 +344,7 @@ header {
         }
 
         .bottom {
-            width: 95%;
+            width: 100%;
             font-size: 18px;
         }
 
@@ -372,7 +376,7 @@ header {
 
     .box4 {
         @extend .for-all;
-        margin-top: 30px;
+        
     }
 
     .box5 {
@@ -1192,6 +1196,12 @@ footer {
                     }
                 }
             }
+        }
+    }
+
+    .how-we-do{
+        .for-all{
+           
         }
     }
 }
