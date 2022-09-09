@@ -252,9 +252,9 @@ header {
     .why-us {
         margin-top: 50px;
 
-        img {
+        .curly {
             margin-left: 25%;
-            width: 10%;
+            width: 150px;
 
         }
 
@@ -1330,6 +1330,7 @@ footer {
 
         .break {
             height: 30vh;
+            padding-bottom: 200px;
             .into {
                 font-size: 46px;
             }
@@ -1368,6 +1369,14 @@ footer {
 }
     
 }
+@media (max-width:950px) {
+    .break-in{
+        .break{
+            height: 40vh;
+        }
+    }
+}
+
 @media (max-width:899px) {
 
     .scope{
@@ -1431,4 +1440,65 @@ footer {
             }
         }
     }
+    .break-in{
+        .break{
+            height: 40vh;
+        }
+    }
+}
+@media (max-width:700px) {
+    .inhead{
+        
+            .logo{
+                width: 200px;
+            }
+        
+
+    }
+    .first{
+        .content{
+            .line{
+                width: 140px;
+            }
+        }
+    }
+
+    #why-us{
+        .why-us{
+            .curly{
+                margin-left: 300px;
+                margin-bottom: 30px;
+                width: 90px;
+            }
+            .why{
+                .cont{
+                    .text{
+                        font-size: 24px;
+                    }
+                    .img{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .will-help{
+        .inside{
+            .writes{
+                .wire{
+                    width: 120px;
+                }
+                .prip{
+                    .global{
+                        justify-content: flex-end;
+                       p{
+                           font-size: 13px;
+                       }
+                    }
+                }
+            }
+        }
+    }
+
 }

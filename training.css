@@ -220,9 +220,9 @@ header {
 #why-us .why-us {
   margin-top: 50px;
 }
-#why-us .why-us img {
+#why-us .why-us .curly {
   margin-left: 25%;
-  width: 10%;
+  width: 150px;
 }
 #why-us .why-us .why {
   display: inline-block;
@@ -1007,6 +1007,7 @@ footer .bottom .right a {
   }
   .break-in .break {
     height: 30vh;
+    padding-bottom: 200px;
   }
   .break-in .break .into {
     font-size: 46px;
@@ -1033,6 +1034,11 @@ footer .bottom .right a {
   }
   .enc {
     display: none;
+  }
+}
+@media (max-width: 950px) {
+  .break-in .break {
+    height: 40vh;
   }
 }
 @media (max-width: 899px) {
@@ -1068,5 +1074,36 @@ footer .bottom .right a {
   }
   .struct .gbamu .first, .struct .gbamu .second {
     width: 100%;
+  }
+  .break-in .break {
+    height: 40vh;
+  }
+}
+@media (max-width: 700px) {
+  .inhead .logo {
+    width: 200px;
+  }
+  .first .content .line, .struct .gbamu .second .content .line {
+    width: 140px;
+  }
+  #why-us .why-us .curly {
+    margin-left: 300px;
+    margin-bottom: 30px;
+    width: 90px;
+  }
+  #why-us .why-us .why .cont .text {
+    font-size: 24px;
+  }
+  #why-us .why-us .why .cont .img {
+    display: none;
+  }
+  .will-help .inside .writes .wire {
+    width: 120px;
+  }
+  .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .fungames {
+    justify-content: flex-end;
+  }
+  .will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .team p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .fungames p {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=training.css.map */
