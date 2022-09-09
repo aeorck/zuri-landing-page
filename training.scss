@@ -912,7 +912,7 @@ header {
     }
 
     .gbamu {
-        width: 85%;
+        width: 90%;
         display: flex;
         justify-content: space-between;
         margin: auto;
@@ -960,8 +960,8 @@ header {
             .timer {
                 position: absolute;
                 z-index: 1;
-                bottom: 30px;
-                right: 150px;
+                bottom: 2%;
+                right: 25%;
 
                 img {
                     width: 100px;
@@ -975,8 +975,8 @@ header {
             padding-bottom: 160px;
 
             .timer {
-                right: 120px;
-                bottom: 50px;
+                right: 20%;
+                bottom: 2%;
 
                 img {
                     width: 150px;
@@ -1279,6 +1279,46 @@ footer {
         }
     }
     #faq{
+        img{
+            width: 100px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .freq{
+            font-size: 30px;
+        }
+    }
+    .struct{
+        .overlay-arrow{
+            display: none;
+        }
+        .stut{
+            font-size: 20px;
+        }
+        .prog{
+            font-size: 30px;
+        }
+        .gbamu{
+            .first{
+                .timer{
+                    right: 8%;
+                    img{
+                        width: 80px;
+                    }
+                }
+            }
+            .second{
+                .timer{
+                    img{
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+    .break-in{
         
     }
 }
