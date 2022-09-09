@@ -1111,4 +1111,35 @@ footer{
            width: 70%;
        }
    } 
+   .first{
+       flex-direction: column;
+       justify-content: center;
+
+       img{
+           width: 600px;
+           &:first-child{
+               margin-right: 0;
+           }
+       }
+       .content{
+           width: 90%;
+           .line{
+               float: right;
+            margin-left: 65%;
+            width: 300px;
+        }
+           .gain{
+               width: 100%;
+           }
+          .image-enroll{
+              .wire{
+                 margin-right: 40px;
+                 margin-top: 30px;
+              }
+          }
+       }
+       .boy{
+           display: none;
+       }
+   }
 }

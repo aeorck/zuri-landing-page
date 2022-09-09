@@ -884,4 +884,32 @@ footer .bottom .right a {
   .inhead .bout {
     width: 70%;
   }
+  .first, .struct .gbamu .second {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .first img, .struct .gbamu .second img {
+    width: 600px;
+  }
+  .first img:first-child, .struct .gbamu .second img:first-child {
+    margin-right: 0;
+  }
+  .first .content, .struct .gbamu .second .content {
+    width: 90%;
+  }
+  .first .content .line, .struct .gbamu .second .content .line {
+    float: right;
+    margin-left: 65%;
+    width: 300px;
+  }
+  .first .content .gain, .struct .gbamu .second .content .gain {
+    width: 100%;
+  }
+  .first .content .image-enroll .wire, .struct .gbamu .second .content .image-enroll .wire {
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+  .first .boy, .struct .gbamu .second .boy {
+    display: none;
+  }
 }/*# sourceMappingURL=training.css.map */
