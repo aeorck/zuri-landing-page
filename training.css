@@ -67,7 +67,6 @@ header {
   width: fit-content;
 }
 .inhead .bout .enroll {
-  justify-self: flex-end;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -885,7 +884,7 @@ footer .bottom .right a {
     justify-content: center;
   }
   .first img, .struct .gbamu .second img {
-    width: 600px;
+    width: 80%;
   }
   .first img:first-child, .struct .gbamu .second img:first-child {
     margin-right: 0;
@@ -1002,5 +1001,43 @@ footer .bottom .right a {
   }
   .struct .gbamu .second .timer img {
     width: 100px;
+  }
+  .break-in img {
+    width: 100px;
+  }
+  .break-in .break .into {
+    font-size: 46px;
+  }
+  .break-in .break .top-arch {
+    width: 120px;
+  }
+  .break-in .break .curvy {
+    left: 100px;
+  }
+  .break-in .break .curvy img {
+    width: 110px;
+  }
+  .how-we-do .for-all, .how-we-do .box1, .how-we-do .box2, .how-we-do .box3, .how-we-do .box4, .how-we-do .box5, .how-we-do .box6 {
+    width: 48%;
+  }
+}
+@media (max-width: 1000px) {
+  .inhead .bout {
+    justify-content: flex-end;
+  }
+  .enroll .pug {
+    margin-left: 0;
+  }
+  .enc {
+    display: none;
+  }
+}
+@media (max-width: 899px) {
+  .scope #stacks-covered .course .courses, .scope #stacks-covered .course .front-end, .scope #stacks-covered .course .back-end, .scope #stacks-covered .course .product-design, .scope #stacks-covered .course .devs-ops, .scope #stacks-covered .course .full-stack, .scope #stacks-covered .course .frame-works {
+    padding: 80px 0;
+    width: 100%;
+  }
+  .how-we-do .for-all, .how-we-do .box1, .how-we-do .box2, .how-we-do .box3, .how-we-do .box4, .how-we-do .box5, .how-we-do .box6 {
+    width: 100%;
   }
 }/*# sourceMappingURL=training.css.map */

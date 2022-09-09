@@ -43,9 +43,6 @@ header {
 }
 
 .inhead {
-
-
-
     min-height: 64px;
     padding: 10px 0 2px 0;
     width: 90%;
@@ -78,7 +75,6 @@ header {
         }
 
         .enroll {
-            justify-self: flex-end;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -1143,7 +1139,7 @@ footer {
         justify-content: center;
 
         img {
-            width: 600px;
+            width:80%;
 
             &:first-child {
                 margin-right: 0;
@@ -1278,39 +1274,48 @@ footer {
             }
         }
     }
-    #faq{
-        img{
+
+    #faq {
+        img {
             width: 100px;
         }
-        p{
+
+        p {
             font-size: 20px;
         }
-        .freq{
+
+        .freq {
             font-size: 30px;
         }
     }
-    .struct{
-        .overlay-arrow{
+
+    .struct {
+        .overlay-arrow {
             display: none;
         }
-        .stut{
+
+        .stut {
             font-size: 20px;
         }
-        .prog{
+
+        .prog {
             font-size: 30px;
         }
-        .gbamu{
-            .first{
-                .timer{
+
+        .gbamu {
+            .first {
+                .timer {
                     right: 8%;
-                    img{
+
+                    img {
                         width: 80px;
                     }
                 }
             }
-            .second{
-                .timer{
-                    img{
+
+            .second {
+                .timer {
+                    img {
                         width: 100px;
                     }
                 }
@@ -1318,7 +1323,66 @@ footer {
         }
     }
 
-    .break-in{
-        
+    .break-in {
+        img {
+            width: 100px;
+        }
+
+        .break {
+            .into {
+                font-size: 46px;
+            }
+
+            .top-arch {
+                width: 120px;
+            }
+            .curvy{
+                left:100px;
+                img{
+                    width: 110px;
+                }
+            }
+        }
     }
+
+    .how-we-do{
+        .for-all{
+            width: 48%;
+        }
+    }
+}
+@media (max-width:1000px) {
+    .inhead{
+        .bout{
+            justify-content: flex-end;
+        }
+    }
+    .enroll{
+        .pug{
+            margin-left: 0;
+        }
+    }
+.enc{
+    display: none;
+}
+    
+}
+@media (max-width:899px) {
+
+    .scope{
+        #stacks-covered{
+            .course{
+                .courses{
+                    padding: 80px 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .how-we-do{
+        .for-all{
+            width: 100%;
+        }
+    }
+    
 }
