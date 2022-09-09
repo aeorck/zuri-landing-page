@@ -43,9 +43,9 @@ header {
 }
 
 .inhead {
-   
-   
-    
+
+
+
     min-height: 64px;
     padding: 10px 0 2px 0;
     width: 90%;
@@ -376,7 +376,7 @@ header {
 
     .box4 {
         @extend .for-all;
-        
+
     }
 
     .box5 {
@@ -514,13 +514,13 @@ header {
 
                 .team {
                     @extend .global;
-                  
+
 
                 }
 
                 .mentorship {
                     @extend .global;
-                    
+
                 }
 
                 .practice {
@@ -565,6 +565,7 @@ header {
         .list {
             width: 40%;
             margin-top: 20px;
+            color: #1b1a20;
             font-size: 40px;
             font-family: "Graphik Bold";
 
@@ -1175,25 +1176,29 @@ footer {
         }
     }
 
-    #about{
-        .about{
-            .ing{
+    #about {
+        .about {
+            .ing {
                 font-size: 20px;
             }
-            .help{
+
+            .help {
                 font-size: 18px;
             }
         }
     }
 
-    #why-us{
-        .why-us{
-            .why{
-                p{
+    #why-us {
+        .why-us {
+            .why {
+                p {
                     font-size: 20px;
                 }
-                .cont{width: 100%;
-                    .text{
+
+                .cont {
+                    width: 100%;
+
+                    .text {
                         width: 100%;
                         font-size: 30px;
                     }
@@ -1202,35 +1207,78 @@ footer {
         }
     }
 
-.will-help{
-    flex-direction: column;
-    .inside{
+    .will-help {
         flex-direction: column;
-        align-items: center;
-        .writes{
-            width: 100%;
-            .wire{
-                width: 200px;
-                margin-left: 70%;
-            }
-            .quality{
-                margin-top: 10px;
-                font-size: 30px;
-            }
-            .give{
-                width: 98%;
-                line-height: 1.4;
-            }
-            .prip{
+
+        .inside {
+            flex-direction: column;
+            align-items: center;
+
+            .writes {
                 width: 100%;
-                justify-content: space-between;
-        
-                .global{
-                   width: fit-content;
+
+                .wire {
+                    width: 200px;
+                    margin-left: 70%;
+                }
+
+                .quality {
+                    margin-top: 10px;
+                    font-size: 30px;
+                }
+
+                .give {
+                    width: 98%;
+                    line-height: 1.4;
+                }
+
+                .prip {
+                    width: 100%;
+                    justify-content: space-between;
+
+                    .global {
+                        width: fit-content;
+                    }
                 }
             }
-            
+
+            .girl {
+                width: 90%;
+
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
-}
+
+    .scope {
+
+        #stacks-covered {
+            .prog {
+                font-size: 20px;
+
+            }
+
+            .list {
+                width: 100%;
+                font-size: 30px;
+            }
+
+            .wire {
+                width: 150px;
+            }
+
+            .course {
+                .courses {
+                    width: 45%;
+                    padding: 20px;
+                    color: #1b1a20;
+                }
+            }
+        }
+    }
+    #faq{
+        
+    }
 }

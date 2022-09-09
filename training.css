@@ -442,6 +442,7 @@ header {
 .scope #stacks-covered .list {
   width: 40%;
   margin-top: 20px;
+  color: #1b1a20;
   font-size: 40px;
   font-family: "Graphik Bold";
 }
@@ -953,5 +954,26 @@ footer .bottom .right a {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+  }
+  .will-help .inside .girl {
+    width: 90%;
+  }
+  .will-help .inside .girl img {
+    width: 100%;
+  }
+  .scope #stacks-covered .prog {
+    font-size: 20px;
+  }
+  .scope #stacks-covered .list {
+    width: 100%;
+    font-size: 30px;
+  }
+  .scope #stacks-covered .wire {
+    width: 150px;
+  }
+  .scope #stacks-covered .course .courses, .scope #stacks-covered .course .front-end, .scope #stacks-covered .course .back-end, .scope #stacks-covered .course .product-design, .scope #stacks-covered .course .devs-ops, .scope #stacks-covered .course .full-stack, .scope #stacks-covered .course .frame-works {
+    width: 45%;
+    padding: 20px;
+    color: #1b1a20;
   }
 }/*# sourceMappingURL=training.css.map */
