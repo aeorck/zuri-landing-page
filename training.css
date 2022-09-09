@@ -785,7 +785,7 @@ header {
   margin: auto;
   padding: 40px 0;
   border-radius: 30px;
-  height: 70vh;
+  height: 50vh;
 }
 .break-in .break p {
   width: -webkit-fit-content;
@@ -1005,6 +1005,9 @@ footer .bottom .right a {
   .break-in img {
     width: 100px;
   }
+  .break-in .break {
+    height: 30vh;
+  }
   .break-in .break .into {
     font-size: 46px;
   }
@@ -1038,6 +1041,32 @@ footer .bottom .right a {
     width: 100%;
   }
   .how-we-do .for-all, .how-we-do .box1, .how-we-do .box2, .how-we-do .box3, .how-we-do .box4, .how-we-do .box5, .how-we-do .box6 {
+    width: 100%;
+  }
+  #about .about {
+    flex-direction: column;
+  }
+  #about .about .ing {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+  #about .about .help {
+    width: 100%;
+  }
+  #why-us .why-us .why .cont {
+    flex-direction: column;
+  }
+  #why-us .why-us .why .cont .img {
+    justify-self: flex-end;
+  }
+  .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .fungames {
+    width: 45%;
+  }
+  .struct .gbamu {
+    flex-direction: column;
+  }
+  .struct .gbamu .first, .struct .gbamu .second {
     width: 100%;
   }
 }/*# sourceMappingURL=training.css.map */

@@ -1022,7 +1022,7 @@ header {
         margin: auto;
         padding: 40px 0;
         border-radius: 30px;
-        height: 70vh;
+        height: 50vh;
 
         p {
             width: fit-content;
@@ -1329,6 +1329,7 @@ footer {
         }
 
         .break {
+            height: 30vh;
             .into {
                 font-size: 46px;
             }
@@ -1384,5 +1385,50 @@ footer {
             width: 100%;
         }
     }
-    
+    #about{
+        .about{
+            flex-direction: column;
+            .ing{
+                width: 100%;
+                font-size: 24px;
+                text-align: center;
+            }
+            .help{
+                width: 100%;
+            }
+        }
+    }
+    #why-us{
+        .why-us{
+            .why{
+                .cont{
+                    flex-direction: column;
+                    .img{
+                        justify-self: flex-end;
+                    }
+                }
+            }
+        }
+    }
+
+    .will-help{
+        .inside{
+            .writes{
+                .prip{
+                    .global{
+                        width: 45%;
+                    }
+                }
+            }
+        }
+    }
+
+    .struct{
+        .gbamu{
+            flex-direction: column;
+            .first{
+                width: 100%;
+            }
+        }
+    }
 }
