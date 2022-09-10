@@ -1500,5 +1500,29 @@ footer {
             }
         }
     }
+    #faq{
+        img{
+            margin-bottom: -20px;
+            margin-left: 100px;
+        }
+
+        .nest{
+            .accordion{
+                font-size: 16px;
+            }
+        }
+    }
+    .bloo{
+        .further{
+            flex-direction: column;
+            p{
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+}
+
+@media(max-width:414px){
 
 }

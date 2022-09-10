@@ -1106,4 +1106,17 @@ footer .bottom .right a {
   .will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .team p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .fungames p {
     font-size: 13px;
   }
+  #faq img {
+    margin-bottom: -20px;
+    margin-left: 100px;
+  }
+  #faq .nest .accordion {
+    font-size: 16px;
+  }
+  .bloo .further {
+    flex-direction: column;
+  }
+  .bloo .further p {
+    margin-bottom: 30px;
+  }
 }/*# sourceMappingURL=training.css.map */
