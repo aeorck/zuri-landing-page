@@ -75,7 +75,7 @@ header {
   width: fit-content;
 }
 .inhead .bout .enroll .shaft img {
-  width: 75px !important;
+  width: 75px;
   border: 10px solid #e7332b;
   border-radius: 100px !important;
   margin-right: -20px;
@@ -1118,5 +1118,57 @@ footer .bottom .right a {
   }
   .bloo .further p {
     margin-bottom: 30px;
+  }
+}
+@media (max-width: 428px) {
+  .inhead .logo {
+    width: 150px;
+  }
+  .inhead .bout {
+    display: block;
+  }
+  .first .content .gain, .struct .gbamu .second .content .gain {
+    font-size: 26px;
+  }
+  .first .content .image-enroll, .struct .gbamu .second .content .image-enroll {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    justify-content: center;
+    gap: 50px;
+  }
+  .first .content .image-enroll img, .struct .gbamu .second .content .image-enroll img {
+    align-self: center;
+  }
+  .break-in .break .into {
+    font-size: 26px;
+  }
+  footer .top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  footer .bottom .right {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 414px) {
+  .inhead .logo {
+    width: 130px;
+  }
+  .inhead .bout {
+    display: block;
+  }
+  .inhead .bout .enroll .shaft img {
+    width: 60px;
+  }
+  .inhead .bout .enroll .shaft .pug {
+    padding: 0;
   }
 }/*# sourceMappingURL=training.css.map */
