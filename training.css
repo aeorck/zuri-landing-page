@@ -1166,6 +1166,9 @@ footer .bottom .right a {
     width: 100px;
     margin-bottom: 0;
   }
+  .struct .there {
+    text-align: center;
+  }
   footer .top {
     flex-direction: column;
     justify-content: center;
