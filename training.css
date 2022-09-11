@@ -1120,12 +1120,17 @@ footer .bottom .right a {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 468px) {
   .inhead .logo {
     width: 150px;
   }
   .inhead .bout {
     display: block;
+  }
+  .inhead .bout .enroll .pug {
+    width: 150px;
+    padding: 10px;
+    margin-left: 0;
   }
   .first .content .gain, .struct .gbamu .second .content .gain {
     font-size: 26px;
