@@ -1671,3 +1671,24 @@ footer{
         }
     }
 }
+@media(max-width:360px){
+    .will-help{
+        .inside{
+            .writes{
+                .prip{
+                    .global{
+                        width: 150px;
+                        justify-content: space-around;
+                        img{
+                            width: 25px;
+                            margin-right: 0;
+                        }
+                        p{
+                            font: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

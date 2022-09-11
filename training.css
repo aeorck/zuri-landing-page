@@ -1200,4 +1200,17 @@ footer .bottom .right a {
   .inhead .bout .enroll .shaft .pug {
     padding: 0;
   }
+}
+@media (max-width: 360px) {
+  .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .fungames {
+    width: 150px;
+    justify-content: space-around;
+  }
+  .will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .team img, .will-help .inside .writes .prip .mentorship img, .will-help .inside .writes .prip .practice img, .will-help .inside .writes .prip .fungames img {
+    width: 25px;
+    margin-right: 0;
+  }
+  .will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .team p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .fungames p {
+    font: 13px;
+  }
 }/*# sourceMappingURL=training.css.map */
