@@ -1123,7 +1123,7 @@ footer {
             justify-content: space-between;
 
             a {
-                color: #000;
+                color: #1b1a20;
             }
         }
     }
@@ -1625,17 +1625,21 @@ footer {
 footer{
     .top{
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        height: 12vh;
+        margin-bottom: 10px;
     }
     .bottom{
         flex-direction: column-reverse;
         align-items: center;
-        margin-bottom: 30px;
+        justify-content: space-evenly;
+        height: 12vh;
      
         .right{
             flex-direction: column;
             align-items: center;
+            height: 50%;
            
         }
     }
