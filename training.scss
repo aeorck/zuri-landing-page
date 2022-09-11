@@ -876,14 +876,13 @@ header {
 
         .curve {
             width: 150px;
-            margin-left: 150px;
         }
 
         .star {
             // position: absolute;
             // right: 0;
             // top: 40px;
-            width: 150px;
+            width: 130px;
             margin-bottom: -150px;
         }
 
@@ -1130,7 +1129,7 @@ footer {
 
 }
 
-@media (max-width:1050px) {
+@media (max-width:1180px) {
     .inhead {
         .bout {
             width: 70%;
@@ -1640,7 +1639,7 @@ footer{
             flex-direction: column;
             align-items: center;
             height: 50%;
-            
+
            
         }
     }

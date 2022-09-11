@@ -659,10 +659,9 @@ header {
 }
 .struct .pose .curve {
   width: 150px;
-  margin-left: 150px;
 }
 .struct .pose .star {
-  width: 150px;
+  width: 130px;
   margin-bottom: -150px;
 }
 .struct .stut {
@@ -873,7 +872,7 @@ footer .bottom .right a {
   color: #1b1a20;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1180px) {
   .inhead .bout {
     width: 70%;
   }
