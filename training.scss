@@ -1588,6 +1588,16 @@ footer {
         }
     }
 }
+#about{
+    .about{
+        .help{
+            text-align: center;
+            a{
+                display: block;
+            }
+        }
+    }
+}
 footer{
     .top{
         flex-direction: column;

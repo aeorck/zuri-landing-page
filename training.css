@@ -1148,6 +1148,12 @@ footer .bottom .right a {
   .break-in .break .into {
     font-size: 26px;
   }
+  #about .about .help {
+    text-align: center;
+  }
+  #about .about .help a {
+    display: block;
+  }
   footer .top {
     flex-direction: column;
     justify-content: center;
