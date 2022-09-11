@@ -880,10 +880,11 @@ header {
         }
 
         .star {
-            position: absolute;
-            right: 0;
-            top: 40px;
+            // position: absolute;
+            // right: 0;
+            // top: 40px;
             width: 150px;
+            margin-bottom: -150px;
         }
 
     }
@@ -1595,6 +1596,26 @@ footer {
             a{
                 display: block;
             }
+        }
+    }
+}
+#faq{
+    img{
+        margin-left: 20px;
+        
+    }
+}
+
+.struct{
+    .pose{
+        margin-bottom: -50px;
+        .curve{
+            width: 100px;
+            margin-left: 0;
+        }
+        .star{
+            width: 100px;
+            margin-bottom: 0;
         }
     }
 }

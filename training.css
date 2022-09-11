@@ -662,10 +662,8 @@ header {
   margin-left: 150px;
 }
 .struct .pose .star {
-  position: absolute;
-  right: 0;
-  top: 40px;
   width: 150px;
+  margin-bottom: -150px;
 }
 .struct .stut {
   color: #e7332b;
@@ -1153,6 +1151,20 @@ footer .bottom .right a {
   }
   #about .about .help a {
     display: block;
+  }
+  #faq img {
+    margin-left: 20px;
+  }
+  .struct .pose {
+    margin-bottom: -50px;
+  }
+  .struct .pose .curve {
+    width: 100px;
+    margin-left: 0;
+  }
+  .struct .pose .star {
+    width: 100px;
+    margin-bottom: 0;
   }
   footer .top {
     flex-direction: column;
