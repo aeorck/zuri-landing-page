@@ -1,0 +1,432 @@
+@font-face {
+  font-family: "Graphik";
+  src: url(./resources/GraphikRegular.otf);
+}
+@font-face {
+  font-family: "Graphik Bold";
+  src: url(./resources/GraphikMedium.otf);
+}
+* {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Graphik";
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+}
+header .top {
+  width: 85%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top nav {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+header .top nav a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #161617;
+  font-size: 16px;
+  padding: 10px;
+}
+header .top nav a:first-child {
+  border-bottom: 3px solid red;
+}
+header .top nav a:hover {
+  background-color: rgb(236, 236, 236);
+}
+header .top nav a:active {
+  border-bottom: 3px solid red;
+}
+header .top nav .hire {
+  background-color: #e7332b;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 40px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 0 0 10px 0;
+}
+
+#first {
+  width: 100%;
+  height: 100vh;
+}
+#first .vetted {
+  z-index: 1;
+  display: flex;
+  width: 85%;
+  margin: 15% auto 0;
+  justify-content: space-between;
+  height: 80%;
+  align-items: center;
+}
+#first .vetted .right {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  font-family: "Graphik Bold";
+  font-weight: 800;
+  width: 50%;
+}
+#first .vetted .right .top {
+  color: #161617;
+  font-size: 40px;
+  font-weight: bolder;
+  width: 100%;
+}
+#first .vetted .right .top p span {
+  color: #e7332b;
+}
+#first .vetted .right .top .curl {
+  position: absolute;
+  right: 13%;
+  bottom: -20px;
+}
+#first .vetted .right .top .curl img {
+  width: 80px;
+}
+#first .vetted .right .mid {
+  margin: 30px 0;
+  color: #787878;
+  width: 75%;
+  font-size: 19px;
+}
+#first .vetted .right .bottom {
+  display: flex;
+  width: 380px;
+  justify-content: space-between;
+}
+#first .vetted .right .bottom .hire {
+  background-color: #e7332b;
+  color: #fff;
+  padding: 13px 35px;
+  text-align: center;
+  border-radius: 0 0 10px 0;
+}
+#first .vetted .right .bottom .join {
+  padding: 13px 40px;
+  color: #fff;
+  background-color: #585858;
+  border-radius: 0 0 10px 0;
+}
+#first .vetted .left img {
+  width: 400px;
+}
+#first .vetted .img {
+  position: absolute;
+  right: -100px;
+  width: 200px;
+  bottom: 120px;
+  z-index: -2;
+}
+
+#second {
+  width: 100%;
+  background-image: url(./talent/zuriteambackgroudn.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#second .article {
+  width: 85%;
+  height: 80%;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#second .article .right {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+}
+#second .article .right h1 {
+  width: 100%;
+  font-family: "Graphik Bold";
+  font-weight: 800;
+  font-size: 40px;
+  color: #161617;
+}
+#second .article .right h1 span {
+  color: #e7332b;
+  font-family: inherit;
+}
+#second .article .right h2 {
+  margin: 15px 0;
+  font-family: "Graphik Bold";
+  font-weight: 800;
+  font-size: 19px;
+  color: #161617;
+}
+#second .article .right p {
+  color: #787878;
+  font-size: 19px;
+}
+#second .article .right .country {
+  margin-top: 15px;
+  display: flex;
+  width: 420px;
+  justify-content: space-between;
+}
+#second .article .right .country .mage {
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+#second .article .right .country .mage img {
+  width: 40px;
+}
+#second .article .left img {
+  width: 400px;
+}
+
+#third {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+#third .skills {
+  width: 85%;
+  margin: 40px auto;
+}
+#third .skills .skills-need {
+  width: 45%;
+  font-family: "Graphik Bold";
+  color: #161617;
+  font-size: 40px;
+  font-weight: 800;
+}
+#third .skills .skills-need span {
+  font-weight: 800;
+  color: #e7332b;
+}
+#third .skills .the-skills {
+  margin-top: 30px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#third .skills .the-skills .skillets {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: white;
+  padding: 15px 25px;
+  box-shadow: 1px 5px 15px #f0dddb;
+  color: #787878;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+#third .skills .the-skills .skillets:hover {
+  transform: translateY(-15px);
+}
+
+#fourth {
+  width: 100%;
+  background-color: #fff8e5;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+}
+#fourth .inside {
+  width: 85%;
+  margin: auto;
+  transform: translateY(50px);
+}
+#fourth .inside p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Graphik Bold";
+  font-weight: 800;
+  font-size: 40px;
+  color: #161617;
+  margin: 30px auto;
+  margin-top: 50px;
+}
+#fourth .inside p span {
+  color: #e7332b;
+}
+#fourth .inside .hire-why {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#fourth .inside .hire-why .in {
+  width: 370px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #787878;
+  border-radius: 0 0 10px 0;
+}
+#fourth .inside .hire-why .in:hover {
+  background-color: #161617;
+  color: #ffffff;
+}
+#fourth .inside .hire-why .in img {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 70px;
+}
+#fourth .inside .hire-why .in .p {
+  width: 80%;
+  margin: 20px auto;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 17px;
+}
+#fourth .inside .hire-join {
+  width: 35%;
+  border: 1px solid #fefefe;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#fourth .inside .hire-join .hire {
+  background-color: #e7332b;
+  padding: 10px 40px;
+  color: #fefefe;
+  font-size: 18px;
+  border-radius: 0 0 9px 0;
+}
+#fourth .inside .hire-join .join {
+  background-color: #585858;
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0 20px;
+  background-color: #161617;
+}
+footer .cont {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+footer .cont .social-icon {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .cont .social-icon img {
+  width: 30px;
+}
+footer .div {
+  display: flex;
+  width: 90%;
+  margin: 50px auto 10px;
+  justify-content: space-between;
+}
+footer .div .copy {
+  color: #fff;
+}
+footer .div .email a {
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  #first {
+    height: 75vh;
+  }
+  #first .vetted {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% auto 0;
+  }
+  #first .vetted .right {
+    width: 90%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #first .vetted .right .top {
+    text-align: center;
+  }
+  #first .vetted .right .top .curl {
+    right: 20%;
+  }
+  #first .vetted .left img {
+    width: 600px;
+  }
+  #first .vetted .img {
+    right: -8%;
+    bottom: 200px;
+    z-index: -1;
+    width: 300px;
+  }
+  .col {
+    background-color: rgb(250, 237, 237);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    z-index: -2;
+  }
+  #second .article {
+    margin: 40px auto 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #second .article .right h1 {
+    font-size: 30px;
+  }
+  #third {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 50px 0;
+  }
+  #third .skills .skills-need {
+    font-size: 30px;
+  }
+  #third .skills .the-skills {
+    width: 100%;
+  }
+  .edit {
+    padding: 15px !important;
+  }
+}/*# sourceMappingURL=talent.css.map */

@@ -1,0 +1,522 @@
+@font-face {
+    font-family: "Graphik";
+    src: url(./resources/GraphikRegular.otf);
+}
+
+@font-face {
+    font-family: "Graphik Bold";
+    src: url(./resources/GraphikMedium.otf);
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "Graphik";
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    overflow-x: hidden;
+
+}
+
+@mixin border($col) {
+    border: 1px solid $col;
+
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+
+
+    .top {
+        width: 85%;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        nav {
+            width: 550px;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                margin-top: 5px;
+                text-decoration: none;
+                color: #161617;
+                font-size: 16px;
+                padding: 10px;
+
+                &:first-child {
+                    border-bottom: 3px solid red;
+                }
+
+                &:hover {
+                    background-color: rgb(236, 236, 236);
+                }
+
+                &:active {
+                    border-bottom: 3px solid red;
+                }
+            }
+
+            .hire {
+                background-color: #e7332b;
+                width: fit-content;
+                padding: 10px 40px;
+                padding-bottom: 10px;
+                color: white;
+                border-radius: 0 0 10px 0;
+            }
+
+        }
+    }
+
+}
+
+#first {
+    width: 100%;
+    height: 100vh;
+
+    .vetted {
+        z-index: 1;
+        display: flex;
+        width: 85%;
+        margin: 15% auto 0;
+        justify-content: space-between;
+        height: 80%;
+        align-items: center;
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            height: 70%;
+            font-family: "Graphik Bold";
+            font-weight: 800;
+            width: 50%;
+
+            .top {
+                color: #161617;
+                font-size: 40px;
+                font-weight: bolder;
+                width: 100%;
+
+                p {
+                    span {
+                        color: #e7332b;
+                    }
+                }
+
+                .curl {
+                    position: absolute;
+                    right: 13%;
+                    bottom: -20px;
+
+                    img {
+                        width: 80px;
+                    }
+                }
+
+            }
+
+            .mid {
+                margin: 30px 0;
+                color: #787878;
+                width: 75%;
+                font-size: 19px;
+            }
+
+            .bottom {
+                display: flex;
+                width: 380px;
+                justify-content: space-between;
+
+                .hire {
+                    background-color: #e7332b;
+                    color: #fff;
+                    padding: 13px 35px;
+                    text-align: center;
+                    border-radius: 0 0 10px 0;
+
+                }
+
+                .join {
+                    padding: 13px 40px;
+                    color: #fff;
+                    background-color: #585858;
+                    border-radius: 0 0 10px 0;
+
+                }
+            }
+        }
+
+        .left {
+            img {
+                width: 400px;
+            }
+
+        }
+
+        .img {
+            position: absolute;
+            right: -100px;
+            width: 200px;
+            bottom: 120px;
+            z-index: -2;
+
+        }
+    }
+}
+
+#second {
+   
+    width: 100%;
+    background-image: url(./talent/zuriteambackgroudn.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+    .article {
+        width: 85%;
+        height: 80%;
+        margin: 100px auto 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .right {
+            width: 46%;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                width: 100%;
+                font-family: "Graphik Bold";
+                font-weight: 800;
+                font-size: 40px;
+                color: #161617;
+
+                span {
+                    color: #e7332b;
+                    font-family: inherit;
+                }
+            }
+
+            h2 {
+                margin: 15px 0;
+                font-family: "Graphik Bold";
+                font-weight: 800;
+                font-size: 19px;
+                color: #161617;
+            }
+
+            p {
+                color: #787878;
+                font-size: 19px;
+
+            }
+
+            .country {
+                margin-top: 15px;
+                display: flex;
+                width: 420px;
+                justify-content: space-between;
+
+                .mage {
+                    background-color: white;
+                    padding: 5px 15px;
+                    border-radius: 10px;
+
+                    img {
+                        width: 40px;
+                    }
+                }
+
+            }
+        }
+
+        .left {
+            img {
+                width: 400px;
+            }
+        }
+
+    }
+}
+
+#third {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+    .skills {
+        width: 85%;
+        margin: 40px auto;
+
+        .skills-need {
+            width: 45%;
+            font-family: "Graphik Bold";
+            color: #161617;
+            font-size: 40px;
+            font-weight: 800;
+
+            span {
+                font-weight: 800;
+                color: #e7332b;
+            }
+        }
+
+        .the-skills {
+            margin-top: 30px;
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .skillets {
+                width: fit-content;
+                background-color: white;
+                padding: 15px 25px;
+                box-shadow: 1px 5px 15px #f0dddb;
+                color: #787878;
+                font-size: 18px;
+                border-radius: 10px;
+                transition: transform .5s ease;
+
+                &:hover {
+                    transform: translateY(-15px);
+                }
+            }
+
+        }
+    }
+}
+
+#fourth {
+    width: 100%;
+    background-color: #fff8e5;
+    height: fit-content;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+
+    .inside {
+        width: 85%;
+        margin: auto;
+        transform: translateY(50px);
+
+        p {
+
+            width: fit-content;
+            font-family: "Graphik Bold";
+            font-weight: 800;
+            font-size: 40px;
+            color: #161617;
+            margin: 30px auto;
+            margin-top: 50px;
+
+            span {
+                color: #e7332b;
+            }
+        }
+
+        .hire-why {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .in {
+                width: 370px;
+                height: 250px;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 10px;
+                color: #787878;
+                border-radius: 0 0 10px 0;
+
+                &:hover {
+                    background-color: #161617;
+                    color: #ffffff;
+                }
+
+                img {
+                    margin-top: 30px;
+                    margin-bottom: 15px;
+                    width: 70px;
+                }
+
+                .p {
+                    width: 80%;
+                    margin: 20px auto;
+                    margin-bottom: 40px;
+                    text-align: center;
+                    font-size: 17px;
+
+                }
+
+            }
+        }
+
+        .hire-join {
+            width: 35%;
+            @include border(#fefefe);
+            margin: 50px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+
+            .hire {
+                background-color: #e7332b;
+                padding: 10px 40px;
+                color: #fefefe;
+                font-size: 18px;
+                border-radius: 0 0 9px 0;
+            }
+
+            .join {
+                background-color: #585858;
+            }
+        }
+
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 50px 0 20px;
+    background-color: #161617;
+
+    .cont {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+
+        .social-icon {
+            display: flex;
+            width: 180px;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    .div {
+        display: flex;
+        width: 90%;
+        margin: 50px auto 10px;
+        justify-content: space-between;
+
+        .copy {
+            color: #fff;
+        }
+
+        .email {
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    #first {
+        height: 75vh;
+        .vetted {
+            flex-direction: column;
+            justify-content: center;
+            margin: 10% auto 0;
+
+            .right {
+                width: 90%;
+                height: fit-content;
+                align-items: center;
+                margin-bottom: 50px;
+
+                .top {
+                    text-align: center;
+
+                    .curl {
+                        right: 20%;
+                    }
+                }
+
+            }
+            .left{
+                img{
+                    width: 600px;
+                }
+            }
+
+            .img{
+                right: -8%;
+                bottom: 200px;
+                z-index: -1;
+                width: 300px;
+            }
+        }
+    }
+
+    .col{
+        background-color: rgb(250, 237, 237);
+        width: fit-content;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        z-index: -2;
+    }
+    #second{
+        .article{
+            margin: 40px auto 0;
+            height: fit-content;
+            .right{
+               h1{
+                font-size: 30px;
+               }
+            }
+        }
+
+    }
+
+    #third{
+        height: fit-content;
+        padding: 50px 0;
+        .skills{
+            .skills-need{
+            font-size: 30px;
+            }
+            .the-skills{
+                width: 100%;
+               
+            }
+        }
+    }
+    .edit{
+        padding: 15px !important;
+    }
+    #fourth{
+        
+    }
+}

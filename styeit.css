@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "Averta";
+  src: url(./resources/AvertaDemo-Regular.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Averta", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.first {
+  border: 1px solid transparent;
+  height: 800px;
+  background-image: url("https://zuri.team/img/hero-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+header {
+  margin: 70px auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+header img {
+  margin: auto;
+  width: auto;
+}
+
+main {
+  width: 100%;
+  height: 120vh;
+}
+
+.learn, .unlock {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 45px auto;
+  font-size: 32px;
+  font-weight: 800;
+  color: #514949;
+}
+
+.unlock {
+  width: 90%;
+  font-size: 16px;
+  margin: 50px auto;
+  font-weight: normal;
+  text-align: center;
+}
+.unlock p {
+  margin-bottom: 6px;
+}
+.unlock p .red {
+  color: #e72727;
+}
+
+.new-industry {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 20px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.new-industry .new, .new-industry .expe {
+  color: white;
+  background-color: #e7332b;
+  padding: 15px 20px;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+.new-industry .new:hover, .new-industry .expe:hover {
+  background-color: white;
+  color: #e7332b;
+  border: 1px solid #e7332b;
+}
+.new-industry .expe {
+  border: solid 1px #e7332b;
+  color: #e7332b;
+  background-color: white;
+  margin-left: 10px;
+}
+.new-industry .expe:hover {
+  background-color: #e7332b;
+  color: white;
+}
+
+.second {
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+}
+.second p {
+  color: #e7332b;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  font-size: 14px;
+}
+.second .we {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  color: #514949;
+  margin-bottom: 1rem;
+}
+.second .we p {
+  margin-top: 10px;
+  color: inherit;
+  font-size: 24px;
+  font-weight: 400;
+}
+.second .programs {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  justify-content: space-between;
+  margin: 50px auto 0;
+}
+.second .programs .size, .second .programs .talent, .second .programs .internship, .second .programs .train {
+  width: 30%;
+  padding: 25px;
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #fffafa;
+  text-align: left;
+}
+.second .programs .size img, .second .programs .talent img, .second .programs .internship img, .second .programs .train img {
+  width: 130px;
+  margin-bottom: 30px;
+}
+.second .programs .size .article, .second .programs .talent .article, .second .programs .internship .article, .second .programs .train .article {
+  color: #514949;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.second .programs .size .link, .second .programs .talent .link, .second .programs .internship .link, .second .programs .train .link {
+  font-weight: 500;
+  color: #e7332b;
+  margin-bottom: 30px;
+}
+.second .programs .size .link::after, .second .programs .talent .link::after, .second .programs .internship .link::after, .second .programs .train .link::after {
+  content: ">";
+}
+.second .right-dots {
+  position: absolute;
+  right: -8%;
+  top: -75px;
+  z-index: -1;
+}
+.second .right-dots img {
+  width: 400px;
+}
+.second .left-dots {
+  position: absolute;
+  left: -100px;
+  top: -75px;
+  z-index: -1;
+}
+.second .left-dots img {
+  width: 400px;
+}
+
+.footer .enclave {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 2em auto 2em;
+  padding: 10em 0;
+  justify-content: space-between;
+  border-bottom: #dbdada 2px solid;
+}
+.footer .enclave img {
+  align-self: flex-start;
+}
+.footer .enclave .links, .footer .enclave .follow, .footer .enclave .contact {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 200px;
+}
+.footer .enclave .links p, .footer .enclave .follow p, .footer .enclave .contact p {
+  color: #514949;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+.footer .enclave .links a, .footer .enclave .follow a, .footer .enclave .contact a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #e7332b;
+  margin: 0 0 10px 0;
+}
+.footer .enclave .contact .add {
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer .enclave .contact a {
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer .enclave .follow {
+  width: 150px;
+}
+.footer .enclave .follow .socials {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+.footer .enclave .follow .socials a img {
+  width: 20px;
+}
+
+footer {
+  margin: auto;
+  margin-bottom: 5em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #514949;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 428px) {
+  .programs {
+    flex-direction: column !important;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+  }
+  .programs .size, .second .programs .train, .second .programs .internship, .second .programs .talent {
+    width: 80%;
+    text-align: left;
+  }
+  .programs .size img, .second .programs .train img, .second .programs .internship img, .second .programs .talent img {
+    align-self: flex-start;
+  }
+  .programs .size .article, .second .programs .train .article, .second .programs .internship .article, .second .programs .talent .article {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .footer .enclave {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .enclave img {
+    align-self: center;
+    width: 50%;
+  }
+  .footer .enclave .links, .footer .enclave .contact, .footer .enclave .follow {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .footer .enclave .links p, .footer .enclave .contact p, .footer .enclave .follow p {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .footer .enclave .follow {
+    align-items: center;
+  }
+}/*# sourceMappingURL=styeit.css.map */

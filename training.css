@@ -1,0 +1,1216 @@
+@font-face {
+  font-family: "Graphik";
+  src: url(./resources/GraphikRegular.otf);
+}
+@font-face {
+  font-family: "Graphik Bold";
+  src: url(./resources/GraphikSemibold.otf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./resources/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  font-family: "Graphik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  position: fixed;
+  top: -3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.inhead {
+  min-height: 64px;
+  padding: 10px 0 2px 0;
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.inhead .logo {
+  width: 300px;
+}
+.inhead .bout {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 55%;
+}
+.inhead .bout a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #585757;
+  padding: 6px 8px;
+  border-radius: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.inhead .bout .enroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.inhead .bout .enroll .shaft img {
+  width: 75px;
+  border: 10px solid #e7332b;
+  border-radius: 100px !important;
+  margin-right: -20px;
+  background-color: #e7332b;
+  z-index: 1;
+}
+.inhead .bout .enroll .pug {
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #e7332b;
+  margin-left: -1px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 12px 30px;
+  border-radius: 0 30px 30px 0;
+}
+
+.first, .struct .gbamu .second {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.first img, .struct .gbamu .second img {
+  mix-blend-mode: darken !important;
+  width: 350px;
+}
+.first img:first-child, .struct .gbamu .second img:first-child {
+  margin-right: -100px;
+}
+.first .content, .struct .gbamu .second .content {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.first .content .top, .struct .gbamu .second .content .top {
+  font-size: 18px;
+  color: red;
+  margin-bottom: 5%;
+}
+.first .content .gain, .struct .gbamu .second .content .gain {
+  font-size: 49px;
+  font-family: "Graphik Bold";
+  flex-basis: 50%;
+}
+.first .content .line, .struct .gbamu .second .content .line {
+  width: 170px;
+  margin-left: 335px;
+}
+.first .content .basic, .struct .gbamu .second .content .basic {
+  width: 70%;
+  align-self: center;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.1688px;
+  margin-top: 50px;
+}
+.first .content .image-enroll, .struct .gbamu .second .content .image-enroll {
+  display: flex;
+  width: 60%;
+  margin: 50px 0;
+  justify-content: space-between;
+  height: 70px;
+}
+.first .content .image-enroll img, .struct .gbamu .second .content .image-enroll img {
+  width: 50px;
+  align-self: flex-end;
+  justify-self: start;
+}
+.first .content .image-enroll .enroll a, .struct .gbamu .second .content .image-enroll .enroll a {
+  background-color: #e7332b;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 18px;
+}
+.first .content .image-enroll .wire, .struct .gbamu .second .content .image-enroll .wire {
+  position: absolute;
+  right: 0;
+  margin-right: 60px;
+  margin-top: 35px;
+}
+.first .content .image-enroll .wire img, .struct .gbamu .second .content .image-enroll .wire img {
+  width: 100px;
+}
+
+#about {
+  width: 90%;
+  margin: auto;
+  display: block;
+  margin-top: 70px;
+  border-top: 2px solid #e0ded7;
+}
+#about .about {
+  margin-top: 1%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#about .about .ing {
+  color: #1b1a20;
+  font-family: "Graphik Bold";
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 30%;
+}
+#about .about .help {
+  font-size: 24px;
+  text-align: right;
+  width: 30%;
+  color: #1b1a20;
+  line-height: 1.2;
+}
+#about .about .help a {
+  text-decoration: underline;
+  color: #43b97f;
+}
+#about .about img {
+  width: 250px;
+}
+
+#why-us {
+  border-top: 2px solid #e0ded7;
+  width: 90%;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+#why-us .why-us {
+  margin-top: 50px;
+}
+#why-us .why-us .curly {
+  margin-left: 25%;
+  width: 150px;
+}
+#why-us .why-us .why {
+  display: inline-block;
+  flex-direction: column;
+}
+#why-us .why-us .why p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: -20px;
+  font-size: 24px;
+  color: #e7332b;
+  margin-bottom: 10px;
+}
+#why-us .why-us .why .cont {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#why-us .why-us .why .cont .text {
+  font-size: 40px;
+  font-family: "Graphik Bold";
+  font-weight: 400;
+  color: #1b1a20;
+  width: 90%;
+  line-height: 1.2;
+}
+#why-us .why-us .why .cont .img {
+  display: block;
+  width: 200px;
+  justify-self: flex-start;
+}
+#why-us .why-us .why .cont .null {
+  width: 1%;
+  visibility: hidden;
+}
+
+.how-we-do {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 92%;
+  margin: auto;
+}
+.how-we-do .for-all, .how-we-do .box4, .how-we-do .box6, .how-we-do .box5, .how-we-do .box3, .how-we-do .box2, .how-we-do .box1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px !important;
+  box-shadow: 0 11px 33px rgba(231, 52, 43, 0.151);
+  padding: 58px 48px 93px 50px !important;
+  transition: transform 0.3s ease !important;
+  line-height: 1.2;
+  width: 450px;
+  color: #1b1a20;
+  margin-top: 20px;
+}
+.how-we-do .for-all:hover, .how-we-do .box4:hover, .how-we-do .box6:hover, .how-we-do .box5:hover, .how-we-do .box3:hover, .how-we-do .box2:hover, .how-we-do .box1:hover {
+  transform: translateY(-15px);
+}
+.how-we-do .for-all p, .how-we-do .box4 p, .how-we-do .box6 p, .how-we-do .box5 p, .how-we-do .box3 p, .how-we-do .box2 p, .how-we-do .box1 p {
+  font-size: 60px;
+  font-family: "Graphik bold";
+  margin-bottom: 25px;
+}
+.how-we-do .for-all .type, .how-we-do .box4 .type, .how-we-do .box6 .type, .how-we-do .box5 .type, .how-we-do .box3 .type, .how-we-do .box2 .type, .how-we-do .box1 .type {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.how-we-do .for-all .bottom, .how-we-do .box4 .bottom, .how-we-do .box6 .bottom, .how-we-do .box5 .bottom, .how-we-do .box3 .bottom, .how-we-do .box2 .bottom, .how-we-do .box1 .bottom {
+  width: 100%;
+  font-size: 18px;
+}
+.how-we-do .for-all .arch, .how-we-do .box4 .arch, .how-we-do .box6 .arch, .how-we-do .box5 .arch, .how-we-do .box3 .arch, .how-we-do .box2 .arch, .how-we-do .box1 .arch {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  width: 30%;
+}
+.how-we-do .box1 {
+  background-color: #e7332b;
+  color: white;
+}
+.how-we-do .box2 {
+  background-color: white;
+}
+.will-help {
+  margin-top: 30px;
+  display: flex;
+  background-color: #e7332b;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.will-help .dots {
+  position: absolute;
+  width: 130px;
+  bottom: 3%;
+  left: 2%;
+}
+.will-help .inside {
+  width: 90%;
+  margin: 5% auto;
+  padding-bottom: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+.will-help .inside .spiral {
+  position: absolute;
+  width: 140px;
+  right: 0;
+  top: 0;
+  display: none;
+}
+.will-help .inside .writes {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: flex-start;
+}
+.will-help .inside .writes .wire {
+  margin-left: 20%;
+}
+.will-help .inside .writes p {
+  font-size: 18px;
+}
+.will-help .inside .writes img {
+  width: 90px;
+  align-self: center;
+}
+.will-help .inside .writes .quality {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Graphik bold";
+  line-height: 1.2;
+  margin-bottom: 40px;
+  width: 95%;
+}
+.will-help .inside .writes .give {
+  width: 70%;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.will-help .inside .writes .enroll {
+  display: block;
+  padding: 10px 30px;
+  background-color: white;
+  color: #e7332b;
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-top: 40px;
+  transition: 250ms transform;
+}
+.will-help .inside .writes .enroll:hover {
+  box-shadow: 1px 3px rgba(45, 46, 45, 0.3764705882);
+}
+.will-help .inside .writes .prip {
+  width: 105%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.will-help .inside .writes .prip .global, .will-help .inside .writes .prip .fungames, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .team {
+  width: 45%;
+  display: flex;
+  border: #ffffff solid 2px;
+  border-radius: 79px;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.will-help .inside .writes .prip .global:hover, .will-help .inside .writes .prip .fungames:hover, .will-help .inside .writes .prip .practice:hover, .will-help .inside .writes .prip .mentorship:hover, .will-help .inside .writes .prip .team:hover {
+  cursor: no-drop;
+}
+.will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .fungames img, .will-help .inside .writes .prip .practice img, .will-help .inside .writes .prip .mentorship img, .will-help .inside .writes .prip .team img {
+  width: 50px;
+  margin-right: 20px;
+}
+.will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .fungames p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .team p {
+  font-size: 18px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.will-help .inside .girl {
+  width: 57%;
+}
+.will-help .inside .girl img {
+  width: 100%;
+}
+
+.scope {
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid rgba(88, 87, 87, 0.3411764706);
+  margin-bottom: 30px;
+}
+.scope #stacks-covered {
+  width: 100%;
+  margin-bottom: 80px;
+}
+.scope #stacks-covered .prog {
+  color: #e7332b;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.scope #stacks-covered .list {
+  width: 40%;
+  margin-top: 20px;
+  color: #1b1a20;
+  font-size: 40px;
+  font-family: "Graphik Bold";
+}
+.scope #stacks-covered .wire {
+  width: 200px;
+  margin: 0 auto;
+}
+.scope #stacks-covered .wire img {
+  width: inherit;
+}
+.scope #stacks-covered .course {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.scope #stacks-covered .course .courses, .scope #stacks-covered .course .frame-works, .scope #stacks-covered .course .full-stack, .scope #stacks-covered .course .devs-ops, .scope #stacks-covered .course .product-design, .scope #stacks-covered .course .back-end, .scope #stacks-covered .course .front-end {
+  margin-bottom: 30px;
+  width: 32%;
+  border-radius: 30px;
+  padding: 25px;
+  box-shadow: 0 11px 22px rgba(163, 47, 41, 0.116);
+}
+.scope #stacks-covered .course .courses .closure, .scope #stacks-covered .course .frame-works .closure, .scope #stacks-covered .course .full-stack .closure, .scope #stacks-covered .course .devs-ops .closure, .scope #stacks-covered .course .product-design .closure, .scope #stacks-covered .course .back-end .closure, .scope #stacks-covered .course .front-end .closure {
+  width: 90%;
+  margin: auto;
+}
+.scope #stacks-covered .course .courses .closure .c-images, .scope #stacks-covered .course .frame-works .closure .c-images, .scope #stacks-covered .course .full-stack .closure .c-images, .scope #stacks-covered .course .devs-ops .closure .c-images, .scope #stacks-covered .course .product-design .closure .c-images, .scope #stacks-covered .course .back-end .closure .c-images, .scope #stacks-covered .course .front-end .closure .c-images {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  margin: 10px 0 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.scope #stacks-covered .course .courses .closure .c-images img, .scope #stacks-covered .course .frame-works .closure .c-images img, .scope #stacks-covered .course .full-stack .closure .c-images img, .scope #stacks-covered .course .devs-ops .closure .c-images img, .scope #stacks-covered .course .product-design .closure .c-images img, .scope #stacks-covered .course .back-end .closure .c-images img, .scope #stacks-covered .course .front-end .closure .c-images img {
+  margin-right: 15px;
+}
+.scope #stacks-covered .course .courses .closure .c-images img:last-child, .scope #stacks-covered .course .frame-works .closure .c-images img:last-child, .scope #stacks-covered .course .full-stack .closure .c-images img:last-child, .scope #stacks-covered .course .devs-ops .closure .c-images img:last-child, .scope #stacks-covered .course .product-design .closure .c-images img:last-child, .scope #stacks-covered .course .back-end .closure .c-images img:last-child, .scope #stacks-covered .course .front-end .closure .c-images img:last-child {
+  margin-right: 0;
+}
+.scope #stacks-covered .course .courses .closure .expl, .scope #stacks-covered .course .frame-works .closure .expl, .scope #stacks-covered .course .full-stack .closure .expl, .scope #stacks-covered .course .devs-ops .closure .expl, .scope #stacks-covered .course .product-design .closure .expl, .scope #stacks-covered .course .back-end .closure .expl, .scope #stacks-covered .course .front-end .closure .expl {
+  line-height: 1.5;
+}
+.scope #stacks-covered .course .courses .closure .title, .scope #stacks-covered .course .frame-works .closure .title, .scope #stacks-covered .course .full-stack .closure .title, .scope #stacks-covered .course .devs-ops .closure .title, .scope #stacks-covered .course .product-design .closure .title, .scope #stacks-covered .course .back-end .closure .title, .scope #stacks-covered .course .front-end .closure .title {
+  font-size: 20px;
+  font-family: "Graphik Bold";
+}
+.scope #stacks-covered .course .front-end .closure .c-images img {
+  width: 35px;
+}
+.scope #stacks-covered .course .back-end .closure .c-images img {
+  width: 45px;
+}
+.scope #stacks-covered .course .back-end .closure .c-images img:first-child {
+  width: 55px;
+}
+.scope #stacks-covered .course .product-design .closure .c-images img {
+  width: 50px;
+}
+.scope #stacks-covered .course .product-design .closure .c-images img:nth-child(2) {
+  width: 100px;
+}
+.scope #stacks-covered .course .product-design .closure .c-images img:last-child {
+  display: none;
+}
+.scope #stacks-covered .course .devs-ops .closure .c-images img {
+  width: 80px;
+}
+.scope #stacks-covered .course .full-stack .closure .c-images img {
+  width: 45px;
+}
+.scope #stacks-covered .course .frame-works .closure .c-images img {
+  width: 80px;
+}
+.scope #stacks-covered a {
+  color: white;
+  background-color: #e7332b;
+  padding: 15px 45px;
+  border-radius: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 auto 20px;
+  font-size: 18px;
+}
+
+#faq {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#faq img {
+  width: 150px;
+  margin-bottom: -50px;
+  margin-left: 150px;
+}
+#faq .p {
+  color: #e7332b;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 400;
+  text-align: center;
+}
+#faq .freq {
+  color: #1b1a20;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2% auto 5%;
+  font-size: 40px;
+  font-family: "Graphik Bold";
+}
+#faq .nest {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid rgb(173, 171, 171);
+}
+#faq .accordion {
+  font-family: "Graphik";
+  background-color: transparent;
+  color: #333;
+  cursor: hand;
+  padding: 15px;
+  width: 100%;
+  margin: 5px auto;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  transition: 0.4s;
+}
+#faq .active {
+  background-color: transparent;
+}
+#faq .accordion:hover {
+  background-color: transparent;
+}
+#faq .accordion:after {
+  content: "+";
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  float: right;
+  margin-left: 5px;
+}
+#faq .active:after {
+  content: "+";
+}
+#faq .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#faq .panel p {
+  color: #000;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bloo {
+  display: flex;
+  width: 90%;
+  margin: 30px auto;
+  margin-top: 60px;
+  border-bottom: 1px solid rgba(88, 87, 87, 0.4862745098);
+  padding-bottom: 40px;
+}
+.bloo .further {
+  display: flex;
+  width: 450px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.bloo .further p {
+  color: #333333;
+  font-size: 18px;
+}
+.bloo .further .follow a {
+  color: white;
+  display: flex;
+  background-color: #e7332b;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+}
+.bloo .further .follow a img {
+  width: 40px;
+}
+
+.struct {
+  width: 100%;
+  margin: 10px auto;
+}
+.struct .pose {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.struct .pose .curve {
+  width: 150px;
+}
+.struct .pose .star {
+  width: 130px;
+  margin-bottom: -150px;
+}
+.struct .stut {
+  color: #e7332b;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+.struct .prog {
+  margin: 0 auto 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 40px;
+  font-family: "Graphik Bold";
+}
+.struct .there {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 20px;
+  color: #333333;
+}
+.struct .gbamu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.struct .gbamu .first, .struct .gbamu .second {
+  border-radius: 50px;
+  width: 45%;
+  background-color: #1b1a20;
+  color: #e0ded7;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.struct .gbamu .first .tit, .struct .gbamu .second .tit {
+  font-size: 35px;
+  text-align: left;
+  font-family: "Graphik Bold";
+}
+.struct .gbamu .first .require, .struct .gbamu .second .require, .struct .gbamu .first .avail, .struct .gbamu .second .avail {
+  margin: 10px 0;
+}
+.struct .gbamu .first .avail, .struct .gbamu .second .avail {
+  font-family: "Graphik Bold";
+  font-weight: 900;
+  font-size: 18px;
+}
+.struct .gbamu .first ol, .struct .gbamu .second ol {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  list-style-type: disc;
+  line-height: 1.5;
+}
+.struct .gbamu .first ol ul, .struct .gbamu .second ol ul {
+  list-style-type: none;
+}
+.struct .gbamu .first .timer, .struct .gbamu .second .timer {
+  position: absolute;
+  z-index: 1;
+  bottom: 2%;
+  right: 25%;
+}
+.struct .gbamu .first .timer img, .struct .gbamu .second .timer img {
+  width: 100px;
+}
+.struct .gbamu .second {
+  height: 100%;
+  padding-bottom: 160px;
+}
+.struct .gbamu .second .timer {
+  right: 20%;
+  bottom: 2%;
+}
+.struct .gbamu .second .timer img {
+  width: 150px;
+}
+.struct .overlay-arrow {
+  position: absolute;
+  left: 0;
+  transform: translate(-25px, 450%);
+  top: 0;
+}
+.struct .overlay-dots {
+  position: absolute;
+  right: 50px;
+  bottom: -80px;
+  width: 200px;
+  z-index: -1;
+}
+.struct .overlay-dots img {
+  width: inherit;
+}
+
+.break-in {
+  width: 90%;
+  margin: 100px auto;
+}
+.break-in img {
+  width: 120px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.break-in .break {
+  background-color: #e7332b;
+  color: white;
+  width: 100%;
+  margin: auto;
+  padding: 40px 0;
+  border-radius: 30px;
+  height: 50vh;
+}
+.break-in .break p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.break-in .break .into {
+  width: 50%;
+  margin: auto;
+  font-family: "Graphik Bold";
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.break-in .break .enroll {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto 0;
+  padding: 12px 28px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px #333;
+}
+.break-in .break .enroll a {
+  color: #e7332b;
+  font-size: 18px;
+}
+.break-in .break .top-arch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+}
+.break-in .break .bottom-arch {
+  position: absolute;
+  bottom: -25px;
+  left: -15px;
+}
+.break-in .break .dots-bottom {
+  position: absolute;
+  bottom: -50px;
+  right: -20px;
+}
+.break-in .break .dots-bottom img {
+  width: 150px;
+}
+.break-in .break .curvy {
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+.break-in .break .curvy img {
+  width: 150px;
+}
+
+footer {
+  width: 90%;
+  margin: 40px auto;
+}
+footer .top {
+  display: flex;
+  justify-content: space-between;
+}
+footer .top .socials {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .top .socials img {
+  width: 40px;
+}
+footer .bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom .right {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom .right a {
+  color: #1b1a20;
+}
+
+@media (max-width: 1180px) {
+  .inhead .bout {
+    width: 70%;
+  }
+  .first, .struct .gbamu .second {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .first img, .struct .gbamu .second img {
+    width: 80%;
+  }
+  .first img:first-child, .struct .gbamu .second img:first-child {
+    margin-right: 0;
+  }
+  .first .content, .struct .gbamu .second .content {
+    width: 90%;
+  }
+  .first .content .line, .struct .gbamu .second .content .line {
+    float: right;
+    margin-left: 65%;
+    width: 300px;
+  }
+  .first .content .gain, .struct .gbamu .second .content .gain {
+    width: 100%;
+  }
+  .first .content .image-enroll .wire, .struct .gbamu .second .content .image-enroll .wire {
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+  .first .boy, .struct .gbamu .second .boy {
+    display: none;
+  }
+  #about .about .ing {
+    font-size: 20px;
+  }
+  #about .about .help {
+    font-size: 18px;
+  }
+  #why-us .why-us .why p {
+    font-size: 20px;
+  }
+  #why-us .why-us .why .cont {
+    width: 100%;
+  }
+  #why-us .why-us .why .cont .text {
+    width: 100%;
+    font-size: 30px;
+  }
+  .will-help {
+    flex-direction: column;
+  }
+  .will-help .inside {
+    flex-direction: column;
+    align-items: center;
+  }
+  .will-help .inside .writes {
+    width: 100%;
+  }
+  .will-help .inside .writes .wire {
+    width: 200px;
+    margin-left: 70%;
+  }
+  .will-help .inside .writes .quality {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .will-help .inside .writes .give {
+    width: 98%;
+    line-height: 1.4;
+  }
+  .will-help .inside .writes .prip {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .fungames {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .will-help .inside .girl {
+    width: 90%;
+  }
+  .will-help .inside .girl img {
+    width: 100%;
+  }
+  .scope #stacks-covered .prog {
+    font-size: 20px;
+  }
+  .scope #stacks-covered .list {
+    width: 100%;
+    font-size: 30px;
+  }
+  .scope #stacks-covered .wire {
+    width: 150px;
+  }
+  .scope #stacks-covered .course .courses, .scope #stacks-covered .course .front-end, .scope #stacks-covered .course .back-end, .scope #stacks-covered .course .product-design, .scope #stacks-covered .course .devs-ops, .scope #stacks-covered .course .full-stack, .scope #stacks-covered .course .frame-works {
+    width: 45%;
+    padding: 20px;
+    color: #1b1a20;
+  }
+  #faq img {
+    width: 100px;
+  }
+  #faq p {
+    font-size: 20px;
+  }
+  #faq .freq {
+    font-size: 30px;
+  }
+  .struct .overlay-arrow {
+    display: none;
+  }
+  .struct .stut {
+    font-size: 20px;
+  }
+  .struct .prog {
+    font-size: 30px;
+  }
+  .struct .gbamu .first .timer, .struct .gbamu .second .timer {
+    right: 8%;
+  }
+  .struct .gbamu .first .timer img, .struct .gbamu .second .timer img {
+    width: 80px;
+  }
+  .struct .gbamu .second .timer img {
+    width: 100px;
+  }
+  .break-in img {
+    width: 100px;
+  }
+  .break-in .break {
+    height: 40vh;
+    padding-bottom: 200px;
+  }
+  .break-in .break .into {
+    font-size: 46px;
+  }
+  .break-in .break .top-arch {
+    width: 120px;
+  }
+  .break-in .break .curvy {
+    left: 100px;
+  }
+  .break-in .break .curvy img {
+    width: 110px;
+  }
+  .how-we-do .for-all, .how-we-do .box1, .how-we-do .box2, .how-we-do .box3, .how-we-do .box4, .how-we-do .box5, .how-we-do .box6 {
+    width: 48%;
+  }
+}
+@media (max-width: 1000px) {
+  .inhead .bout {
+    justify-content: flex-end;
+  }
+  .enroll .pug {
+    margin-left: 0;
+  }
+  .enc {
+    display: none;
+  }
+}
+@media (max-width: 950px) {
+  .break-in .break {
+    height: 40vh;
+  }
+}
+@media (max-width: 899px) {
+  .scope #stacks-covered .course .courses, .scope #stacks-covered .course .front-end, .scope #stacks-covered .course .back-end, .scope #stacks-covered .course .product-design, .scope #stacks-covered .course .devs-ops, .scope #stacks-covered .course .full-stack, .scope #stacks-covered .course .frame-works {
+    padding: 80px 0;
+    width: 100%;
+  }
+  .how-we-do .for-all, .how-we-do .box1, .how-we-do .box2, .how-we-do .box3, .how-we-do .box4, .how-we-do .box5, .how-we-do .box6 {
+    width: 100%;
+  }
+  #about .about {
+    flex-direction: column;
+  }
+  #about .about .ing {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+  #about .about .help {
+    width: 100%;
+  }
+  #why-us .why-us .why .cont {
+    flex-direction: column;
+  }
+  #why-us .why-us .why .cont .img {
+    justify-self: flex-end;
+  }
+  .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .fungames {
+    width: 45%;
+  }
+  .struct .gbamu {
+    flex-direction: column;
+  }
+  .struct .gbamu .first, .struct .gbamu .second {
+    width: 100%;
+  }
+  .break-in .break {
+    height: 40vh;
+  }
+}
+@media (max-width: 700px) {
+  .inhead .logo {
+    width: 200px;
+  }
+  .first .content .line, .struct .gbamu .second .content .line {
+    width: 140px;
+  }
+  #why-us .why-us .curly {
+    margin-left: 300px;
+    margin-bottom: 30px;
+    width: 90px;
+  }
+  #why-us .why-us .why .cont .text {
+    font-size: 24px;
+  }
+  #why-us .why-us .why .cont .img {
+    display: none;
+  }
+  .will-help .inside .writes .wire {
+    width: 120px;
+  }
+  .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .fungames {
+    justify-content: flex-end;
+  }
+  .will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .team p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .fungames p {
+    font-size: 13px;
+  }
+  #faq img {
+    margin-bottom: -20px;
+    margin-left: 100px;
+  }
+  #faq .nest .accordion {
+    font-size: 16px;
+  }
+  .bloo .further {
+    flex-direction: column;
+  }
+  .bloo .further p {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 468px) {
+  .inhead .logo {
+    width: 150px;
+  }
+  .inhead .bout {
+    display: block;
+  }
+  .inhead .bout .enroll .pug {
+    width: 150px;
+    padding: 10px;
+    margin-left: 0;
+  }
+  .first .content .gain, .struct .gbamu .second .content .gain {
+    font-size: 26px;
+  }
+  .first .content .image-enroll, .struct .gbamu .second .content .image-enroll {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    justify-content: center;
+    gap: 50px;
+  }
+  .first .content .image-enroll img, .struct .gbamu .second .content .image-enroll img {
+    align-self: center;
+  }
+  .break-in .break .into {
+    font-size: 26px;
+  }
+  #about .about .help {
+    text-align: center;
+  }
+  #about .about .help a {
+    display: block;
+  }
+  #faq img {
+    margin-left: 20px;
+  }
+  .struct .pose {
+    margin-bottom: -50px;
+  }
+  .struct .pose .curve {
+    width: 100px;
+    margin-left: 0;
+  }
+  .struct .pose .star {
+    width: 100px;
+    margin-bottom: 0;
+  }
+  .struct .there {
+    text-align: center;
+  }
+  footer .top {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin-bottom: 10px;
+  }
+  footer .bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12vh;
+  }
+  footer .bottom .right {
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+  }
+}
+@media (max-width: 414px) {
+  .inhead .logo {
+    width: 130px;
+  }
+  .inhead .bout {
+    display: block;
+  }
+  .inhead .bout .enroll .shaft img {
+    width: 60px;
+  }
+  .inhead .bout .enroll .shaft .pug {
+    padding: 0;
+  }
+}
+@media (max-width: 360px) {
+  .will-help .inside .writes .prip .global, .will-help .inside .writes .prip .team, .will-help .inside .writes .prip .mentorship, .will-help .inside .writes .prip .practice, .will-help .inside .writes .prip .fungames {
+    width: 150px;
+    justify-content: space-around;
+  }
+  .will-help .inside .writes .prip .global img, .will-help .inside .writes .prip .team img, .will-help .inside .writes .prip .mentorship img, .will-help .inside .writes .prip .practice img, .will-help .inside .writes .prip .fungames img {
+    width: 25px;
+    margin-right: 0;
+  }
+  .will-help .inside .writes .prip .global p, .will-help .inside .writes .prip .team p, .will-help .inside .writes .prip .mentorship p, .will-help .inside .writes .prip .practice p, .will-help .inside .writes .prip .fungames p {
+    font: 13px;
+  }
+}/*# sourceMappingURL=training.css.map */
