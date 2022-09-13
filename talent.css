@@ -310,7 +310,7 @@ header .top nav .hire {
   font-size: 17px;
 }
 #fourth .inside .hire-join {
-  width: 50%;
+  width: 400px;
   border: 1px solid #fefefe;
   margin: 50px auto;
   display: flex;
@@ -468,5 +468,23 @@ footer .div .email a {
   }
   #second .article .left img {
     margin-bottom: 300px;
+  }
+  #third .skills .skills-need {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  #third .skills .the-skills {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+  #third .skills .the-skills .skillets {
+    margin-top: 15px;
+  }
+  #fourth .inside .hire-why .in {
+    width: 280px;
+    height: 280px;
   }
 }/*# sourceMappingURL=talent.css.map */

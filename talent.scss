@@ -375,7 +375,7 @@ header {
         }
 
         .hire-join {
-            width: 50%;
+            width: 400px;
             @include border(#fefefe);
             margin: 50px auto;
             display: flex;
@@ -591,4 +591,32 @@ footer {
             }
         }
     }
+   #third{
+       .skills{
+           .skills-need{
+               text-align: center;
+               width: 60%;
+               margin: 0 auto;
+           }
+           .the-skills{
+               height: fit-content;
+               flex-wrap: wrap;
+               .skillets{
+                   margin-top: 15px;
+               }             
+           }
+       }
+   }
+
+   #fourth{
+       .inside{
+           .hire-why{
+               .in{
+                   width: 280px;
+                   height: 280px;
+               }
+           }
+         
+       }
+   }
 }
