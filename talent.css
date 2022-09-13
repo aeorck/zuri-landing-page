@@ -365,6 +365,7 @@ footer .div .email a {
 
 @media (max-width: 1024px) {
   #first {
+    margin-top: 250px;
     height: 75vh;
   }
   #first .vetted {
@@ -428,5 +429,9 @@ footer .div .email a {
   }
   .edit {
     padding: 15px !important;
+  }
+  #fourth .inside .hire-why .in:last-child {
+    flex-basis: 86%;
+    border-radius: 0 0 10px 10px;
   }
 }/*# sourceMappingURL=talent.css.map */
