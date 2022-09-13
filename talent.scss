@@ -59,7 +59,7 @@ header {
                 text-decoration: none;
                 color: #161617;
                 font-size: 16px;
-                padding: 10px;
+                padding: 15px;
 
                 &:first-child {
                     border-bottom: 3px solid red;
@@ -78,7 +78,6 @@ header {
                 background-color: #e7332b;
                 width: fit-content;
                 padding: 10px 40px;
-                padding-bottom: 10px;
                 color: white;
                 border-radius: 0 0 10px 0;
             }
@@ -183,12 +182,12 @@ header {
 }
 
 #second {
-   
+
     width: 100%;
     background-image: url(./talent/zuriteambackgroudn.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    
+
 
     .article {
         width: 85%;
@@ -376,7 +375,7 @@ header {
         }
 
         .hire-join {
-            width: 35%;
+            width: 50%;
             @include border(#fefefe);
             margin: 50px auto;
             display: flex;
@@ -445,6 +444,7 @@ footer {
     #first {
         margin-top: 250px;
         height: 75vh;
+
         .vetted {
             flex-direction: column;
             justify-content: center;
@@ -465,13 +465,14 @@ footer {
                 }
 
             }
-            .left{
-                img{
+
+            .left {
+                img {
                     width: 600px;
                 }
             }
 
-            .img{
+            .img {
                 right: -8%;
                 bottom: 200px;
                 z-index: -1;
@@ -480,7 +481,7 @@ footer {
         }
     }
 
-    .col{
+    .col {
         background-color: rgb(250, 237, 237);
         width: fit-content;
         height: 50vh;
@@ -488,43 +489,104 @@ footer {
         align-items: center;
         z-index: -2;
     }
-    #second{
-        .article{
+
+    #second {
+        .article {
             margin: 40px auto 0;
             height: fit-content;
-            .right{
-               h1{
-                font-size: 30px;
-               }
+
+            .right {
+                h1 {
+                    font-size: 30px;
+                }
             }
         }
 
     }
 
-    #third{
+    #third {
         height: fit-content;
         padding: 50px 0;
-        .skills{
-            .skills-need{
-            font-size: 30px;
+
+        .skills {
+            .skills-need {
+                font-size: 30px;
             }
-            .the-skills{
+
+            .the-skills {
                 width: 100%;
-               
+
             }
         }
     }
-    .edit{
+
+    .edit {
         padding: 15px !important;
     }
-    #fourth{
-        .inside{
-            .hire-why{
-                .in{
-                    &:last-child{
+
+    #fourth {
+        .inside {
+            .hire-why {
+                .in {
+                    &:last-child {
                         flex-basis: 86%;
                         border-radius: 0 0 10px 10px;
                     }
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width:820px) {
+    header {
+        .top {
+            nav {
+                justify-content: flex-end;
+
+                .hire {
+                    padding: 15px 40px;
+                }
+            }
+        }
+
+        .crin {
+            display: none;
+        }
+    }
+
+    #first {
+        margin-top: 300px;
+        margin-bottom: 200px;
+
+        .vetted {
+            .left {
+                img {
+                    width: 500px;
+                }
+            }
+        }
+    }
+
+
+    #second {
+        background-size: cover;
+
+        .article {
+            flex-direction: column;
+            height: fit-content;
+
+            .right {
+                width: 80%;
+                align-items: center;
+                text-align: center;
+                margin-bottom: 70px;
+
+            }
+            .left{
+                img{
+                    margin-bottom: 300px;
                 }
             }
         }
