@@ -620,3 +620,22 @@ footer {
        }
    }
 }
+
+@media (max-width:428px) {
+    header{
+       .top{
+        nav{
+            width: 250px;
+         .hire{
+             padding: 10px 20px;
+            
+         }
+        }
+       }
+    }
+
+    #first{
+        
+    }
+    
+}

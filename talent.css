@@ -487,4 +487,12 @@ footer .div .email a {
     width: 280px;
     height: 280px;
   }
+}
+@media (max-width: 428px) {
+  header .top nav {
+    width: 250px;
+  }
+  header .top nav .hire {
+    padding: 10px 20px;
+  }
 }/*# sourceMappingURL=talent.css.map */
