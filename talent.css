@@ -495,6 +495,9 @@ footer .div .email a {
   header .top nav .hire {
     padding: 10px 20px;
   }
+  #first {
+    margin-top: 150px;
+  }
   #first .vetted {
     margin-bottom: 100px;
   }
@@ -522,5 +525,35 @@ footer .div .email a {
   }
   #first .vetted .img {
     display: none;
+  }
+  #second .article .right {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+  }
+  #second .article .right h1 {
+    width: 95%;
+    font-size: 28px;
+  }
+  #second .article .right h2 {
+    font-size: 14px;
+  }
+  #second .article .right p {
+    font-size: 14px;
+  }
+  #second .article .right .country {
+    width: 360px;
+  }
+  #second .article .right .country .mage img {
+    width: 35px;
+  }
+  #second .article .left img {
+    width: 350px;
+  }
+  #third .skills .skills-need {
+    width: 85%;
+    font-size: 25px;
+    text-align: left;
+    margin: initial 0;
   }
 }/*# sourceMappingURL=talent.css.map */
