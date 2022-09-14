@@ -806,6 +806,26 @@ footer {
     }
 }
 @media (max-width:375px) {
+#second{
+    .article{
+        .right{
+            .country{
+                width: 98%;
+                .mage{
+                    img{
+                        width: 25px;
+                    }
+                }
+            }
+        }
+        .left{
+            img{
+                width: 300px;
+            }
+        }
+    }
+}
+
 
     
 }

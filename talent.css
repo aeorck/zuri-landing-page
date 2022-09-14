@@ -606,4 +606,15 @@ footer .div .email a {
     padding-top: 20px;
     border-top: 1px solid #787878;
   }
+}
+@media (max-width: 375px) {
+  #second .article .right .country {
+    width: 98%;
+  }
+  #second .article .right .country .mage img {
+    width: 25px;
+  }
+  #second .article .left img {
+    width: 300px;
+  }
 }/*# sourceMappingURL=talent.css.map */
