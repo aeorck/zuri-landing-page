@@ -311,7 +311,6 @@ header .top nav .hire {
 }
 #fourth .inside .hire-join {
   width: 400px;
-  border: 1px solid #fefefe;
   margin: 50px auto;
   display: flex;
   justify-content: space-between;
@@ -555,5 +554,42 @@ footer .div .email a {
     font-size: 25px;
     text-align: left;
     margin: initial 0;
+  }
+  #third .skills .the-skills {
+    width: auto;
+  }
+  #third .skills .the-skills .skillets {
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+  .edit {
+    width: 47% !important;
+    height: 50px;
+    text-align: center;
+  }
+  .edit:last-child {
+    padding: 15px 0 !important;
+  }
+  #fourth .inside p {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  #fourth .inside .hire-why .in {
+    width: 100%;
+  }
+  #fourth .inside .hire-why .in .p {
+    font-size: 15px;
+    width: 90%;
+    line-height: 1.4;
+  }
+  #fourth .inside .hire-why .in:last-child {
+    flex-basis: auto;
+  }
+  #fourth .inside .hire-join {
+    width: 350px;
+  }
+  #fourth .inside .hire-join .hire {
+    font-size: 15px;
+    padding: 10px 30px;
   }
 }/*# sourceMappingURL=talent.css.map */

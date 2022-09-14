@@ -376,7 +376,6 @@ header {
 
         .hire-join {
             width: 400px;
-            @include border(#fefefe);
             margin: 50px auto;
             display: flex;
             justify-content: space-between;
@@ -727,9 +726,63 @@ footer {
                 width: 85%;
                 font-size: 25px;
                 text-align: left;
-            margin: initial 0;
+                margin: initial 0;
+
+            }
+
+            .the-skills {
+                width: auto;
+
+                .skillets {
+                    padding: 15px 15px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .edit {
+        width: 47% !important;
+        height: 50px;
+        text-align: center;
+
+        &:last-child {
+            padding: 15px 0 !important;
+        }
+    }
+
+    #fourth {
+        .inside {
+            p {
+                font-size: 28px;
+                margin-bottom: 40px;
+            }
+            .hire-why{
+                .in{
+                    width: 100%;
+                    .p{
+                        font-size: 15px;
+                        width: 90%;
+                        line-height: 1.4;
+                    }
+                
+                &:last-child{
+                    flex-basis: auto;
+                }}
+            }
+
+            .hire-join{
+                width: 350px;
+                .hire{
+                    font-size: 15px;
+                    padding: 10px 30px;
+                }
 
             }
         }
+    }
+
+    footer{
+        
     }
 }
