@@ -592,4 +592,18 @@ footer .div .email a {
     font-size: 15px;
     padding: 10px 30px;
   }
+  footer .cont {
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+  }
+  footer .div {
+    flex-direction: column-reverse;
+    height: 100px;
+    align-items: center;
+  }
+  footer .div .copy {
+    padding-top: 20px;
+    border-top: 1px solid #787878;
+  }
 }/*# sourceMappingURL=talent.css.map */

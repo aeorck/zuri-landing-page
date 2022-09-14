@@ -757,23 +757,27 @@ footer {
                 font-size: 28px;
                 margin-bottom: 40px;
             }
-            .hire-why{
-                .in{
+
+            .hire-why {
+                .in {
                     width: 100%;
-                    .p{
+
+                    .p {
                         font-size: 15px;
                         width: 90%;
                         line-height: 1.4;
                     }
-                
-                &:last-child{
-                    flex-basis: auto;
-                }}
+
+                    &:last-child {
+                        flex-basis: auto;
+                    }
+                }
             }
 
-            .hire-join{
+            .hire-join {
                 width: 350px;
-                .hire{
+
+                .hire {
                     font-size: 15px;
                     padding: 10px 30px;
                 }
@@ -782,7 +786,26 @@ footer {
         }
     }
 
-    footer{
-        
+    footer {
+        .cont {
+            flex-direction: column;
+            height: 100px;
+            align-items: center;
+        }
+
+        .div {
+            flex-direction: column-reverse;
+            height: 100px;
+            align-items: center;
+            .copy{
+
+            padding-top: 20px;
+                border-top: 1px solid #787878;
+            }
+        }
     }
+}
+@media (max-width:375px) {
+
+    
 }
