@@ -635,7 +635,17 @@ footer {
     }
 
     #first{
-        
+        .vetted{
+            .right{
+                .mid{
+                    font-weight: normal;
+                    width: 110%;
+                    font-size: 16px;
+                    text-align: center;
+                    letter-spacing: 1.3;
+                }
+            }
+        }
     }
     
 }
