@@ -617,4 +617,22 @@ footer .div .email a {
   #second .article .left img {
     width: 300px;
   }
+  #third .skills .the-skills .skillets {
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    width: 45%;
+    text-align: center;
+    line-height: 1.3;
+  }
+  .edit {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #fourth .inside .hire-join {
+    width: 300px;
+  }
+  #fourth .inside .hire-join .hire {
+    padding: 10px 20px;
+  }
 }/*# sourceMappingURL=talent.css.map */
