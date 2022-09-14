@@ -636,6 +636,7 @@ footer {
 
     #first{
         .vetted{
+            margin-bottom: 100px;
             .right{
                 .mid{
                     font-weight: normal;
@@ -644,8 +645,27 @@ footer {
                     text-align: center;
                     letter-spacing: 1.3;
                 }
+                .bottom{
+                    width: 350px;
+                    font-size: 15px;
+                    .hire{
+                        padding: 10px 20px;
+                        height: 38px;
+                    }
+                    .join{
+                        height: 38px;
+                        padding: 10px 30px;
+                    }
+                }
             }
-        }
+            .left{
+                img{
+                    width: 300px;
+                }
+            }
+        .img{
+            display: none;
+        }}
     }
     
 }

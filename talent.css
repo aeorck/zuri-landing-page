@@ -495,11 +495,32 @@ footer .div .email a {
   header .top nav .hire {
     padding: 10px 20px;
   }
+  #first .vetted {
+    margin-bottom: 100px;
+  }
   #first .vetted .right .mid {
     font-weight: normal;
     width: 110%;
     font-size: 16px;
     text-align: center;
     letter-spacing: 1.3;
+  }
+  #first .vetted .right .bottom {
+    width: 350px;
+    font-size: 15px;
+  }
+  #first .vetted .right .bottom .hire {
+    padding: 10px 20px;
+    height: 38px;
+  }
+  #first .vetted .right .bottom .join {
+    height: 38px;
+    padding: 10px 30px;
+  }
+  #first .vetted .left img {
+    width: 300px;
+  }
+  #first .vetted .img {
+    display: none;
   }
 }/*# sourceMappingURL=talent.css.map */
